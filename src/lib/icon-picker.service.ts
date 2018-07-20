@@ -30,5592 +30,11039 @@ export class IconPickerService {
   private getFaIcons(): Icon[] {
     return [
       {
-        'name'  : 'Glass',
-        'id'    : 'glass',
-        'filter': [
-          'martini',
-          'drink',
-          'bar',
-          'alcohol',
-          'liquor'
+        "name": "YouTube Square",
+        "id": "youtube-square",
+        "filter": [
+          "youtube-square"
         ]
       },
       {
-        'name'  : 'Music',
-        'id'    : 'music',
-        'filter': [
-          'note',
-          'sound'
+        "name": "YouTube",
+        "id": "youtube",
+        "filter": [
+          "audio-video",
+          "film",
+          "video",
+          "youtube-play",
+          "youtube-square",
+          "youtube"
         ]
       },
       {
-        'name'  : 'Search',
-        'id'    : 'search',
-        'filter': [
-          'magnify',
-          'zoom',
-          'enlarge',
-          'bigger'
+        "name": "Yoast",
+        "id": "yoast",
+        "filter": [
+          "yoast"
         ]
       },
       {
-        'name'  : 'Envelope Outlined',
-        'id'    : 'envelope-o',
-        'filter': [
-          'email',
-          'e-mail',
-          'letter',
-          'support',
-          'mail',
-          'message',
-          'notification'
+        "name": "Yen Sign",
+        "id": "yen-sign",
+        "filter": [
+          "currency",
+          "jpy",
+          "jpy",
+          "yen-sign"
         ]
       },
       {
-        'name'  : 'Heart',
-        'id'    : 'heart',
-        'filter': [
-          'love',
-          'like',
-          'favorite'
+        "name": "Yelp",
+        "id": "yelp",
+        "filter": [
+          "yelp"
         ]
       },
       {
-        'name'  : 'Star',
-        'id'    : 'star',
-        'filter': [
-          'award',
-          'achievement',
-          'night',
-          'rating',
-          'score',
-          'favorite'
+        "name": "Yandex International",
+        "id": "yandex-international",
+        "filter": [
+          "yandex-international"
         ]
       },
       {
-        'name'  : 'Star Outlined',
-        'id'    : 'star-o',
-        'filter': [
-          'award',
-          'achievement',
-          'night',
-          'rating',
-          'score',
-          'favorite'
+        "name": "Yandex",
+        "id": "yandex",
+        "filter": [
+          "yandex"
         ]
       },
       {
-        'name'  : 'User',
-        'id'    : 'user',
-        'filter': [
-          'person',
-          'man',
-          'head',
-          'profile'
+        "name": "Yahoo Logo",
+        "id": "yahoo",
+        "filter": [
+          "yahoo"
         ]
       },
       {
-        'name'  : 'Film',
-        'id'    : 'film',
-        'filter': [
-          'movie'
+        "name": "Y Combinator",
+        "id": "y-combinator",
+        "filter": [
+          "y-combinator"
         ]
       },
       {
-        'name'  : 'th-large',
-        'id'    : 'th-large',
-        'filter': [
-          'blocks',
-          'squares',
-          'boxes',
-          'grid'
+        "name": "Xing Square",
+        "id": "xing-square",
+        "filter": [
+          "xing-square"
         ]
       },
       {
-        'name'  : 'th',
-        'id'    : 'th',
-        'filter': [
-          'blocks',
-          'squares',
-          'boxes',
-          'grid'
+        "name": "Xing",
+        "id": "xing",
+        "filter": [
+          "xing"
         ]
       },
       {
-        'name'  : 'th-list',
-        'id'    : 'th-list',
-        'filter': [
-          'ul',
-          'ol',
-          'checklist',
-          'finished',
-          'completed',
-          'done',
-          'todo'
+        "name": "Xbox",
+        "id": "xbox",
+        "filter": [
+          "xbox"
         ]
       },
       {
-        'name'  : 'Check',
-        'id'    : 'check',
-        'filter': [
-          'checkmark',
-          'done',
-          'todo',
-          'agree',
-          'accept',
-          'confirm',
-          'tick',
-          'ok'
+        "name": "X-Ray",
+        "id": "x-ray",
+        "filter": [
+          "medical",
+          "radiological images",
+          "radiology",
+          "x-ray"
         ]
       },
       {
-        'name'   : 'Times',
-        'id'     : 'times',
-        'aliases': [
-          'remove',
-          'close'
-        ],
-        'filter' : [
-          'close',
-          'exit',
-          'x',
-          'cross'
+        "name": "Wrench",
+        "id": "wrench",
+        "filter": [
+          "interfaces",
+          "editors",
+          "objects",
+          "maps",
+          "fix",
+          "settings",
+          "spanner",
+          "tool",
+          "update",
+          "wrench"
         ]
       },
       {
-        'name'  : 'Search Plus',
-        'id'    : 'search-plus',
-        'filter': [
-          'magnify',
-          'zoom',
-          'enlarge',
-          'bigger'
+        "name": "WPForms",
+        "id": "wpforms",
+        "filter": [
+          "wpforms"
         ]
       },
       {
-        'name'  : 'Search Minus',
-        'id'    : 'search-minus',
-        'filter': [
-          'magnify',
-          'minify',
-          'zoom',
-          'smaller'
+        "name": "WPExplorer",
+        "id": "wpexplorer",
+        "filter": [
+          "wpexplorer"
         ]
       },
       {
-        'name'  : 'Power Off',
-        'id'    : 'power-off',
-        'filter': [
-          'on'
+        "name": "WPBeginner",
+        "id": "wpbeginner",
+        "filter": [
+          "wpbeginner"
         ]
       },
       {
-        'name'  : 'signal',
-        'id'    : 'signal',
-        'filter': [
-          'graph',
-          'bars'
+        "name": "Wordpress Simple",
+        "id": "wordpress-simple",
+        "filter": [
+          "wordpress-simple"
         ]
       },
       {
-        'name'   : 'cog',
-        'id'     : 'cog',
-        'filter' : [
-          'settings'
-        ],
-        'aliases': [
-          'gear'
+        "name": "WordPress Logo",
+        "id": "wordpress",
+        "filter": [
+          "wordpress"
         ]
       },
       {
-        'name'  : 'Trash Outlined',
-        'id'    : 'trash-o',
-        'filter': [
-          'garbage',
-          'delete',
-          'remove',
-          'trash',
-          'hide'
+        "name": "Won Sign",
+        "id": "won-sign",
+        "filter": [
+          "currency",
+          "krw",
+          "krw",
+          "won-sign"
         ]
       },
       {
-        'name'  : 'home',
-        'id'    : 'home',
-        'filter': [
-          'main',
-          'house'
+        "name": "Wolf Pack-battalion",
+        "id": "wolf-pack-battalion",
+        "filter": [
+          "wolf-pack-battalion"
         ]
       },
       {
-        'name'  : 'File Outlined',
-        'id'    : 'file-o',
-        'filter': [
-          'new',
-          'page',
-          'pdf',
-          'document'
+        "name": "Wix",
+        "id": "wix",
+        "filter": [
+          "wix"
         ]
       },
       {
-        'name'  : 'Clock Outlined',
-        'id'    : 'clock-o',
-        'filter': [
-          'watch',
-          'timer',
-          'late',
-          'timestamp'
+        "name": "Wine Glass-alt",
+        "id": "wine-glass-alt",
+        "filter": [
+          "travel",
+          "wine-glass-alt"
         ]
       },
       {
-        'name'  : 'road',
-        'id'    : 'road',
-        'filter': [
-          'street'
+        "name": "Wine Glass",
+        "id": "wine-glass",
+        "filter": [
+          "travel",
+          "moving",
+          "objects",
+          "maps",
+          "wine-glass"
         ]
       },
       {
-        'name'  : 'Download',
-        'id'    : 'download',
-        'filter': [
-          'import'
+        "name": "Windows",
+        "id": "windows",
+        "filter": [
+          "microsoft",
+          "windows"
         ]
       },
       {
-        'name'  : 'Arrow Circle Outlined Down',
-        'id'    : 'arrow-circle-o-down',
-        'filter': [
-          'download'
+        "name": "Window Restore",
+        "id": "window-restore",
+        "filter": [
+          "code",
+          "window-restore"
         ]
       },
       {
-        'name': 'Arrow Circle Outlined Up',
-        'id'  : 'arrow-circle-o-up'
+        "name": "Window Minimize",
+        "id": "window-minimize",
+        "filter": [
+          "code",
+          "window-minimize"
+        ]
       },
       {
-        'name': 'inbox',
-        'id'  : 'inbox'
+        "name": "Window Maximize",
+        "id": "window-maximize",
+        "filter": [
+          "code",
+          "window-maximize"
+        ]
       },
       {
-        'name': 'Play Circle Outlined',
-        'id'  : 'play-circle-o'
+        "name": "Window Close",
+        "id": "window-close",
+        "filter": [
+          "code",
+          "window-close"
+        ]
       },
       {
-        'name'   : 'Repeat',
-        'id'     : 'repeat',
-        'filter' : [
-          'redo',
-          'forward'
-        ],
-        'aliases': [
-          'rotate-right'
+        "name": "Wikipedia W",
+        "id": "wikipedia-w",
+        "filter": [
+          "wikipedia-w"
         ]
       },
       {
-        'name'  : 'refresh',
-        'id'    : 'refresh',
-        'filter': [
-          'reload',
-          'sync'
+        "name": "WiFi",
+        "id": "wifi",
+        "filter": [
+          "interfaces",
+          "communication",
+          "maps",
+          "wifi"
         ]
       },
       {
-        'name'  : 'list-alt',
-        'id'    : 'list-alt',
-        'filter': [
-          'ul',
-          'ol',
-          'checklist',
-          'finished',
-          'completed',
-          'done',
-          'todo'
+        "name": "WHMCS",
+        "id": "whmcs",
+        "filter": [
+          "whmcs"
         ]
       },
       {
-        'name'  : 'lock',
-        'id'    : 'lock',
-        'filter': [
-          'protect',
-          'admin',
-          'security'
+        "name": "Wheelchair",
+        "id": "wheelchair",
+        "filter": [
+          "users-people",
+          "vehicles",
+          "health",
+          "accessibility",
+          "objects",
+          "maps",
+          "handicap",
+          "person",
+          "wheelchair"
         ]
       },
       {
-        'name'  : 'flag',
-        'id'    : 'flag',
-        'filter': [
-          'report',
-          'notification',
-          'notify'
+        "name": "What's App Square",
+        "id": "whatsapp-square",
+        "filter": [
+          "whatsapp-square"
         ]
       },
       {
-        'name'  : 'headphones',
-        'id'    : 'headphones',
-        'filter': [
-          'sound',
-          'listen',
-          'music',
-          'audio'
+        "name": "What's App",
+        "id": "whatsapp",
+        "filter": [
+          "whatsapp"
         ]
       },
       {
-        'name'  : 'volume-off',
-        'id'    : 'volume-off',
-        'filter': [
-          'audio',
-          'mute',
-          'sound',
-          'music'
+        "name": "Weixin (WeChat)",
+        "id": "weixin",
+        "filter": [
+          "weixin"
         ]
       },
       {
-        'name'  : 'volume-down',
-        'id'    : 'volume-down',
-        'filter': [
-          'audio',
-          'lower',
-          'quieter',
-          'sound',
-          'music'
+        "name": "Hanging Weight",
+        "id": "weight-hanging",
+        "filter": [
+          "anvil",
+          "heavy",
+          "measurement",
+          "weight-hanging"
         ]
       },
       {
-        'name'  : 'volume-up',
-        'id'    : 'volume-up',
-        'filter': [
-          'audio',
-          'higher',
-          'louder',
-          'sound',
-          'music'
+        "name": "Weight",
+        "id": "weight",
+        "filter": [
+          "medical",
+          "objects",
+          "measurement",
+          "scale",
+          "weight",
+          "weight"
         ]
       },
       {
-        'name'  : 'qrcode',
-        'id'    : 'qrcode',
-        'filter': [
-          'scan'
+        "name": "Weibo",
+        "id": "weibo",
+        "filter": [
+          "weibo"
         ]
       },
       {
-        'name'  : 'barcode',
-        'id'    : 'barcode',
-        'filter': [
-          'scan'
+        "name": "Weebly",
+        "id": "weebly",
+        "filter": [
+          "weebly"
         ]
       },
       {
-        'name'  : 'tag',
-        'id'    : 'tag',
-        'filter': [
-          'label'
+        "name": "Warehouse",
+        "id": "warehouse",
+        "filter": [
+          "logistics",
+          "warehouse"
         ]
       },
       {
-        'name'  : 'tags',
-        'id'    : 'tags',
-        'filter': [
-          'labels'
+        "name": "Wallet",
+        "id": "wallet",
+        "filter": [
+          "business",
+          "objects",
+          "wallet"
         ]
       },
       {
-        'name'  : 'book',
-        'id'    : 'book',
-        'filter': [
-          'read',
-          'documentation'
+        "name": "Walking",
+        "id": "walking",
+        "filter": [
+          "walking"
         ]
       },
       {
-        'name'  : 'bookmark',
-        'id'    : 'bookmark',
-        'filter': [
-          'save'
+        "name": "Vue.js",
+        "id": "vuejs",
+        "filter": [
+          "vuejs"
         ]
       },
       {
-        'name': 'print',
-        'id'  : 'print'
+        "name": "volume-up",
+        "id": "volume-up",
+        "filter": [
+          "audio-video",
+          "audio",
+          "higher",
+          "louder",
+          "music",
+          "sound",
+          "speaker",
+          "volume-up"
+        ]
       },
       {
-        'name'  : 'camera',
-        'id'    : 'camera',
-        'filter': [
-          'photo',
-          'picture',
-          'record'
+        "name": "volume-off",
+        "id": "volume-off",
+        "filter": [
+          "audio-video",
+          "audio",
+          "music",
+          "mute",
+          "sound",
+          "volume-off"
         ]
       },
       {
-        'name'  : 'font',
-        'id'    : 'font',
-        'filter': [
-          'text'
+        "name": "volume-down",
+        "id": "volume-down",
+        "filter": [
+          "audio-video",
+          "audio",
+          "lower",
+          "music",
+          "quieter",
+          "sound",
+          "speaker",
+          "volume-down"
         ]
       },
       {
-        'name': 'bold',
-        'id'  : 'bold'
+        "name": "Volleyball Ball",
+        "id": "volleyball-ball",
+        "filter": [
+          "sports",
+          "volleyball-ball"
+        ]
       },
       {
-        'name'  : 'italic',
-        'id'    : 'italic',
-        'filter': [
-          'italics'
+        "name": "VNV",
+        "id": "vnv",
+        "filter": [
+          "vnv"
         ]
       },
       {
-        'name': 'text-height',
-        'id'  : 'text-height'
+        "name": "VK",
+        "id": "vk",
+        "filter": [
+          "vk"
+        ]
       },
       {
-        'name': 'text-width',
-        'id'  : 'text-width'
+        "name": "Vine",
+        "id": "vine",
+        "filter": [
+          "vine"
+        ]
       },
       {
-        'name'  : 'align-left',
-        'id'    : 'align-left',
-        'filter': [
-          'text'
+        "name": "Vimeo",
+        "id": "vimeo-v",
+        "filter": [
+          "vimeo",
+          "vimeo-v"
         ]
       },
       {
-        'name'  : 'align-center',
-        'id'    : 'align-center',
-        'filter': [
-          'middle',
-          'text'
+        "name": "Vimeo Square",
+        "id": "vimeo-square",
+        "filter": [
+          "vimeo-square"
         ]
       },
       {
-        'name'  : 'align-right',
-        'id'    : 'align-right',
-        'filter': [
-          'text'
+        "name": "Vimeo",
+        "id": "vimeo",
+        "filter": [
+          "vimeo"
         ]
       },
       {
-        'name'  : 'align-justify',
-        'id'    : 'align-justify',
-        'filter': [
-          'text'
+        "name": "Video Slash",
+        "id": "video-slash",
+        "filter": [
+          "chat",
+          "video-slash"
         ]
       },
       {
-        'name'  : 'list',
-        'id'    : 'list',
-        'filter': [
-          'ul',
-          'ol',
-          'checklist',
-          'finished',
-          'completed',
-          'done',
-          'todo'
+        "name": "Video",
+        "id": "video",
+        "filter": [
+          "chat",
+          "audio-video",
+          "camera",
+          "film",
+          "movie",
+          "record",
+          "video-camera",
+          "video"
         ]
       },
       {
-        'name'   : 'Outdent',
-        'id'     : 'outdent',
-        'aliases': [
-          'dedent'
+        "name": "Viber",
+        "id": "viber",
+        "filter": [
+          "viber"
         ]
       },
       {
-        'name': 'Indent',
-        'id'  : 'indent'
+        "name": "Vials",
+        "id": "vials",
+        "filter": [
+          "medical",
+          "lab results",
+          "test tubes",
+          "vials"
+        ]
       },
       {
-        'name'  : 'Video Camera',
-        'id'    : 'video-camera',
-        'filter': [
-          'film',
-          'movie',
-          'record'
+        "name": "Vial",
+        "id": "vial",
+        "filter": [
+          "medical",
+          "test tube",
+          "vial"
         ]
       },
       {
-        'name'   : 'Picture Outlined',
-        'id'     : 'picture-o',
-        'aliases': [
-          'photo',
-          'image'
+        "name": "Viadeo Square",
+        "id": "viadeo-square",
+        "filter": [
+          "viadeo-square"
         ]
       },
       {
-        'name'  : 'pencil',
-        'id'    : 'pencil',
-        'filter': [
-          'write',
-          'edit',
-          'update'
+        "name": "Viadeo",
+        "id": "viadeo",
+        "filter": [
+          "viadeo"
         ]
       },
       {
-        'name'  : 'map-marker',
-        'id'    : 'map-marker',
-        'filter': [
-          'map',
-          'pin',
-          'location',
-          'coordinates',
-          'localize',
-          'address',
-          'travel',
-          'where',
-          'place'
+        "name": "Viacoin",
+        "id": "viacoin",
+        "filter": [
+          "viacoin"
         ]
       },
       {
-        'name'  : 'adjust',
-        'id'    : 'adjust',
-        'filter': [
-          'contrast'
+        "name": "Venus Mars",
+        "id": "venus-mars",
+        "filter": [
+          "gender",
+          "venus-mars"
         ]
       },
       {
-        'name'  : 'tint',
-        'id'    : 'tint',
-        'filter': [
-          'raindrop',
-          'waterdrop',
-          'drop',
-          'droplet'
+        "name": "Venus Double",
+        "id": "venus-double",
+        "filter": [
+          "gender",
+          "venus-double"
         ]
       },
       {
-        'name'   : 'Pencil Square Outlined',
-        'id'     : 'pencil-square-o',
-        'filter' : [
-          'write',
-          'edit',
-          'update'
-        ],
-        'aliases': [
-          'edit'
+        "name": "Venus",
+        "id": "venus",
+        "filter": [
+          "gender",
+          "female",
+          "venus"
         ]
       },
       {
-        'name'  : 'Share Square Outlined',
-        'id'    : 'share-square-o',
-        'filter': [
-          'social',
-          'send',
-          'arrow'
+        "name": "Vector Square",
+        "id": "vector-square",
+        "filter": [
+          "design",
+          "anchors",
+          "lines",
+          "object",
+          "vector-square"
         ]
       },
       {
-        'name'  : 'Check Square Outlined',
-        'id'    : 'check-square-o',
-        'filter': [
-          'todo',
-          'done',
-          'agree',
-          'accept',
-          'confirm',
-          'ok'
+        "name": "Vaadin",
+        "id": "vaadin",
+        "filter": [
+          "vaadin"
         ]
       },
       {
-        'name'  : 'Arrows',
-        'id'    : 'arrows',
-        'filter': [
-          'move',
-          'reorder',
-          'resize'
+        "name": "Utensils",
+        "id": "utensils",
+        "filter": [
+          "objects",
+          "maps",
+          "cutlery",
+          "dinner",
+          "eat",
+          "food",
+          "knife",
+          "restaurant",
+          "spoon",
+          "utensils"
         ]
       },
       {
-        'name'  : 'step-backward',
-        'id'    : 'step-backward',
-        'filter': [
-          'rewind',
-          'previous',
-          'beginning',
-          'start',
-          'first'
+        "name": "Utensil Spoon",
+        "id": "utensil-spoon",
+        "filter": [
+          "objects",
+          "maps",
+          "spoon",
+          "utensil-spoon"
         ]
       },
       {
-        'name'  : 'fast-backward',
-        'id'    : 'fast-backward',
-        'filter': [
-          'rewind',
-          'previous',
-          'beginning',
-          'start',
-          'first'
+        "name": "us-Sunnah Foundation",
+        "id": "ussunnah",
+        "filter": [
+          "ussunnah"
         ]
       },
       {
-        'name'  : 'backward',
-        'id'    : 'backward',
-        'filter': [
-          'rewind',
-          'previous'
+        "name": "Users Cog",
+        "id": "users-cog",
+        "filter": [
+          "users-cog"
         ]
       },
       {
-        'name'  : 'play',
-        'id'    : 'play',
-        'filter': [
-          'start',
-          'playing',
-          'music',
-          'sound'
+        "name": "Users",
+        "id": "users",
+        "filter": [
+          "users-people",
+          "people",
+          "persons",
+          "profiles",
+          "users"
         ]
       },
       {
-        'name'  : 'pause',
-        'id'    : 'pause',
-        'filter': [
-          'wait'
+        "name": "Remove User",
+        "id": "user-times",
+        "filter": [
+          "users-people",
+          "user-times"
         ]
       },
       {
-        'name'  : 'stop',
-        'id'    : 'stop',
-        'filter': [
-          'block',
-          'box',
-          'square'
+        "name": "User Tie",
+        "id": "user-tie",
+        "filter": [
+          "users-people",
+          "avatar",
+          "business",
+          "clothing",
+          "formal",
+          "user-tie"
         ]
       },
       {
-        'name'  : 'forward',
-        'id'    : 'forward',
-        'filter': [
-          'forward',
-          'next'
+        "name": "User Tag",
+        "id": "user-tag",
+        "filter": [
+          "users-people",
+          "user-tag"
         ]
       },
       {
-        'name'  : 'fast-forward',
-        'id'    : 'fast-forward',
-        'filter': [
-          'next',
-          'end',
-          'last'
+        "name": "User Slash",
+        "id": "user-slash",
+        "filter": [
+          "users-people",
+          "user-slash"
         ]
       },
       {
-        'name'  : 'step-forward',
-        'id'    : 'step-forward',
-        'filter': [
-          'next',
-          'end',
-          'last'
+        "name": "User Shield",
+        "id": "user-shield",
+        "filter": [
+          "users-people",
+          "user-shield"
         ]
       },
       {
-        'name': 'eject',
-        'id'  : 'eject'
+        "name": "User Secret",
+        "id": "user-secret",
+        "filter": [
+          "users-people",
+          "code",
+          "clothing",
+          "coat",
+          "hat",
+          "incognito",
+          "privacy",
+          "spy",
+          "whisper",
+          "user-secret"
+        ]
       },
       {
-        'name'  : 'chevron-left',
-        'id'    : 'chevron-left',
-        'filter': [
-          'bracket',
-          'previous',
-          'back'
+        "name": "Add User",
+        "id": "user-plus",
+        "filter": [
+          "users-people",
+          "sign up",
+          "signup",
+          "user-plus"
         ]
       },
       {
-        'name'  : 'chevron-right',
-        'id'    : 'chevron-right',
-        'filter': [
-          'bracket',
-          'next',
-          'forward'
+        "name": "User Ninja",
+        "id": "user-ninja",
+        "filter": [
+          "users-people",
+          "assassin",
+          "avatar",
+          "dangerous",
+          "sneaky",
+          "user-ninja"
         ]
       },
       {
-        'name'  : 'Plus Circle',
-        'id'    : 'plus-circle',
-        'filter': [
-          'add',
-          'new',
-          'create',
-          'expand'
+        "name": "User Minus",
+        "id": "user-minus",
+        "filter": [
+          "users-people",
+          "user-minus"
         ]
       },
       {
-        'name'  : 'Minus Circle',
-        'id'    : 'minus-circle',
-        'filter': [
-          'delete',
-          'remove',
-          'trash',
-          'hide'
+        "name": "user-md",
+        "id": "user-md",
+        "filter": [
+          "users-people",
+          "medical",
+          "health",
+          "doctor",
+          "job",
+          "medical",
+          "nurse",
+          "occupation",
+          "profile",
+          "user-md"
         ]
       },
       {
-        'name'  : 'Times Circle',
-        'id'    : 'times-circle',
-        'filter': [
-          'close',
-          'exit',
-          'x'
+        "name": "User Lock",
+        "id": "user-lock",
+        "filter": [
+          "users-people",
+          "user-lock"
         ]
       },
       {
-        'name'  : 'Check Circle',
-        'id'    : 'check-circle',
-        'filter': [
-          'todo',
-          'done',
-          'agree',
-          'accept',
-          'confirm',
-          'ok'
+        "name": "User Graduate",
+        "id": "user-graduate",
+        "filter": [
+          "users-people",
+          "cap",
+          "clothing",
+          "commencement",
+          "gown",
+          "graduation",
+          "student",
+          "user-graduate"
         ]
       },
       {
-        'name'  : 'Question Circle',
-        'id'    : 'question-circle',
-        'filter': [
-          'help',
-          'information',
-          'unknown',
-          'support'
+        "name": "User Friends",
+        "id": "user-friends",
+        "filter": [
+          "users-people",
+          "user-friends"
         ]
       },
       {
-        'name'  : 'Info Circle',
-        'id'    : 'info-circle',
-        'filter': [
-          'help',
-          'information',
-          'more',
-          'details'
+        "name": "User Edit",
+        "id": "user-edit",
+        "filter": [
+          "users-people",
+          "user-edit"
         ]
       },
       {
-        'name'  : 'Crosshairs',
-        'id'    : 'crosshairs',
-        'filter': [
-          'picker'
+        "name": "User Cog",
+        "id": "user-cog",
+        "filter": [
+          "users-people",
+          "user-cog"
         ]
       },
       {
-        'name'  : 'Times Circle Outlined',
-        'id'    : 'times-circle-o',
-        'filter': [
-          'close',
-          'exit',
-          'x'
+        "name": "User Clock",
+        "id": "user-clock",
+        "filter": [
+          "users-people",
+          "user-clock"
         ]
       },
       {
-        'name'  : 'Check Circle Outlined',
-        'id'    : 'check-circle-o',
-        'filter': [
-          'todo',
-          'done',
-          'agree',
-          'accept',
-          'confirm',
-          'ok'
+        "name": "User Circle",
+        "id": "user-circle",
+        "filter": [
+          "users-people",
+          "interfaces",
+          "account",
+          "avatar",
+          "head",
+          "man",
+          "person",
+          "profile",
+          "user-circle"
         ]
       },
       {
-        'name'  : 'ban',
-        'id'    : 'ban',
-        'filter': [
-          'delete',
-          'remove',
-          'trash',
-          'hide',
-          'block',
-          'stop',
-          'abort',
-          'cancel'
+        "name": "User Check",
+        "id": "user-check",
+        "filter": [
+          "users-people",
+          "user-check"
         ]
       },
       {
-        'name'  : 'arrow-left',
-        'id'    : 'arrow-left',
-        'filter': [
-          'previous',
-          'back'
+        "name": "User Astronaut",
+        "id": "user-astronaut",
+        "filter": [
+          "users-people",
+          "avatar",
+          "clothing",
+          "cosmonaut",
+          "space",
+          "suit",
+          "user-astronaut"
         ]
       },
       {
-        'name'  : 'arrow-right',
-        'id'    : 'arrow-right',
-        'filter': [
-          'next',
-          'forward'
+        "name": "Alternate User Slash",
+        "id": "user-alt-slash",
+        "filter": [
+          "users-people",
+          "user-alt-slash"
         ]
       },
       {
-        'name': 'arrow-up',
-        'id'  : 'arrow-up'
+        "name": "Alternate User",
+        "id": "user-alt",
+        "filter": [
+          "users-people",
+          "interfaces",
+          "account",
+          "avatar",
+          "head",
+          "man",
+          "person",
+          "profile",
+          "user-alt"
+        ]
       },
       {
-        'name'  : 'arrow-down',
-        'id'    : 'arrow-down',
-        'filter': [
-          'download'
+        "name": "User",
+        "id": "user",
+        "filter": [
+          "users-people",
+          "interfaces",
+          "account",
+          "avatar",
+          "head",
+          "man",
+          "person",
+          "profile",
+          "user"
         ]
       },
       {
-        'name'   : 'Share',
-        'id'     : 'share',
-        'aliases': [
-          'mail-forward'
+        "name": "USB",
+        "id": "usb",
+        "filter": [
+          "usb"
         ]
       },
       {
-        'name'  : 'Expand',
-        'id'    : 'expand',
-        'filter': [
-          'enlarge',
-          'bigger',
-          'resize'
+        "name": "Upload",
+        "id": "upload",
+        "filter": [
+          "computers",
+          "arrows",
+          "interfaces",
+          "export",
+          "publish",
+          "upload"
         ]
       },
       {
-        'name'  : 'Compress',
-        'id'    : 'compress',
-        'filter': [
-          'collapse',
-          'combine',
-          'contract',
-          'merge',
-          'smaller'
+        "name": "Untappd",
+        "id": "untappd",
+        "filter": [
+          "untappd"
         ]
       },
       {
-        'name'  : 'plus',
-        'id'    : 'plus',
-        'filter': [
-          'add',
-          'new',
-          'create',
-          'expand'
+        "name": "Alternate Unlock",
+        "id": "unlock-alt",
+        "filter": [
+          "status",
+          "objects",
+          "admin",
+          "lock",
+          "password",
+          "protect",
+          "unlock-alt"
         ]
       },
       {
-        'name'  : 'minus',
-        'id'    : 'minus',
-        'filter': [
-          'hide',
-          'minify',
-          'delete',
-          'remove',
-          'trash',
-          'hide',
-          'collapse'
+        "name": "unlock",
+        "id": "unlock",
+        "filter": [
+          "status",
+          "objects",
+          "admin",
+          "lock",
+          "password",
+          "protect",
+          "unlock"
         ]
       },
       {
-        'name'  : 'asterisk',
-        'id'    : 'asterisk',
-        'filter': [
-          'details'
+        "name": "unlink",
+        "id": "unlink",
+        "filter": [
+          "editors",
+          "chain",
+          "chain-broken",
+          "remove",
+          "unlink"
         ]
       },
       {
-        'name'  : 'Exclamation Circle',
-        'id'    : 'exclamation-circle',
-        'filter': [
-          'warning',
-          'error',
-          'problem',
-          'notification',
-          'alert'
+        "name": "University",
+        "id": "university",
+        "filter": [
+          "buildings",
+          "objects",
+          "maps",
+          "bank",
+          "institution",
+          "university"
         ]
       },
       {
-        'name'  : 'gift',
-        'id'    : 'gift',
-        'filter': [
-          'present'
+        "name": "Universal Access",
+        "id": "universal-access",
+        "filter": [
+          "accessibility",
+          "universal-access"
         ]
       },
       {
-        'name'  : 'leaf',
-        'id'    : 'leaf',
-        'filter': [
-          'eco',
-          'nature',
-          'plant'
+        "name": "Uniregistry",
+        "id": "uniregistry",
+        "filter": [
+          "uniregistry"
         ]
       },
       {
-        'name'  : 'fire',
-        'id'    : 'fire',
-        'filter': [
-          'flame',
-          'hot',
-          'popular'
+        "name": "Alternate Undo",
+        "id": "undo-alt",
+        "filter": [
+          "arrows",
+          "audio-video",
+          "interfaces",
+          "editors",
+          "back",
+          "control z",
+          "exchange",
+          "oops",
+          "return",
+          "swap",
+          "undo-alt"
         ]
       },
       {
-        'name'  : 'Eye',
-        'id'    : 'eye',
-        'filter': [
-          'show',
-          'visible',
-          'views'
+        "name": "Undo",
+        "id": "undo",
+        "filter": [
+          "arrows",
+          "audio-video",
+          "interfaces",
+          "editors",
+          "back",
+          "control z",
+          "exchange",
+          "oops",
+          "return",
+          "rotate",
+          "swap",
+          "undo"
         ]
       },
       {
-        'name'  : 'Eye Slash',
-        'id'    : 'eye-slash',
-        'filter': [
-          'toggle',
-          'show',
-          'hide',
-          'visible',
-          'visiblity',
-          'views'
+        "name": "Underline",
+        "id": "underline",
+        "filter": [
+          "editors",
+          "underline"
         ]
       },
       {
-        'name'   : 'Exclamation Triangle',
-        'id'     : 'exclamation-triangle',
-        'filter' : [
-          'warning',
-          'error',
-          'problem',
-          'notification',
-          'alert'
-        ],
-        'aliases': [
-          'warning'
+        "name": "Umbrella Beach",
+        "id": "umbrella-beach",
+        "filter": [
+          "travel",
+          "protection",
+          "recreation",
+          "sun",
+          "umbrella-beach"
         ]
       },
       {
-        'name'  : 'plane',
-        'id'    : 'plane',
-        'filter': [
-          'travel',
-          'trip',
-          'location',
-          'destination',
-          'airplane',
-          'fly',
-          'mode'
+        "name": "Umbrella",
+        "id": "umbrella",
+        "filter": [
+          "objects",
+          "maps",
+          "protection",
+          "rain",
+          "umbrella"
         ]
       },
       {
-        'name'  : 'calendar',
-        'id'    : 'calendar',
-        'filter': [
-          'date',
-          'time',
-          'when',
-          'event'
+        "name": "UIkit",
+        "id": "uikit",
+        "filter": [
+          "uikit"
         ]
       },
       {
-        'name'  : 'random',
-        'id'    : 'random',
-        'filter': [
-          'sort',
-          'shuffle'
+        "name": "Uber",
+        "id": "uber",
+        "filter": [
+          "uber"
         ]
       },
       {
-        'name'  : 'comment',
-        'id'    : 'comment',
-        'filter': [
-          'speech',
-          'notification',
-          'note',
-          'chat',
-          'bubble',
-          'feedback',
-          'message',
-          'texting',
-          'sms',
-          'conversation'
+        "name": "Typo3",
+        "id": "typo3",
+        "filter": [
+          "typo3"
         ]
       },
       {
-        'name': 'magnet',
-        'id'  : 'magnet'
+        "name": "Twitter Square",
+        "id": "twitter-square",
+        "filter": [
+          "social network",
+          "tweet",
+          "twitter-square"
+        ]
       },
       {
-        'name': 'chevron-up',
-        'id'  : 'chevron-up'
+        "name": "Twitter",
+        "id": "twitter",
+        "filter": [
+          "social network",
+          "tweet",
+          "twitter"
+        ]
       },
       {
-        'name': 'chevron-down',
-        'id'  : 'chevron-down'
+        "name": "Twitch",
+        "id": "twitch",
+        "filter": [
+          "twitch"
+        ]
       },
       {
-        'name'  : 'retweet',
-        'id'    : 'retweet',
-        'filter': [
-          'refresh',
-          'reload',
-          'share'
+        "name": "Television",
+        "id": "tv",
+        "filter": [
+          "computers",
+          "objects",
+          "computer",
+          "display",
+          "monitor",
+          "television",
+          "tv"
         ]
       },
       {
-        'name'  : 'shopping-cart',
-        'id'    : 'shopping-cart',
-        'filter': [
-          'checkout',
-          'buy',
-          'purchase',
-          'payment'
+        "name": "Tumblr Square",
+        "id": "tumblr-square",
+        "filter": [
+          "tumblr-square"
         ]
       },
       {
-        'name': 'Folder',
-        'id'  : 'folder'
+        "name": "Tumblr",
+        "id": "tumblr",
+        "filter": [
+          "tumblr"
+        ]
       },
       {
-        'name': 'Folder Open',
-        'id'  : 'folder-open'
+        "name": "TTY",
+        "id": "tty",
+        "filter": [
+          "communication",
+          "accessibility",
+          "maps",
+          "tty"
+        ]
       },
       {
-        'name'  : 'Arrows Vertical',
-        'id'    : 'arrows-v',
-        'filter': [
-          'resize'
+        "name": "T-Shirt",
+        "id": "tshirt",
+        "filter": [
+          "cloth",
+          "clothing",
+          "tshirt"
         ]
       },
       {
-        'name'  : 'Arrows Horizontal',
-        'id'    : 'arrows-h',
-        'filter': [
-          'resize'
+        "name": "Truck Moving",
+        "id": "truck-moving",
+        "filter": [
+          "moving",
+          "truck-moving"
         ]
       },
       {
-        'name'   : 'Bar Chart',
-        'id'     : 'bar-chart',
-        'aliases': [
-          'bar-chart-o'
-        ],
-        'filter' : [
-          'graph',
-          'analytics'
+        "name": "Truck Loading",
+        "id": "truck-loading",
+        "filter": [
+          "moving",
+          "truck-loading"
         ]
       },
       {
-        'name'  : 'Twitter Square',
-        'id'    : 'twitter-square',
-        'filter': [
-          'tweet',
-          'social network'
+        "name": "truck",
+        "id": "truck",
+        "filter": [
+          "logistics",
+          "vehicles",
+          "objects",
+          "maps",
+          "delivery",
+          "shipping",
+          "truck"
         ]
       },
       {
-        'name'  : 'Facebook Square',
-        'id'    : 'facebook-square',
-        'filter': [
-          'social network'
+        "name": "trophy",
+        "id": "trophy",
+        "filter": [
+          "interfaces",
+          "payments-shopping",
+          "objects",
+          "maps",
+          "achievement",
+          "award",
+          "cup",
+          "game",
+          "winner",
+          "trophy"
         ]
       },
       {
-        'name'  : 'camera-retro',
-        'id'    : 'camera-retro',
-        'filter': [
-          'photo',
-          'picture',
-          'record'
+        "name": "TripAdvisor",
+        "id": "tripadvisor",
+        "filter": [
+          "tripadvisor"
         ]
       },
       {
-        'name'  : 'key',
-        'id'    : 'key',
-        'filter': [
-          'unlock',
-          'password'
+        "name": "Trello",
+        "id": "trello",
+        "filter": [
+          "trello"
         ]
       },
       {
-        'name'   : 'cogs',
-        'id'     : 'cogs',
-        'aliases': [
-          'gears'
-        ],
-        'filter' : [
-          'settings'
+        "name": "Tree",
+        "id": "tree",
+        "filter": [
+          "objects",
+          "maps",
+          "tree"
         ]
       },
       {
-        'name'  : 'comments',
-        'id'    : 'comments',
-        'filter': [
-          'speech',
-          'notification',
-          'note',
-          'chat',
-          'bubble',
-          'feedback',
-          'message',
-          'texting',
-          'sms',
-          'conversation'
+        "name": "Alternate Trash",
+        "id": "trash-alt",
+        "filter": [
+          "interfaces",
+          "editors",
+          "objects",
+          "delete",
+          "garbage",
+          "hide",
+          "remove",
+          "trash",
+          "trash-o",
+          "trash-alt"
         ]
       },
       {
-        'name'  : 'Thumbs Up Outlined',
-        'id'    : 'thumbs-o-up',
-        'filter': [
-          'like',
-          'approve',
-          'favorite',
-          'agree',
-          'hand'
+        "name": "Trash",
+        "id": "trash",
+        "filter": [
+          "interfaces",
+          "editors",
+          "objects",
+          "delete",
+          "garbage",
+          "hide",
+          "remove",
+          "trash"
         ]
       },
       {
-        'name'  : 'Thumbs Down Outlined',
-        'id'    : 'thumbs-o-down',
-        'filter': [
-          'dislike',
-          'disapprove',
-          'disagree',
-          'hand'
+        "name": "Alternate Transgender",
+        "id": "transgender-alt",
+        "filter": [
+          "gender",
+          "transgender-alt"
         ]
       },
       {
-        'name'  : 'star-half',
-        'id'    : 'star-half',
-        'filter': [
-          'award',
-          'achievement',
-          'rating',
-          'score'
+        "name": "Transgender",
+        "id": "transgender",
+        "filter": [
+          "gender",
+          "intersex",
+          "transgender"
         ]
       },
       {
-        'name'  : 'Heart Outlined',
-        'id'    : 'heart-o',
-        'filter': [
-          'love',
-          'like',
-          'favorite'
+        "name": "Train",
+        "id": "train",
+        "filter": [
+          "vehicles",
+          "objects",
+          "maps",
+          "bullet",
+          "locomotive",
+          "railway",
+          "train"
         ]
       },
       {
-        'name'  : 'Sign Out',
-        'id'    : 'sign-out',
-        'filter': [
-          'log out',
-          'logout',
-          'leave',
-          'exit',
-          'arrow'
+        "name": "Trademark",
+        "id": "trademark",
+        "filter": [
+          "business",
+          "trademark"
         ]
       },
       {
-        'name': 'LinkedIn Square',
-        'id'  : 'linkedin-square'
+        "name": "Trade Federation",
+        "id": "trade-federation",
+        "filter": [
+          "trade-federation"
+        ]
       },
       {
-        'name'  : 'Thumb Tack',
-        'id'    : 'thumb-tack',
-        'filter': [
-          'marker',
-          'pin',
-          'location',
-          'coordinates'
+        "name": "Tooth",
+        "id": "tooth",
+        "filter": [
+          "bicuspid",
+          "dental",
+          "molar",
+          "mouth",
+          "teeth",
+          "tooth"
         ]
       },
       {
-        'name'  : 'External Link',
-        'id'    : 'external-link',
-        'filter': [
-          'open',
-          'new'
+        "name": "Toolbox",
+        "id": "toolbox",
+        "filter": [
+          "objects",
+          "admin",
+          "container",
+          "fix",
+          "repair",
+          "settings",
+          "tools",
+          "toolbox"
         ]
       },
       {
-        'name'  : 'Sign In',
-        'id'    : 'sign-in',
-        'filter': [
-          'enter',
-          'join',
-          'log in',
-          'login',
-          'sign up',
-          'sign in',
-          'signin',
-          'signup',
-          'arrow'
+        "name": "Toggle On",
+        "id": "toggle-on",
+        "filter": [
+          "status",
+          "interfaces",
+          "switch",
+          "toggle-on"
         ]
       },
       {
-        'name'  : 'trophy',
-        'id'    : 'trophy',
-        'filter': [
-          'award',
-          'achievement',
-          'cup',
-          'winner',
-          'game'
+        "name": "Toggle Off",
+        "id": "toggle-off",
+        "filter": [
+          "status",
+          "interfaces",
+          "switch",
+          "toggle-off"
         ]
       },
       {
-        'name'  : 'GitHub Square',
-        'id'    : 'github-square',
-        'filter': [
-          'octocat'
+        "name": "Tired Face",
+        "id": "tired",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "grumpy",
+          "tired"
         ]
       },
       {
-        'name'  : 'Upload',
-        'id'    : 'upload',
-        'filter': [
-          'import'
+        "name": "Tint Slash",
+        "id": "tint-slash",
+        "filter": [
+          "design",
+          "tint-slash"
         ]
       },
       {
-        'name'  : 'Lemon Outlined',
-        'id'    : 'lemon-o',
-        'filter': [
-          'food'
+        "name": "tint",
+        "id": "tint",
+        "filter": [
+          "images",
+          "design",
+          "maps",
+          "drop",
+          "droplet",
+          "raindrop",
+          "waterdrop",
+          "tint"
         ]
       },
       {
-        'name'  : 'Phone',
-        'id'    : 'phone',
-        'filter': [
-          'call',
-          'voice',
-          'number',
-          'support',
-          'earphone',
-          'telephone'
+        "name": "Times Circle",
+        "id": "times-circle",
+        "filter": [
+          "interfaces",
+          "close",
+          "cross",
+          "exit",
+          "incorrect",
+          "notice",
+          "notification",
+          "notify",
+          "problem",
+          "wrong",
+          "x",
+          "times-circle"
         ]
       },
       {
-        'name'  : 'Square Outlined',
-        'id'    : 'square-o',
-        'filter': [
-          'block',
-          'square',
-          'box'
+        "name": "Times",
+        "id": "times",
+        "filter": [
+          "mathematics",
+          "interfaces",
+          "close",
+          "cross",
+          "error",
+          "exit",
+          "incorrect",
+          "notice",
+          "notification",
+          "notify",
+          "problem",
+          "wrong",
+          "x",
+          "times"
         ]
       },
       {
-        'name'  : 'Bookmark Outlined',
-        'id'    : 'bookmark-o',
-        'filter': [
-          'save'
+        "name": "Alternate Ticket",
+        "id": "ticket-alt",
+        "filter": [
+          "objects",
+          "maps",
+          "ticket",
+          "ticket-alt"
         ]
       },
       {
-        'name'  : 'Phone Square',
-        'id'    : 'phone-square',
-        'filter': [
-          'call',
-          'voice',
-          'number',
-          'support',
-          'telephone'
+        "name": "Thumbtack",
+        "id": "thumbtack",
+        "filter": [
+          "writing",
+          "business",
+          "objects",
+          "maps",
+          "coordinates",
+          "location",
+          "marker",
+          "pin",
+          "thumb-tack",
+          "thumbtack"
         ]
       },
       {
-        'name'  : 'Twitter',
-        'id'    : 'twitter',
-        'filter': [
-          'tweet',
-          'social network'
+        "name": "thumbs-up",
+        "id": "thumbs-up",
+        "filter": [
+          "status",
+          "hands",
+          "interfaces",
+          "payments-shopping",
+          "agree",
+          "approve",
+          "favorite",
+          "hand",
+          "like",
+          "ok",
+          "okay",
+          "success",
+          "thumbs-o-up",
+          "yes",
+          "you got it dude",
+          "thumbs-up"
         ]
       },
       {
-        'name'   : 'Facebook',
-        'id'     : 'facebook',
-        'aliases': [
-          'facebook-f'
-        ],
-        'filter' : [
-          'social network'
+        "name": "thumbs-down",
+        "id": "thumbs-down",
+        "filter": [
+          "status",
+          "hands",
+          "interfaces",
+          "payments-shopping",
+          "disagree",
+          "disapprove",
+          "dislike",
+          "hand",
+          "thumbs-o-down",
+          "thumbs-down"
         ]
       },
       {
-        'name'  : 'GitHub',
-        'id'    : 'github',
-        'filter': [
-          'octocat'
+        "name": "Thermometer 3/4 Full",
+        "id": "thermometer-three-quarters",
+        "filter": [
+          "status",
+          "status",
+          "thermometer-three-quarters"
         ]
       },
       {
-        'name'  : 'unlock',
-        'id'    : 'unlock',
-        'filter': [
-          'protect',
-          'admin',
-          'password',
-          'lock'
+        "name": "Thermometer 1/4 Full",
+        "id": "thermometer-quarter",
+        "filter": [
+          "status",
+          "status",
+          "thermometer-quarter"
         ]
       },
       {
-        'name'  : 'credit-card',
-        'id'    : 'credit-card',
-        'filter': [
-          'money',
-          'buy',
-          'debit',
-          'checkout',
-          'purchase',
-          'payment'
+        "name": "Thermometer 1/2 Full",
+        "id": "thermometer-half",
+        "filter": [
+          "status",
+          "status",
+          "thermometer-half"
         ]
       },
       {
-        'name'   : 'rss',
-        'id'     : 'rss',
-        'filter' : [
-          'blog'
-        ],
-        'aliases': [
-          'feed'
+        "name": "Thermometer Full",
+        "id": "thermometer-full",
+        "filter": [
+          "status",
+          "status",
+          "thermometer-full"
         ]
       },
       {
-        'name'  : 'HDD',
-        'id'    : 'hdd-o',
-        'filter': [
-          'harddrive',
-          'hard drive',
-          'storage',
-          'save'
+        "name": "Thermometer Empty",
+        "id": "thermometer-empty",
+        "filter": [
+          "status",
+          "status",
+          "thermometer-empty"
         ]
       },
       {
-        'name'  : 'bullhorn',
-        'id'    : 'bullhorn',
-        'filter': [
-          'announcement',
-          'share',
-          'broadcast',
-          'louder',
-          'megaphone'
+        "name": "Thermometer",
+        "id": "thermometer",
+        "filter": [
+          "medical",
+          "fever",
+          "temperature",
+          "thermometer"
         ]
       },
       {
-        'name'  : 'bell',
-        'id'    : 'bell',
-        'filter': [
-          'alert',
-          'reminder',
-          'notification'
+        "name": "ThemeIsle",
+        "id": "themeisle",
+        "filter": [
+          "themeisle"
         ]
       },
       {
-        'name'  : 'certificate',
-        'id'    : 'certificate',
-        'filter': [
-          'badge',
-          'star'
+        "name": "Themeco",
+        "id": "themeco",
+        "filter": [
+          "themeco"
         ]
       },
       {
-        'name'  : 'Hand Outlined Right',
-        'id'    : 'hand-o-right',
-        'filter': [
-          'point',
-          'right',
-          'next',
-          'forward',
-          'finger'
+        "name": "th-list",
+        "id": "th-list",
+        "filter": [
+          "editors",
+          "checklist",
+          "completed",
+          "done",
+          "finished",
+          "ol",
+          "todo",
+          "ul",
+          "th-list"
         ]
       },
       {
-        'name'  : 'Hand Outlined Left',
-        'id'    : 'hand-o-left',
-        'filter': [
-          'point',
-          'left',
-          'previous',
-          'back',
-          'finger'
+        "name": "th-large",
+        "id": "th-large",
+        "filter": [
+          "editors",
+          "blocks",
+          "boxes",
+          "grid",
+          "squares",
+          "th-large"
         ]
       },
       {
-        'name'  : 'Hand Outlined Up',
-        'id'    : 'hand-o-up',
-        'filter': [
-          'point',
-          'finger'
+        "name": "th",
+        "id": "th",
+        "filter": [
+          "editors",
+          "blocks",
+          "boxes",
+          "grid",
+          "squares",
+          "th"
         ]
       },
       {
-        'name'  : 'Hand Outlined Down',
-        'id'    : 'hand-o-down',
-        'filter': [
-          'point',
-          'finger'
+        "name": "text-width",
+        "id": "text-width",
+        "filter": [
+          "arrows",
+          "editors",
+          "text-width"
         ]
       },
       {
-        'name'  : 'Arrow Circle Left',
-        'id'    : 'arrow-circle-left',
-        'filter': [
-          'previous',
-          'back'
+        "name": "text-height",
+        "id": "text-height",
+        "filter": [
+          "arrows",
+          "editors",
+          "text-height"
         ]
       },
       {
-        'name'  : 'Arrow Circle Right',
-        'id'    : 'arrow-circle-right',
-        'filter': [
-          'next',
-          'forward'
+        "name": "Terminal",
+        "id": "terminal",
+        "filter": [
+          "code",
+          "code",
+          "command",
+          "console",
+          "prompt",
+          "terminal"
         ]
       },
       {
-        'name': 'Arrow Circle Up',
-        'id'  : 'arrow-circle-up'
+        "name": "Tencent Weibo",
+        "id": "tencent-weibo",
+        "filter": [
+          "tencent-weibo"
+        ]
       },
       {
-        'name'  : 'Arrow Circle Down',
-        'id'    : 'arrow-circle-down',
-        'filter': [
-          'download'
+        "name": "Telegram Plane",
+        "id": "telegram-plane",
+        "filter": [
+          "telegram-plane"
         ]
       },
       {
-        'name'  : 'Globe',
-        'id'    : 'globe',
-        'filter': [
-          'world',
-          'planet',
-          'map',
-          'place',
-          'travel',
-          'earth',
-          'global',
-          'translate',
-          'all',
-          'language',
-          'localize',
-          'location',
-          'coordinates',
-          'country'
+        "name": "Telegram",
+        "id": "telegram",
+        "filter": [
+          "telegram"
         ]
       },
       {
-        'name'  : 'Wrench',
-        'id'    : 'wrench',
-        'filter': [
-          'settings',
-          'fix',
-          'update',
-          'spanner'
+        "name": "TeamSpeak",
+        "id": "teamspeak",
+        "filter": [
+          "teamspeak"
         ]
       },
       {
-        'name'  : 'Tasks',
-        'id'    : 'tasks',
-        'filter': [
-          'progress',
-          'loading',
-          'downloading',
-          'downloads',
-          'settings'
+        "name": "Taxi",
+        "id": "taxi",
+        "filter": [
+          "travel",
+          "vehicles",
+          "objects",
+          "maps",
+          "cab",
+          "cabbie",
+          "car",
+          "car service",
+          "lyft",
+          "machine",
+          "transportation",
+          "uber",
+          "vehicle",
+          "taxi"
         ]
       },
       {
-        'name'  : 'Filter',
-        'id'    : 'filter',
-        'filter': [
-          'funnel',
-          'options'
+        "name": "Tasks",
+        "id": "tasks",
+        "filter": [
+          "editors",
+          "business",
+          "downloading",
+          "downloads",
+          "loading",
+          "progress",
+          "settings",
+          "tasks"
         ]
       },
       {
-        'name'  : 'Briefcase',
-        'id'    : 'briefcase',
-        'filter': [
-          'work',
-          'business',
-          'office',
-          'luggage',
-          'bag'
+        "name": "Tape",
+        "id": "tape",
+        "filter": [
+          "moving",
+          "tape"
         ]
       },
       {
-        'name'  : 'Arrows Alt',
-        'id'    : 'arrows-alt',
-        'filter': [
-          'expand',
-          'enlarge',
-          'fullscreen',
-          'bigger',
-          'move',
-          'reorder',
-          'resize',
-          'arrow'
+        "name": "tags",
+        "id": "tags",
+        "filter": [
+          "payments-shopping",
+          "business",
+          "objects",
+          "maps",
+          "labels",
+          "tags"
         ]
       },
       {
-        'name'   : 'Users',
-        'id'     : 'users',
-        'filter' : [
-          'people',
-          'profiles',
-          'persons'
-        ],
-        'aliases': [
-          'group'
+        "name": "tag",
+        "id": "tag",
+        "filter": [
+          "payments-shopping",
+          "business",
+          "objects",
+          "maps",
+          "label",
+          "tag"
         ]
       },
       {
-        'name'   : 'Link',
-        'id'     : 'link',
-        'filter' : [
-          'chain'
-        ],
-        'aliases': [
-          'chain'
+        "name": "Alternate Tachometer",
+        "id": "tachometer-alt",
+        "filter": [
+          "objects",
+          "dashboard",
+          "tachometer",
+          "tachometer-alt"
         ]
       },
       {
-        'name'  : 'Cloud',
-        'id'    : 'cloud',
-        'filter': [
-          'save'
+        "name": "Tablets",
+        "id": "tablets",
+        "filter": [
+          "medical",
+          "drugs",
+          "medicine",
+          "tablets"
         ]
       },
       {
-        'name'  : 'Flask',
-        'id'    : 'flask',
-        'filter': [
-          'science',
-          'beaker',
-          'experimental',
-          'labs'
+        "name": "Alternate Tablet",
+        "id": "tablet-alt",
+        "filter": [
+          "computers",
+          "objects",
+          "apple",
+          "device",
+          "ipad",
+          "kindle",
+          "screen",
+          "tablet-alt"
         ]
       },
       {
-        'name'   : 'Scissors',
-        'id'     : 'scissors',
-        'aliases': [
-          'cut'
+        "name": "tablet",
+        "id": "tablet",
+        "filter": [
+          "computers",
+          "objects",
+          "apple",
+          "device",
+          "ipad",
+          "kindle",
+          "screen",
+          "tablet"
         ]
       },
       {
-        'name'   : 'Files Outlined',
-        'id'     : 'files-o',
-        'filter' : [
-          'duplicate',
-          'clone',
-          'copy'
-        ],
-        'aliases': [
-          'copy'
+        "name": "Table Tennis",
+        "id": "table-tennis",
+        "filter": [
+          "sports",
+          "table-tennis"
         ]
       },
       {
-        'name'  : 'Paperclip',
-        'id'    : 'paperclip',
-        'filter': [
-          'attachment'
+        "name": "table",
+        "id": "table",
+        "filter": [
+          "editors",
+          "business",
+          "data",
+          "excel",
+          "spreadsheet",
+          "table"
         ]
       },
       {
-        'name'   : 'Floppy Outlined',
-        'id'     : 'floppy-o',
-        'aliases': [
-          'save'
+        "name": "Syringe",
+        "id": "syringe",
+        "filter": [
+          "medical",
+          "immunizations",
+          "needle",
+          "syringe"
         ]
       },
       {
-        'name'  : 'Square',
-        'id'    : 'square',
-        'filter': [
-          'block',
-          'box'
+        "name": "Alternate Sync",
+        "id": "sync-alt",
+        "filter": [
+          "arrows",
+          "audio-video",
+          "interfaces",
+          "editors",
+          "refresh",
+          "reload",
+          "rotate",
+          "sync-alt"
         ]
       },
       {
-        'name'   : 'Bars',
-        'id'     : 'bars',
-        'aliases': [
-          'navicon',
-          'reorder'
-        ],
-        'filter' : [
-          'menu',
-          'drag',
-          'reorder',
-          'settings',
-          'list',
-          'ul',
-          'ol',
-          'checklist',
-          'todo',
-          'list',
-          'hamburger'
+        "name": "Sync",
+        "id": "sync",
+        "filter": [
+          "arrows",
+          "audio-video",
+          "spinners",
+          "interfaces",
+          "editors",
+          "exchange",
+          "refresh",
+          "reload",
+          "rotate",
+          "swap",
+          "sync"
         ]
       },
       {
-        'name'  : 'list-ul',
-        'id'    : 'list-ul',
-        'filter': [
-          'ul',
-          'ol',
-          'checklist',
-          'todo',
-          'list'
+        "name": "Swimming Pool",
+        "id": "swimming-pool",
+        "filter": [
+          "travel",
+          "ladder",
+          "recreation",
+          "water",
+          "swimming-pool"
         ]
       },
       {
-        'name'  : 'list-ol',
-        'id'    : 'list-ol',
-        'filter': [
-          'ul',
-          'ol',
-          'checklist',
-          'list',
-          'todo',
-          'list',
-          'numbers'
+        "name": "Swimmer",
+        "id": "swimmer",
+        "filter": [
+          "travel",
+          "athlete",
+          "head",
+          "man",
+          "person",
+          "water",
+          "swimmer"
         ]
       },
       {
-        'name': 'Strikethrough',
-        'id'  : 'strikethrough'
+        "name": "Swatchbook",
+        "id": "swatchbook",
+        "filter": [
+          "design",
+          "swatchbook"
+        ]
       },
       {
-        'name': 'Underline',
-        'id'  : 'underline'
+        "name": "Hushed Face",
+        "id": "surprise",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "shocked",
+          "surprise"
+        ]
       },
       {
-        'name'  : 'table',
-        'id'    : 'table',
-        'filter': [
-          'data',
-          'excel',
-          'spreadsheet'
+        "name": "Supple",
+        "id": "supple",
+        "filter": [
+          "supple"
         ]
       },
       {
-        'name'  : 'magic',
-        'id'    : 'magic',
-        'filter': [
-          'wizard',
-          'automatic',
-          'autocomplete'
+        "name": "superscript",
+        "id": "superscript",
+        "filter": [
+          "mathematics",
+          "editors",
+          "exponential",
+          "superscript"
         ]
       },
       {
-        'name'  : 'truck',
-        'id'    : 'truck',
-        'filter': [
-          'shipping'
+        "name": "Superpowers",
+        "id": "superpowers",
+        "filter": [
+          "superpowers"
         ]
       },
       {
-        'name': 'Pinterest',
-        'id'  : 'pinterest'
+        "name": "Sun",
+        "id": "sun",
+        "filter": [
+          "spinners",
+          "objects",
+          "brighten",
+          "contrast",
+          "day",
+          "lighter",
+          "weather",
+          "sun"
+        ]
       },
       {
-        'name': 'Pinterest Square',
-        'id'  : 'pinterest-square'
+        "name": "Suitcase Rolling",
+        "id": "suitcase-rolling",
+        "filter": [
+          "travel",
+          "suitcase-rolling"
+        ]
       },
       {
-        'name'  : 'Google Plus Square',
-        'id'    : 'google-plus-square',
-        'filter': [
-          'social network'
+        "name": "Suitcase",
+        "id": "suitcase",
+        "filter": [
+          "travel",
+          "moving",
+          "business",
+          "objects",
+          "maps",
+          "baggage",
+          "luggage",
+          "move",
+          "suitcase",
+          "travel",
+          "trip",
+          "suitcase"
         ]
       },
       {
-        'name'  : 'Google Plus',
-        'id'    : 'google-plus',
-        'filter': [
-          'social network'
+        "name": "Subway",
+        "id": "subway",
+        "filter": [
+          "vehicles",
+          "objects",
+          "maps",
+          "machine",
+          "railway",
+          "train",
+          "transportation",
+          "vehicle",
+          "subway"
         ]
       },
       {
-        'name'  : 'Money',
-        'id'    : 'money',
-        'filter': [
-          'cash',
-          'money',
-          'buy',
-          'checkout',
-          'purchase',
-          'payment'
+        "name": "subscript",
+        "id": "subscript",
+        "filter": [
+          "mathematics",
+          "editors",
+          "subscript"
         ]
       },
       {
-        'name'  : 'Caret Down',
-        'id'    : 'caret-down',
-        'filter': [
-          'more',
-          'dropdown',
-          'menu',
-          'triangle down',
-          'arrow'
+        "name": "StumbleUpon Circle",
+        "id": "stumbleupon-circle",
+        "filter": [
+          "stumbleupon-circle"
         ]
       },
       {
-        'name'  : 'Caret Up',
-        'id'    : 'caret-up',
-        'filter': [
-          'triangle up',
-          'arrow'
+        "name": "StumbleUpon Logo",
+        "id": "stumbleupon",
+        "filter": [
+          "stumbleupon"
         ]
       },
       {
-        'name'  : 'Caret Left',
-        'id'    : 'caret-left',
-        'filter': [
-          'previous',
-          'back',
-          'triangle left',
-          'arrow'
+        "name": "Studio Vinari",
+        "id": "studiovinari",
+        "filter": [
+          "studiovinari"
         ]
       },
       {
-        'name'  : 'Caret Right',
-        'id'    : 'caret-right',
-        'filter': [
-          'next',
-          'forward',
-          'triangle right',
-          'arrow'
+        "name": "Stroopwafel",
+        "id": "stroopwafel",
+        "filter": [
+          "objects",
+          "dessert",
+          "food",
+          "sweets",
+          "waffle",
+          "stroopwafel"
         ]
       },
       {
-        'name'  : 'Columns',
-        'id'    : 'columns',
-        'filter': [
-          'split',
-          'panes'
+        "name": "Stripe S",
+        "id": "stripe-s",
+        "filter": [
+          "payments-shopping",
+          "stripe-s"
         ]
       },
       {
-        'name'   : 'Sort',
-        'id'     : 'sort',
-        'filter' : [
-          'order'
-        ],
-        'aliases': [
-          'unsorted'
+        "name": "Stripe",
+        "id": "stripe",
+        "filter": [
+          "payments-shopping",
+          "stripe"
         ]
       },
       {
-        'name'   : 'Sort Descending',
-        'id'     : 'sort-desc',
-        'filter' : [
-          'dropdown',
-          'more',
-          'menu',
-          'arrow'
-        ],
-        'aliases': [
-          'sort-down'
+        "name": "Strikethrough",
+        "id": "strikethrough",
+        "filter": [
+          "editors",
+          "strikethrough"
         ]
       },
       {
-        'name'   : 'Sort Ascending',
-        'id'     : 'sort-asc',
-        'aliases': [
-          'sort-up'
-        ],
-        'filter' : [
-          'arrow'
+        "name": "Street View",
+        "id": "street-view",
+        "filter": [
+          "users-people",
+          "maps",
+          "map",
+          "street-view"
         ]
       },
       {
-        'name'  : 'Envelope',
-        'id'    : 'envelope',
-        'filter': [
-          'email',
-          'e-mail',
-          'letter',
-          'support',
-          'mail',
-          'message',
-          'notification'
+        "name": "Stream",
+        "id": "stream",
+        "filter": [
+          "computers",
+          "status",
+          "business",
+          "code",
+          "stream"
         ]
       },
       {
-        'name': 'LinkedIn',
-        'id'  : 'linkedin'
+        "name": "Strava",
+        "id": "strava",
+        "filter": [
+          "strava"
+        ]
       },
       {
-        'name'   : 'Undo',
-        'id'     : 'undo',
-        'filter' : [
-          'back'
-        ],
-        'aliases': [
-          'rotate-left'
+        "name": "Alternate Store",
+        "id": "store-alt",
+        "filter": [
+          "store-alt"
         ]
       },
       {
-        'name'   : 'Gavel',
-        'id'     : 'gavel',
-        'filter' : [
-          'judge',
-          'lawyer',
-          'opinion'
-        ],
-        'aliases': [
-          'legal'
+        "name": "Store",
+        "id": "store",
+        "filter": [
+          "store"
         ]
       },
       {
-        'name'   : 'Tachometer',
-        'id'     : 'tachometer',
-        'filter' : [
-          'speedometer',
-          'fast'
-        ],
-        'aliases': [
-          'dashboard'
+        "name": "Stopwatch",
+        "id": "stopwatch",
+        "filter": [
+          "date-time",
+          "objects",
+          "time",
+          "stopwatch"
         ]
       },
       {
-        'name'  : 'comment-o',
-        'id'    : 'comment-o',
-        'filter': [
-          'speech',
-          'notification',
-          'note',
-          'chat',
-          'bubble',
-          'feedback',
-          'message',
-          'texting',
-          'sms',
-          'conversation'
+        "name": "Stop Circle",
+        "id": "stop-circle",
+        "filter": [
+          "audio-video",
+          "stop-circle"
         ]
       },
       {
-        'name'  : 'comments-o',
-        'id'    : 'comments-o',
-        'filter': [
-          'speech',
-          'notification',
-          'note',
-          'chat',
-          'bubble',
-          'feedback',
-          'message',
-          'texting',
-          'sms',
-          'conversation'
+        "name": "stop",
+        "id": "stop",
+        "filter": [
+          "audio-video",
+          "block",
+          "box",
+          "square",
+          "stop"
         ]
       },
       {
-        'name'   : 'Lightning Bolt',
-        'id'     : 'bolt',
-        'filter' : [
-          'lightning',
-          'weather'
-        ],
-        'aliases': [
-          'flash'
+        "name": "Sticky Note",
+        "id": "sticky-note",
+        "filter": [
+          "files",
+          "writing",
+          "business",
+          "objects",
+          "sticky-note"
         ]
       },
       {
-        'name'  : 'Sitemap',
-        'id'    : 'sitemap',
-        'filter': [
-          'directory',
-          'hierarchy',
-          'organization'
+        "name": "Sticker Mule",
+        "id": "sticker-mule",
+        "filter": [
+          "sticker-mule"
         ]
       },
       {
-        'name': 'Umbrella',
-        'id'  : 'umbrella'
+        "name": "Stethoscope",
+        "id": "stethoscope",
+        "filter": [
+          "medical",
+          "health",
+          "stethoscope"
+        ]
       },
       {
-        'name'   : 'Clipboard',
-        'id'     : 'clipboard',
-        'filter' : [
-          'copy'
-        ],
-        'aliases': [
-          'paste'
+        "name": "step-forward",
+        "id": "step-forward",
+        "filter": [
+          "audio-video",
+          "end",
+          "last",
+          "next",
+          "step-forward"
         ]
       },
       {
-        'name'  : 'Lightbulb Outlined',
-        'id'    : 'lightbulb-o',
-        'filter': [
-          'idea',
-          'inspiration'
+        "name": "step-backward",
+        "id": "step-backward",
+        "filter": [
+          "audio-video",
+          "beginning",
+          "first",
+          "previous",
+          "rewind",
+          "start",
+          "step-backward"
         ]
       },
       {
-        'name'  : 'Exchange',
-        'id'    : 'exchange',
-        'filter': [
-          'transfer',
-          'arrows',
-          'arrow'
+        "name": "Steam Symbol",
+        "id": "steam-symbol",
+        "filter": [
+          "steam-symbol"
         ]
       },
       {
-        'name'  : 'Cloud Download',
-        'id'    : 'cloud-download',
-        'filter': [
-          'import'
+        "name": "Steam Square",
+        "id": "steam-square",
+        "filter": [
+          "steam-square"
         ]
       },
       {
-        'name'  : 'Cloud Upload',
-        'id'    : 'cloud-upload',
-        'filter': [
-          'import'
+        "name": "Steam",
+        "id": "steam",
+        "filter": [
+          "steam"
         ]
       },
       {
-        'name'  : 'user-md',
-        'id'    : 'user-md',
-        'filter': [
-          'doctor',
-          'profile',
-          'medical',
-          'nurse'
+        "name": "StayLinked",
+        "id": "staylinked",
+        "filter": [
+          "staylinked"
         ]
       },
       {
-        'name': 'Stethoscope',
-        'id'  : 'stethoscope'
+        "name": "Alternate Star Half",
+        "id": "star-half-alt",
+        "filter": [
+          "achievement",
+          "award",
+          "rating",
+          "score",
+          "star-half-empty",
+          "star-half-full",
+          "star-half-alt"
+        ]
       },
       {
-        'name'  : 'Suitcase',
-        'id'    : 'suitcase',
-        'filter': [
-          'trip',
-          'luggage',
-          'travel',
-          'move',
-          'baggage'
+        "name": "star-half",
+        "id": "star-half",
+        "filter": [
+          "interfaces",
+          "achievement",
+          "award",
+          "rating",
+          "score",
+          "star-half-empty",
+          "star-half-full",
+          "star-half"
         ]
       },
       {
-        'name'  : 'Bell Outlined',
-        'id'    : 'bell-o',
-        'filter': [
-          'alert',
-          'reminder',
-          'notification'
+        "name": "Star",
+        "id": "star",
+        "filter": [
+          "shapes",
+          "interfaces",
+          "payments-shopping",
+          "objects",
+          "achievement",
+          "award",
+          "favorite",
+          "important",
+          "night",
+          "rating",
+          "score",
+          "star"
         ]
       },
       {
-        'name'  : 'Coffee',
-        'id'    : 'coffee',
-        'filter': [
-          'morning',
-          'mug',
-          'breakfast',
-          'tea',
-          'drink',
-          'cafe'
+        "name": "Stamp",
+        "id": "stamp",
+        "filter": [
+          "design",
+          "stamp"
         ]
       },
       {
-        'name'  : 'Cutlery',
-        'id'    : 'cutlery',
-        'filter': [
-          'food',
-          'restaurant',
-          'spoon',
-          'knife',
-          'dinner',
-          'eat'
+        "name": "Stack Overflow",
+        "id": "stack-overflow",
+        "filter": [
+          "stack-overflow"
         ]
       },
       {
-        'name'  : 'File Text Outlined',
-        'id'    : 'file-text-o',
-        'filter': [
-          'new',
-          'page',
-          'pdf',
-          'document'
+        "name": "Stack Exchange",
+        "id": "stack-exchange",
+        "filter": [
+          "stack-exchange"
         ]
       },
       {
-        'name'  : 'Building Outlined',
-        'id'    : 'building-o',
-        'filter': [
-          'work',
-          'business',
-          'apartment',
-          'office',
-          'company'
+        "name": "Squarespace",
+        "id": "squarespace",
+        "filter": [
+          "squarespace"
         ]
       },
       {
-        'name'  : 'hospital Outlined',
-        'id'    : 'hospital-o',
-        'filter': [
-          'building'
+        "name": "Square Full",
+        "id": "square-full",
+        "filter": [
+          "chess",
+          "square-full"
         ]
       },
       {
-        'name'  : 'ambulance',
-        'id'    : 'ambulance',
-        'filter': [
-          'vehicle',
-          'support',
-          'help'
+        "name": "Square",
+        "id": "square",
+        "filter": [
+          "shapes",
+          "block",
+          "box",
+          "square"
         ]
       },
       {
-        'name'  : 'medkit',
-        'id'    : 'medkit',
-        'filter': [
-          'first aid',
-          'firstaid',
-          'help',
-          'support',
-          'health'
+        "name": "Spray Can",
+        "id": "spray-can",
+        "filter": [
+          "design",
+          "spray-can"
         ]
       },
       {
-        'name'  : 'fighter-jet',
-        'id'    : 'fighter-jet',
-        'filter': [
-          'fly',
-          'plane',
-          'airplane',
-          'quick',
-          'fast',
-          'travel'
+        "name": "Spotify",
+        "id": "spotify",
+        "filter": [
+          "spotify"
         ]
       },
       {
-        'name'  : 'beer',
-        'id'    : 'beer',
-        'filter': [
-          'alcohol',
-          'stein',
-          'drink',
-          'mug',
-          'bar',
-          'liquor'
+        "name": "Splotch",
+        "id": "splotch",
+        "filter": [
+          "design",
+          "splotch"
         ]
       },
       {
-        'name'  : 'H Square',
-        'id'    : 'h-square',
-        'filter': [
-          'hospital',
-          'hotel'
+        "name": "Spinner",
+        "id": "spinner",
+        "filter": [
+          "spinners",
+          "loading",
+          "progress",
+          "spinner"
         ]
       },
       {
-        'name'  : 'Plus Square',
-        'id'    : 'plus-square',
-        'filter': [
-          'add',
-          'new',
-          'create',
-          'expand'
+        "name": "Speakap",
+        "id": "speakap",
+        "filter": [
+          "speakap"
         ]
       },
       {
-        'name'  : 'Angle Double Left',
-        'id'    : 'angle-double-left',
-        'filter': [
-          'laquo',
-          'quote',
-          'previous',
-          'back',
-          'arrows'
+        "name": "Space Shuttle",
+        "id": "space-shuttle",
+        "filter": [
+          "vehicles",
+          "objects",
+          "astronaut",
+          "machine",
+          "nasa",
+          "rocket",
+          "transportation",
+          "space-shuttle"
         ]
       },
       {
-        'name'  : 'Angle Double Right',
-        'id'    : 'angle-double-right',
-        'filter': [
-          'raquo',
-          'quote',
-          'next',
-          'forward',
-          'arrows'
+        "name": "Spa",
+        "id": "spa",
+        "filter": [
+          "travel",
+          "mindfullness",
+          "plant",
+          "wellness",
+          "spa"
         ]
       },
       {
-        'name'  : 'Angle Double Up',
-        'id'    : 'angle-double-up',
-        'filter': [
-          'arrows'
+        "name": "SoundCloud",
+        "id": "soundcloud",
+        "filter": [
+          "soundcloud"
         ]
       },
       {
-        'name'  : 'Angle Double Down',
-        'id'    : 'angle-double-down',
-        'filter': [
-          'arrows'
+        "name": "Sort Up (Ascending)",
+        "id": "sort-up",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "arrow",
+          "ascending",
+          "sort-asc",
+          "sort-up"
         ]
       },
       {
-        'name'  : 'angle-left',
-        'id'    : 'angle-left',
-        'filter': [
-          'previous',
-          'back',
-          'arrow'
+        "name": "Sort Numeric Up",
+        "id": "sort-numeric-up",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "numbers",
+          "sort-numeric-desc",
+          "sort-numeric-up"
         ]
       },
       {
-        'name'  : 'angle-right',
-        'id'    : 'angle-right',
-        'filter': [
-          'next',
-          'forward',
-          'arrow'
+        "name": "Sort Numeric Down",
+        "id": "sort-numeric-down",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "numbers",
+          "sort-numeric-asc",
+          "sort-numeric-down"
         ]
       },
       {
-        'name'  : 'angle-up',
-        'id'    : 'angle-up',
-        'filter': [
-          'arrow'
+        "name": "Sort Down (Descending)",
+        "id": "sort-down",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "arrow",
+          "descending",
+          "sort-desc",
+          "sort-down"
         ]
       },
       {
-        'name'  : 'angle-down',
-        'id'    : 'angle-down',
-        'filter': [
-          'arrow'
+        "name": "Sort Amount Up",
+        "id": "sort-amount-up",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "sort-amount-desc",
+          "sort-amount-up"
         ]
       },
       {
-        'name'  : 'Desktop',
-        'id'    : 'desktop',
-        'filter': [
-          'monitor',
-          'screen',
-          'desktop',
-          'computer',
-          'demo',
-          'device'
+        "name": "Sort Amount Down",
+        "id": "sort-amount-down",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "sort-amount-asc",
+          "sort-amount-down"
         ]
       },
       {
-        'name'  : 'Laptop',
-        'id'    : 'laptop',
-        'filter': [
-          'demo',
-          'computer',
-          'device'
+        "name": "Sort Alpha Up",
+        "id": "sort-alpha-up",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "sort-alpha-desc",
+          "sort-alpha-up"
         ]
       },
       {
-        'name'  : 'tablet',
-        'id'    : 'tablet',
-        'filter': [
-          'ipad',
-          'device'
+        "name": "Sort Alpha Down",
+        "id": "sort-alpha-down",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "sort-alpha-asc",
+          "sort-alpha-down"
         ]
       },
       {
-        'name'   : 'Mobile Phone',
-        'id'     : 'mobile',
-        'filter' : [
-          'cell phone',
-          'cellphone',
-          'text',
-          'call',
-          'iphone',
-          'number',
-          'telephone'
-        ],
-        'aliases': [
-          'mobile-phone'
+        "name": "Sort",
+        "id": "sort",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "order",
+          "sort"
         ]
       },
       {
-        'name': 'Circle Outlined',
-        'id'  : 'circle-o'
+        "name": "Solar Panel",
+        "id": "solar-panel",
+        "filter": [
+          "clean",
+          "eco-friendly",
+          "energy",
+          "green",
+          "sun",
+          "solar-panel"
+        ]
       },
       {
-        'name': 'quote-left',
-        'id'  : 'quote-left'
+        "name": "Snowflake",
+        "id": "snowflake",
+        "filter": [
+          "spinners",
+          "objects",
+          "snowflake"
+        ]
       },
       {
-        'name': 'quote-right',
-        'id'  : 'quote-right'
+        "name": "Snapchat Square",
+        "id": "snapchat-square",
+        "filter": [
+          "snapchat-square"
+        ]
       },
       {
-        'name'  : 'Spinner',
-        'id'    : 'spinner',
-        'filter': [
-          'loading',
-          'progress'
+        "name": "Snapchat Ghost",
+        "id": "snapchat-ghost",
+        "filter": [
+          "snapchat-ghost"
         ]
       },
       {
-        'name'  : 'Circle',
-        'id'    : 'circle',
-        'filter': [
-          'dot',
-          'notification'
+        "name": "Snapchat",
+        "id": "snapchat",
+        "filter": [
+          "snapchat"
         ]
       },
       {
-        'name'   : 'Reply',
-        'id'     : 'reply',
-        'aliases': [
-          'mail-reply'
+        "name": "Smoking Ban",
+        "id": "smoking-ban",
+        "filter": [
+          "no smoking",
+          "non-smoking",
+          "smoking-ban"
         ]
       },
       {
-        'name'  : 'GitHub Alt',
-        'id'    : 'github-alt',
-        'filter': [
-          'octocat'
+        "name": "Smoking",
+        "id": "smoking",
+        "filter": [
+          "medical",
+          "cigarette",
+          "nicotine",
+          "smoking status",
+          "smoking"
         ]
       },
       {
-        'name': 'Folder Outlined',
-        'id'  : 'folder-o'
+        "name": "Winking Face",
+        "id": "smile-wink",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "happy",
+          "smile-wink"
+        ]
       },
       {
-        'name': 'Folder Open Outlined',
-        'id'  : 'folder-open-o'
+        "name": "Beaming Face With Smiling Eyes",
+        "id": "smile-beam",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "happy",
+          "smile-beam"
+        ]
       },
       {
-        'name'  : 'Smile Outlined',
-        'id'    : 'smile-o',
-        'filter': [
-          'face',
-          'emoticon',
-          'happy',
-          'approve',
-          'satisfied',
-          'rating'
+        "name": "Smiling Face",
+        "id": "smile",
+        "filter": [
+          "users-people",
+          "chat",
+          "interfaces",
+          "emoji",
+          "approve",
+          "emoticon",
+          "face",
+          "happy",
+          "rating",
+          "satisfied",
+          "smile"
         ]
       },
       {
-        'name'  : 'Frown Outlined',
-        'id'    : 'frown-o',
-        'filter': [
-          'face',
-          'emoticon',
-          'sad',
-          'disapprove',
-          'rating'
+        "name": "Slideshare",
+        "id": "slideshare",
+        "filter": [
+          "slideshare"
         ]
       },
       {
-        'name'  : 'Meh Outlined',
-        'id'    : 'meh-o',
-        'filter': [
-          'face',
-          'emoticon',
-          'rating',
-          'neutral'
+        "name": "Horizontal Sliders",
+        "id": "sliders-h",
+        "filter": [
+          "images",
+          "interfaces",
+          "settings",
+          "sliders",
+          "sliders-h"
         ]
       },
       {
-        'name'  : 'Gamepad',
-        'id'    : 'gamepad',
-        'filter': [
-          'controller'
+        "name": "Slack Hashtag",
+        "id": "slack-hash",
+        "filter": [
+          "anchor",
+          "hash",
+          "hashtag",
+          "slack-hash"
         ]
       },
       {
-        'name'  : 'Keyboard Outlined',
-        'id'    : 'keyboard-o',
-        'filter': [
-          'type',
-          'input'
+        "name": "Slack Logo",
+        "id": "slack",
+        "filter": [
+          "anchor",
+          "hash",
+          "hashtag",
+          "slack"
         ]
       },
       {
-        'name'  : 'Flag Outlined',
-        'id'    : 'flag-o',
-        'filter': [
-          'report',
-          'notification'
+        "name": "Skype",
+        "id": "skype",
+        "filter": [
+          "skype"
         ]
       },
       {
-        'name'  : 'flag-checkered',
-        'id'    : 'flag-checkered',
-        'filter': [
-          'report',
-          'notification',
-          'notify'
+        "name": "skyatlas",
+        "id": "skyatlas",
+        "filter": [
+          "skyatlas"
         ]
       },
       {
-        'name'  : 'Terminal',
-        'id'    : 'terminal',
-        'filter': [
-          'command',
-          'prompt',
-          'code'
+        "name": "Skull",
+        "id": "skull",
+        "filter": [
+          "bones",
+          "skeleton",
+          "yorick",
+          "skull"
         ]
       },
       {
-        'name'  : 'Code',
-        'id'    : 'code',
-        'filter': [
-          'html',
-          'brackets'
+        "name": "Sith",
+        "id": "sith",
+        "filter": [
+          "sith"
         ]
       },
       {
-        'name'   : 'reply-all',
-        'id'     : 'reply-all',
-        'aliases': [
-          'mail-reply-all'
+        "name": "Sitemap",
+        "id": "sitemap",
+        "filter": [
+          "interfaces",
+          "business",
+          "code",
+          "directory",
+          "hierarchy",
+          "ia",
+          "information architecture",
+          "organization",
+          "sitemap"
         ]
       },
       {
-        'name'   : 'Star Half Outlined',
-        'id'     : 'star-half-o',
-        'filter' : [
-          'award',
-          'achievement',
-          'rating',
-          'score'
-        ],
-        'aliases': [
-          'star-half-empty',
-          'star-half-full'
+        "name": "SISTRIX",
+        "id": "sistrix",
+        "filter": [
+          "sistrix"
         ]
       },
       {
-        'name'  : 'location-arrow',
-        'id'    : 'location-arrow',
-        'filter': [
-          'map',
-          'coordinates',
-          'location',
-          'address',
-          'place',
-          'where'
+        "name": "SimplyBuilt",
+        "id": "simplybuilt",
+        "filter": [
+          "simplybuilt"
         ]
       },
       {
-        'name': 'crop',
-        'id'  : 'crop'
+        "name": "Signature",
+        "id": "signature",
+        "filter": [
+          "John Hancock",
+          "cursive",
+          "name",
+          "writing",
+          "signature"
+        ]
       },
       {
-        'name'  : 'code-fork',
-        'id'    : 'code-fork',
-        'filter': [
-          'git',
-          'fork',
-          'vcs',
-          'svn',
-          'github',
-          'rebase',
-          'version',
-          'merge'
+        "name": "signal",
+        "id": "signal",
+        "filter": [
+          "interfaces",
+          "bars",
+          "graph",
+          "online",
+          "status",
+          "signal"
         ]
       },
       {
-        'name'   : 'Chain Broken',
-        'id'     : 'chain-broken',
-        'filter' : [
-          'remove'
-        ],
-        'aliases': [
-          'unlink'
+        "name": "Alternate Sign Out",
+        "id": "sign-out-alt",
+        "filter": [
+          "status",
+          "arrows",
+          "interfaces",
+          "arrow",
+          "exit",
+          "leave",
+          "log out",
+          "logout",
+          "sign-out",
+          "sign-out-alt"
         ]
       },
       {
-        'name'  : 'Question',
-        'id'    : 'question',
-        'filter': [
-          'help',
-          'information',
-          'unknown',
-          'support'
+        "name": "Sign Language",
+        "id": "sign-language",
+        "filter": [
+          "accessibility",
+          "sign-language"
         ]
       },
       {
-        'name'  : 'Info',
-        'id'    : 'info',
-        'filter': [
-          'help',
-          'information',
-          'more',
-          'details'
+        "name": "Alternate Sign In",
+        "id": "sign-in-alt",
+        "filter": [
+          "status",
+          "arrows",
+          "interfaces",
+          "arrow",
+          "enter",
+          "join",
+          "log in",
+          "login",
+          "sign in",
+          "sign up",
+          "sign-in",
+          "signin",
+          "signup",
+          "sign-in-alt"
         ]
       },
       {
-        'name'  : 'exclamation',
-        'id'    : 'exclamation',
-        'filter': [
-          'warning',
-          'error',
-          'problem',
-          'notification',
-          'notify',
-          'alert'
+        "name": "Sign",
+        "id": "sign",
+        "filter": [
+          "moving",
+          "sign"
         ]
       },
       {
-        'name'  : 'superscript',
-        'id'    : 'superscript',
-        'filter': [
-          'exponential'
+        "name": "Shuttle Van",
+        "id": "shuttle-van",
+        "filter": [
+          "travel",
+          "machine",
+          "public-transportation",
+          "transportation",
+          "vehicle",
+          "shuttle-van"
         ]
       },
       {
-        'name': 'subscript',
-        'id'  : 'subscript'
+        "name": "Shower",
+        "id": "shower",
+        "filter": [
+          "objects",
+          "maps",
+          "shower"
+        ]
       },
       {
-        'name'  : 'eraser',
-        'id'    : 'eraser',
-        'filter': [
-          'remove',
-          'delete'
+        "name": "Shopware",
+        "id": "shopware",
+        "filter": [
+          "shopware"
         ]
       },
       {
-        'name'  : 'Puzzle Piece',
-        'id'    : 'puzzle-piece',
-        'filter': [
-          'addon',
-          'add-on',
-          'section'
+        "name": "shopping-cart",
+        "id": "shopping-cart",
+        "filter": [
+          "vehicles",
+          "status",
+          "payments-shopping",
+          "objects",
+          "maps",
+          "buy",
+          "checkout",
+          "payment",
+          "purchase",
+          "shopping-cart"
         ]
       },
       {
-        'name'  : 'microphone',
-        'id'    : 'microphone',
-        'filter': [
-          'record',
-          'voice',
-          'sound'
+        "name": "Shopping Basket",
+        "id": "shopping-basket",
+        "filter": [
+          "payments-shopping",
+          "objects",
+          "maps",
+          "shopping-basket"
         ]
       },
       {
-        'name'  : 'Microphone Slash',
-        'id'    : 'microphone-slash',
-        'filter': [
-          'record',
-          'voice',
-          'sound',
-          'mute'
+        "name": "Shopping Bag",
+        "id": "shopping-bag",
+        "filter": [
+          "payments-shopping",
+          "objects",
+          "maps",
+          "shopping-bag"
         ]
       },
       {
-        'name'  : 'shield',
-        'id'    : 'shield',
-        'filter': [
-          'award',
-          'achievement',
-          'security',
-          'winner'
+        "name": "Shoe Prints",
+        "id": "shoe-prints",
+        "filter": [
+          "maps",
+          "feet",
+          "footprints",
+          "steps",
+          "shoe-prints"
         ]
       },
       {
-        'name'  : 'calendar-o',
-        'id'    : 'calendar-o',
-        'filter': [
-          'date',
-          'time',
-          'when',
-          'event'
+        "name": "Shirts in Bulk",
+        "id": "shirtsinbulk",
+        "filter": [
+          "shirtsinbulk"
         ]
       },
       {
-        'name': 'fire-extinguisher',
-        'id'  : 'fire-extinguisher'
+        "name": "Shipping Fast",
+        "id": "shipping-fast",
+        "filter": [
+          "logistics",
+          "shipping-fast"
+        ]
       },
       {
-        'name'  : 'rocket',
-        'id'    : 'rocket',
-        'filter': [
-          'app'
+        "name": "Ship",
+        "id": "ship",
+        "filter": [
+          "vehicles",
+          "maps",
+          "boat",
+          "sea",
+          "ship"
         ]
       },
       {
-        'name': 'MaxCDN',
-        'id'  : 'maxcdn'
+        "name": "Alternate Shield",
+        "id": "shield-alt",
+        "filter": [
+          "status",
+          "interfaces",
+          "objects",
+          "code",
+          "shield",
+          "shield-alt"
+        ]
       },
       {
-        'name'  : 'Chevron Circle Left',
-        'id'    : 'chevron-circle-left',
-        'filter': [
-          'previous',
-          'back',
-          'arrow'
+        "name": "Shekel Sign",
+        "id": "shekel-sign",
+        "filter": [
+          "currency",
+          "ils",
+          "ils",
+          "shekel-sign"
         ]
       },
       {
-        'name'  : 'Chevron Circle Right',
-        'id'    : 'chevron-circle-right',
-        'filter': [
-          'next',
-          'forward',
-          'arrow'
+        "name": "Share Square",
+        "id": "share-square",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "send",
+          "social",
+          "share-square"
         ]
       },
       {
-        'name'  : 'Chevron Circle Up',
-        'id'    : 'chevron-circle-up',
-        'filter': [
-          'arrow'
+        "name": "Alternate Share Square",
+        "id": "share-alt-square",
+        "filter": [
+          "interfaces",
+          "share-alt-square"
         ]
       },
       {
-        'name'  : 'Chevron Circle Down',
-        'id'    : 'chevron-circle-down',
-        'filter': [
-          'more',
-          'dropdown',
-          'menu',
-          'arrow'
+        "name": "Alternate Share",
+        "id": "share-alt",
+        "filter": [
+          "interfaces",
+          "share-alt"
         ]
       },
       {
-        'name': 'HTML 5 Logo',
-        'id'  : 'html5'
+        "name": "Share",
+        "id": "share",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "editors",
+          "share"
+        ]
       },
       {
-        'name'  : 'CSS 3 Logo',
-        'id'    : 'css3',
-        'filter': [
-          'code'
+        "name": "Servicestack",
+        "id": "servicestack",
+        "filter": [
+          "servicestack"
         ]
       },
       {
-        'name'  : 'Anchor',
-        'id'    : 'anchor',
-        'filter': [
-          'link'
+        "name": "Server",
+        "id": "server",
+        "filter": [
+          "computers",
+          "cpu",
+          "server"
         ]
       },
       {
-        'name'  : 'Unlock Alt',
-        'id'    : 'unlock-alt',
-        'filter': [
-          'protect',
-          'admin',
-          'password',
-          'lock'
+        "name": "Sellsy",
+        "id": "sellsy",
+        "filter": [
+          "sellsy"
         ]
       },
       {
-        'name'  : 'Bullseye',
-        'id'    : 'bullseye',
-        'filter': [
-          'target'
+        "name": "Sellcast",
+        "id": "sellcast",
+        "filter": [
+          "eercast",
+          "sellcast"
         ]
       },
       {
-        'name'  : 'Ellipsis Horizontal',
-        'id'    : 'ellipsis-h',
-        'filter': [
-          'dots'
+        "name": "Seedling",
+        "id": "seedling",
+        "filter": [
+          "charity",
+          "seedling"
         ]
       },
       {
-        'name'  : 'Ellipsis Vertical',
-        'id'    : 'ellipsis-v',
-        'filter': [
-          'dots'
+        "name": "Searchengin",
+        "id": "searchengin",
+        "filter": [
+          "searchengin"
         ]
       },
       {
-        'name'  : 'RSS Square',
-        'id'    : 'rss-square',
-        'filter': [
-          'feed',
-          'blog'
+        "name": "Search Plus",
+        "id": "search-plus",
+        "filter": [
+          "interfaces",
+          "maps",
+          "bigger",
+          "enlarge",
+          "magnify",
+          "zoom",
+          "zoom in",
+          "search-plus"
         ]
       },
       {
-        'name'  : 'Play Circle',
-        'id'    : 'play-circle',
-        'filter': [
-          'start',
-          'playing'
+        "name": "Search Minus",
+        "id": "search-minus",
+        "filter": [
+          "interfaces",
+          "maps",
+          "magnify",
+          "minify",
+          "smaller",
+          "zoom",
+          "zoom out",
+          "search-minus"
         ]
       },
       {
-        'name'  : 'Ticket',
-        'id'    : 'ticket',
-        'filter': [
-          'movie',
-          'pass',
-          'support'
+        "name": "Search",
+        "id": "search",
+        "filter": [
+          "interfaces",
+          "objects",
+          "maps",
+          "bigger",
+          "enlarge",
+          "magnify",
+          "preview",
+          "zoom",
+          "search"
         ]
       },
       {
-        'name'  : 'Minus Square',
-        'id'    : 'minus-square',
-        'filter': [
-          'hide',
-          'minify',
-          'delete',
-          'remove',
-          'trash',
-          'hide',
-          'collapse'
+        "name": "Scribd",
+        "id": "scribd",
+        "filter": [
+          "scribd"
         ]
       },
       {
-        'name'  : 'Minus Square Outlined',
-        'id'    : 'minus-square-o',
-        'filter': [
-          'hide',
-          'minify',
-          'delete',
-          'remove',
-          'trash',
-          'hide',
-          'collapse'
+        "name": "Screwdriver",
+        "id": "screwdriver",
+        "filter": [
+          "interfaces",
+          "editors",
+          "objects",
+          "admin",
+          "container",
+          "fix",
+          "repair",
+          "settings",
+          "tool",
+          "screwdriver"
         ]
       },
       {
-        'name'  : 'Level Up',
-        'id'    : 'level-up',
-        'filter': [
-          'arrow'
+        "name": "School",
+        "id": "school",
+        "filter": [
+          "buildings",
+          "objects",
+          "school"
         ]
       },
       {
-        'name'  : 'Level Down',
-        'id'    : 'level-down',
-        'filter': [
-          'arrow'
+        "name": "SCHLIX",
+        "id": "schlix",
+        "filter": [
+          "schlix"
         ]
       },
       {
-        'name'  : 'Check Square',
-        'id'    : 'check-square',
-        'filter': [
-          'checkmark',
-          'done',
-          'todo',
-          'agree',
-          'accept',
-          'confirm',
-          'ok'
+        "name": "Save",
+        "id": "save",
+        "filter": [
+          "files",
+          "computers",
+          "design",
+          "interfaces",
+          "business",
+          "objects",
+          "floppy",
+          "floppy-o",
+          "save"
         ]
       },
       {
-        'name'  : 'Pencil Square',
-        'id'    : 'pencil-square',
-        'filter': [
-          'write',
-          'edit',
-          'update'
+        "name": "Sass",
+        "id": "sass",
+        "filter": [
+          "sass"
         ]
       },
       {
-        'name'  : 'External Link Square',
-        'id'    : 'external-link-square',
-        'filter': [
-          'open',
-          'new'
+        "name": "Safari",
+        "id": "safari",
+        "filter": [
+          "browser",
+          "safari"
         ]
       },
       {
-        'name'  : 'Share Square',
-        'id'    : 'share-square',
-        'filter': [
-          'social',
-          'send'
+        "name": "Loudly Crying Face",
+        "id": "sad-tear",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "tear",
+          "tears",
+          "sad-tear"
         ]
       },
       {
-        'name'  : 'Compass',
-        'id'    : 'compass',
-        'filter': [
-          'safari',
-          'directory',
-          'menu',
-          'location'
+        "name": "Crying Face",
+        "id": "sad-cry",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "tear",
+          "tears",
+          "sad-cry"
         ]
       },
       {
-        'name'   : 'Caret Square Outlined Down',
-        'id'     : 'caret-square-o-down',
-        'aliases': [
-          'toggle-down'
-        ],
-        'filter' : [
-          'more',
-          'dropdown',
-          'menu'
+        "name": "Indian Rupee Sign",
+        "id": "rupee-sign",
+        "filter": [
+          "currency",
+          "indian",
+          "inr",
+          "rupee-sign"
         ]
       },
       {
-        'name'   : 'Caret Square Outlined Up',
-        'id'     : 'caret-square-o-up',
-        'aliases': [
-          'toggle-up'
+        "name": "Ruler Vertical",
+        "id": "ruler-vertical",
+        "filter": [
+          "design",
+          "objects",
+          "ruler-vertical"
         ]
       },
       {
-        'name'   : 'Caret Square Outlined Right',
-        'id'     : 'caret-square-o-right',
-        'filter' : [
-          'next',
-          'forward'
-        ],
-        'aliases': [
-          'toggle-right'
+        "name": "Ruler Horizontal",
+        "id": "ruler-horizontal",
+        "filter": [
+          "design",
+          "objects",
+          "ruler-horizontal"
         ]
       },
       {
-        'name'   : 'Euro (EUR)',
-        'id'     : 'eur',
-        'aliases': [
-          'euro'
+        "name": "Ruler Combined",
+        "id": "ruler-combined",
+        "filter": [
+          "design",
+          "objects",
+          "ruler-combined"
         ]
       },
       {
-        'name': 'GBP',
-        'id'  : 'gbp'
+        "name": "Ruler",
+        "id": "ruler",
+        "filter": [
+          "ruler"
+        ]
       },
       {
-        'name'   : 'US Dollar',
-        'id'     : 'usd',
-        'aliases': [
-          'dollar'
+        "name": "Ruble Sign",
+        "id": "ruble-sign",
+        "filter": [
+          "currency",
+          "rub",
+          "rub",
+          "ruble-sign"
         ]
       },
       {
-        'name'   : 'Indian Rupee (INR)',
-        'id'     : 'inr',
-        'aliases': [
-          'rupee'
+        "name": "RSS Square",
+        "id": "rss-square",
+        "filter": [
+          "audio-video",
+          "interfaces",
+          "communication",
+          "blog",
+          "feed",
+          "rss-square"
         ]
       },
       {
-        'name'   : 'Japanese Yen (JPY)',
-        'id'     : 'jpy',
-        'aliases': [
-          'cny',
-          'rmb',
-          'yen'
+        "name": "rss",
+        "id": "rss",
+        "filter": [
+          "audio-video",
+          "interfaces",
+          "communication",
+          "blog",
+          "rss"
         ]
       },
       {
-        'name'   : 'Russian Ruble (RUB)',
-        'id'     : 'rub',
-        'aliases': [
-          'ruble',
-          'rouble'
+        "name": "Rockrms",
+        "id": "rockrms",
+        "filter": [
+          "rockrms"
         ]
       },
       {
-        'name'   : 'Korean Won (KRW)',
-        'id'     : 'krw',
-        'aliases': [
-          'won'
+        "name": "Rocket.Chat",
+        "id": "rocketchat",
+        "filter": [
+          "rocketchat"
         ]
       },
       {
-        'name'   : 'Bitcoin (BTC)',
-        'id'     : 'btc',
-        'aliases': [
-          'bitcoin'
+        "name": "rocket",
+        "id": "rocket",
+        "filter": [
+          "vehicles",
+          "objects",
+          "maps",
+          "app",
+          "rocket"
         ]
       },
       {
-        'name'  : 'File',
-        'id'    : 'file',
-        'filter': [
-          'new',
-          'page',
-          'pdf',
-          'document'
+        "name": "Robot",
+        "id": "robot",
+        "filter": [
+          "robot"
         ]
       },
       {
-        'name'  : 'File Text',
-        'id'    : 'file-text',
-        'filter': [
-          'new',
-          'page',
-          'pdf',
-          'document'
+        "name": "road",
+        "id": "road",
+        "filter": [
+          "objects",
+          "maps",
+          "street",
+          "road"
         ]
       },
       {
-        'name': 'Sort Alpha Ascending',
-        'id'  : 'sort-alpha-asc'
+        "name": "Ribbon",
+        "id": "ribbon",
+        "filter": [
+          "charity",
+          "badge",
+          "cause",
+          "lapel",
+          "pin",
+          "ribbon"
+        ]
       },
       {
-        'name': 'Sort Alpha Descending',
-        'id'  : 'sort-alpha-desc'
+        "name": "Rev.io",
+        "id": "rev",
+        "filter": [
+          "rev"
+        ]
       },
       {
-        'name': 'Sort Amount Ascending',
-        'id'  : 'sort-amount-asc'
+        "name": "Retweet",
+        "id": "retweet",
+        "filter": [
+          "arrows",
+          "refresh",
+          "reload",
+          "share",
+          "swap",
+          "retweet"
+        ]
       },
       {
-        'name': 'Sort Amount Descending',
-        'id'  : 'sort-amount-desc'
+        "name": "Resolving",
+        "id": "resolving",
+        "filter": [
+          "resolving"
+        ]
       },
       {
-        'name'  : 'Sort Numeric Ascending',
-        'id'    : 'sort-numeric-asc',
-        'filter': [
-          'numbers'
+        "name": "Researchgate",
+        "id": "researchgate",
+        "filter": [
+          "researchgate"
         ]
       },
       {
-        'name'  : 'Sort Numeric Descending',
-        'id'    : 'sort-numeric-desc',
-        'filter': [
-          'numbers'
+        "name": "replyd",
+        "id": "replyd",
+        "filter": [
+          "replyd"
         ]
       },
       {
-        'name'  : 'thumbs-up',
-        'id'    : 'thumbs-up',
-        'filter': [
-          'like',
-          'favorite',
-          'approve',
-          'agree',
-          'hand'
+        "name": "reply-all",
+        "id": "reply-all",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "editors",
+          "reply-all"
         ]
       },
       {
-        'name'  : 'thumbs-down',
-        'id'    : 'thumbs-down',
-        'filter': [
-          'dislike',
-          'disapprove',
-          'disagree',
-          'hand'
+        "name": "Reply",
+        "id": "reply",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "editors",
+          "reply"
         ]
       },
       {
-        'name'  : 'YouTube Square',
-        'id'    : 'youtube-square',
-        'filter': [
-          'video',
-          'film'
+        "name": "Renren",
+        "id": "renren",
+        "filter": [
+          "renren"
         ]
       },
       {
-        'name'  : 'YouTube',
-        'id'    : 'youtube',
-        'filter': [
-          'video',
-          'film'
+        "name": "Rendact",
+        "id": "rendact",
+        "filter": [
+          "rendact"
         ]
       },
       {
-        'name': 'Xing',
-        'id'  : 'xing'
+        "name": "Registered Trademark",
+        "id": "registered",
+        "filter": [
+          "business",
+          "registered"
+        ]
       },
       {
-        'name': 'Xing Square',
-        'id'  : 'xing-square'
+        "name": "Alternate Redo",
+        "id": "redo-alt",
+        "filter": [
+          "arrows",
+          "audio-video",
+          "interfaces",
+          "editors",
+          "forward",
+          "repeat",
+          "redo-alt"
+        ]
       },
       {
-        'name'  : 'YouTube Play',
-        'id'    : 'youtube-play',
-        'filter': [
-          'start',
-          'playing'
+        "name": "Redo",
+        "id": "redo",
+        "filter": [
+          "arrows",
+          "audio-video",
+          "interfaces",
+          "editors",
+          "forward",
+          "repeat",
+          "repeat",
+          "redo"
         ]
       },
       {
-        'name': 'Dropbox',
-        'id'  : 'dropbox'
+        "name": "reddit Square",
+        "id": "reddit-square",
+        "filter": [
+          "reddit-square"
+        ]
       },
       {
-        'name': 'Stack Overflow',
-        'id'  : 'stack-overflow'
+        "name": "reddit Alien",
+        "id": "reddit-alien",
+        "filter": [
+          "reddit-alien"
+        ]
       },
       {
-        'name': 'Instagram',
-        'id'  : 'instagram'
+        "name": "reddit Logo",
+        "id": "reddit",
+        "filter": [
+          "reddit"
+        ]
       },
       {
-        'name': 'Flickr',
-        'id'  : 'flickr'
+        "name": "red river",
+        "id": "red-river",
+        "filter": [
+          "red-river"
+        ]
       },
       {
-        'name': 'App.net',
-        'id'  : 'adn'
+        "name": "Recycle",
+        "id": "recycle",
+        "filter": [
+          "arrows",
+          "maps",
+          "recycle"
+        ]
       },
       {
-        'name'  : 'Bitbucket',
-        'id'    : 'bitbucket',
-        'filter': [
-          'git'
+        "name": "Receipt",
+        "id": "receipt",
+        "filter": [
+          "check",
+          "invoice",
+          "table",
+          "receipt"
         ]
       },
       {
-        'name'  : 'Bitbucket Square',
-        'id'    : 'bitbucket-square',
-        'filter': [
-          'git'
+        "name": "Rebel Alliance",
+        "id": "rebel",
+        "filter": [
+          "rebel"
         ]
       },
       {
-        'name': 'Tumblr',
-        'id'  : 'tumblr'
+        "name": "ReadMe",
+        "id": "readme",
+        "filter": [
+          "readme"
+        ]
       },
       {
-        'name': 'Tumblr Square',
-        'id'  : 'tumblr-square'
+        "name": "React",
+        "id": "react",
+        "filter": [
+          "react"
+        ]
       },
       {
-        'name': 'Long Arrow Down',
-        'id'  : 'long-arrow-down'
+        "name": "Ravelry",
+        "id": "ravelry",
+        "filter": [
+          "ravelry"
+        ]
       },
       {
-        'name': 'Long Arrow Up',
-        'id'  : 'long-arrow-up'
+        "name": "random",
+        "id": "random",
+        "filter": [
+          "arrows",
+          "audio-video",
+          "shuffle",
+          "sort",
+          "random"
+        ]
       },
       {
-        'name'  : 'Long Arrow Left',
-        'id'    : 'long-arrow-left',
-        'filter': [
-          'previous',
-          'back'
+        "name": "R Project",
+        "id": "r-project",
+        "filter": [
+          "r-project"
         ]
       },
       {
-        'name': 'Long Arrow Right',
-        'id'  : 'long-arrow-right'
+        "name": "quote-right",
+        "id": "quote-right",
+        "filter": [
+          "chat",
+          "writing",
+          "interfaces",
+          "editors",
+          "quote-right"
+        ]
       },
       {
-        'name'  : 'Apple',
-        'id'    : 'apple',
-        'filter': [
-          'osx',
-          'food'
+        "name": "quote-left",
+        "id": "quote-left",
+        "filter": [
+          "chat",
+          "writing",
+          "interfaces",
+          "editors",
+          "quote-left"
         ]
       },
       {
-        'name'  : 'Windows',
-        'id'    : 'windows',
-        'filter': [
-          'microsoft'
+        "name": "Quora",
+        "id": "quora",
+        "filter": [
+          "quora"
         ]
       },
       {
-        'name'  : 'Android',
-        'id'    : 'android',
-        'filter': [
-          'robot'
+        "name": "QuinScape",
+        "id": "quinscape",
+        "filter": [
+          "quinscape"
         ]
       },
       {
-        'name'  : 'Linux',
-        'id'    : 'linux',
-        'filter': [
-          'tux'
+        "name": "Quidditch",
+        "id": "quidditch",
+        "filter": [
+          "sports",
+          "quidditch"
         ]
       },
       {
-        'name': 'Dribbble',
-        'id'  : 'dribbble'
+        "name": "Question Circle",
+        "id": "question-circle",
+        "filter": [
+          "status",
+          "interfaces",
+          "accessibility",
+          "help",
+          "information",
+          "support",
+          "unknown",
+          "question-circle"
+        ]
       },
       {
-        'name': 'Skype',
-        'id'  : 'skype'
+        "name": "Question",
+        "id": "question",
+        "filter": [
+          "status",
+          "interfaces",
+          "help",
+          "information",
+          "support",
+          "unknown",
+          "question"
+        ]
       },
       {
-        'name': 'Foursquare',
-        'id'  : 'foursquare'
+        "name": "qrcode",
+        "id": "qrcode",
+        "filter": [
+          "interfaces",
+          "code",
+          "scan",
+          "qrcode"
+        ]
       },
       {
-        'name': 'Trello',
-        'id'  : 'trello'
+        "name": "QQ",
+        "id": "qq",
+        "filter": [
+          "qq"
+        ]
       },
       {
-        'name'  : 'Female',
-        'id'    : 'female',
-        'filter': [
-          'woman',
-          'user',
-          'person',
-          'profile'
+        "name": "Python",
+        "id": "python",
+        "filter": [
+          "python"
         ]
       },
       {
-        'name'  : 'Male',
-        'id'    : 'male',
-        'filter': [
-          'man',
-          'user',
-          'person',
-          'profile'
+        "name": "Puzzle Piece",
+        "id": "puzzle-piece",
+        "filter": [
+          "objects",
+          "add-on",
+          "addon",
+          "section",
+          "puzzle-piece"
         ]
       },
       {
-        'name'   : 'Gratipay (Gittip)',
-        'id'     : 'gratipay',
-        'aliases': [
-          'gittip'
-        ],
-        'filter' : [
-          'heart',
-          'like',
-          'favorite',
-          'love'
+        "name": "Pushed",
+        "id": "pushed",
+        "filter": [
+          "pushed"
         ]
       },
       {
-        'name'  : 'Sun Outlined',
-        'id'    : 'sun-o',
-        'filter': [
-          'weather',
-          'contrast',
-          'lighter',
-          'brighten',
-          'day'
+        "name": "Project Diagram",
+        "id": "project-diagram",
+        "filter": [
+          "business",
+          "code",
+          "project-diagram"
         ]
       },
       {
-        'name'  : 'Moon Outlined',
-        'id'    : 'moon-o',
-        'filter': [
-          'night',
-          'darker',
-          'contrast'
+        "name": "Product Hunt",
+        "id": "product-hunt",
+        "filter": [
+          "product-hunt"
         ]
       },
       {
-        'name'  : 'Archive',
-        'id'    : 'archive',
-        'filter': [
-          'box',
-          'storage'
+        "name": "Procedures",
+        "id": "procedures",
+        "filter": [
+          "medical",
+          "procedures"
         ]
       },
       {
-        'name'  : 'Bug',
-        'id'    : 'bug',
-        'filter': [
-          'report',
-          'insect'
+        "name": "print",
+        "id": "print",
+        "filter": [
+          "computers",
+          "editors",
+          "objects",
+          "maps",
+          "print"
         ]
       },
       {
-        'name': 'VK',
-        'id'  : 'vk'
+        "name": "Alternate Prescription Bottle",
+        "id": "prescription-bottle-alt",
+        "filter": [
+          "medical",
+          "drugs",
+          "medical",
+          "medicine",
+          "rx",
+          "prescription-bottle-alt"
+        ]
       },
       {
-        'name': 'Weibo',
-        'id'  : 'weibo'
+        "name": "Prescription Bottle",
+        "id": "prescription-bottle",
+        "filter": [
+          "medical",
+          "drugs",
+          "medical",
+          "medicine",
+          "rx",
+          "prescription-bottle"
+        ]
       },
       {
-        'name': 'Renren',
-        'id'  : 'renren'
+        "name": "Prescription",
+        "id": "prescription",
+        "filter": [
+          "medical",
+          "health",
+          "drugs",
+          "medical",
+          "medicine",
+          "rx",
+          "prescription"
+        ]
       },
       {
-        'name'  : 'Pagelines',
-        'id'    : 'pagelines',
-        'filter': [
-          'leaf',
-          'leaves',
-          'tree',
-          'plant',
-          'eco',
-          'nature'
+        "name": "Power Off",
+        "id": "power-off",
+        "filter": [
+          "users-people",
+          "computers",
+          "on",
+          "reboot",
+          "restart",
+          "power-off"
         ]
       },
       {
-        'name': 'Stack Exchange',
-        'id'  : 'stack-exchange'
+        "name": "Pound Sign",
+        "id": "pound-sign",
+        "filter": [
+          "currency",
+          "gbp",
+          "gbp",
+          "pound-sign"
+        ]
       },
       {
-        'name'  : 'Arrow Circle Outlined Right',
-        'id'    : 'arrow-circle-o-right',
-        'filter': [
-          'next',
-          'forward'
+        "name": "Portrait",
+        "id": "portrait",
+        "filter": [
+          "users-people",
+          "images",
+          "portrait"
         ]
       },
       {
-        'name'  : 'Arrow Circle Outlined Left',
-        'id'    : 'arrow-circle-o-left',
-        'filter': [
-          'previous',
-          'back'
+        "name": "Poo",
+        "id": "poo",
+        "filter": [
+          "users-people",
+          "chat",
+          "interfaces",
+          "poo"
         ]
       },
       {
-        'name'   : 'Caret Square Outlined Left',
-        'id'     : 'caret-square-o-left',
-        'filter' : [
-          'previous',
-          'back'
-        ],
-        'aliases': [
-          'toggle-left'
+        "name": "Podcast",
+        "id": "podcast",
+        "filter": [
+          "audio-video",
+          "podcast"
         ]
       },
       {
-        'name'  : 'Dot Circle Outlined',
-        'id'    : 'dot-circle-o',
-        'filter': [
-          'target',
-          'bullseye',
-          'notification'
+        "name": "Plus Square",
+        "id": "plus-square",
+        "filter": [
+          "status",
+          "interfaces",
+          "health",
+          "maps",
+          "add",
+          "create",
+          "expand",
+          "new",
+          "plus-square"
         ]
       },
       {
-        'name'  : 'Wheelchair',
-        'id'    : 'wheelchair',
-        'filter': [
-          'handicap',
-          'person'
+        "name": "Plus Circle",
+        "id": "plus-circle",
+        "filter": [
+          "status",
+          "interfaces",
+          "add",
+          "create",
+          "expand",
+          "new",
+          "plus-circle"
         ]
       },
       {
-        'name': 'Vimeo Square',
-        'id'  : 'vimeo-square'
+        "name": "plus",
+        "id": "plus",
+        "filter": [
+          "mathematics",
+          "medical",
+          "status",
+          "interfaces",
+          "maps",
+          "add",
+          "create",
+          "expand",
+          "new",
+          "plus"
+        ]
       },
       {
-        'name'   : 'Turkish Lira (TRY)',
-        'id'     : 'try',
-        'aliases': [
-          'turkish-lira'
+        "name": "Plug",
+        "id": "plug",
+        "filter": [
+          "computers",
+          "objects",
+          "maps",
+          "connect",
+          "online",
+          "power",
+          "plug"
         ]
       },
       {
-        'name'  : 'Plus Square Outlined',
-        'id'    : 'plus-square-o',
-        'filter': [
-          'add',
-          'new',
-          'create',
-          'expand'
+        "name": "PlayStation",
+        "id": "playstation",
+        "filter": [
+          "playstation"
         ]
       },
       {
-        'name'  : 'Space Shuttle',
-        'id'    : 'space-shuttle',
-        'filter': null
+        "name": "Play Circle",
+        "id": "play-circle",
+        "filter": [
+          "audio-video",
+          "playing",
+          "start",
+          "play-circle"
+        ]
       },
       {
-        'name'  : 'Slack Logo',
-        'id'    : 'slack',
-        'filter': [
-          'hashtag',
-          'anchor',
-          'hash'
+        "name": "play",
+        "id": "play",
+        "filter": [
+          "arrows",
+          "audio-video",
+          "shapes",
+          "music",
+          "playing",
+          "sound",
+          "start",
+          "play"
         ]
       },
       {
-        'name'  : 'Envelope Square',
-        'id'    : 'envelope-square',
-        'filter': [
-          'email',
-          'e-mail',
-          'letter',
-          'support',
-          'mail',
-          'message',
-          'notification'
+        "name": "Plane Departure",
+        "id": "plane-departure",
+        "filter": [
+          "travel",
+          "airplane",
+          "departing",
+          "destination",
+          "fly",
+          "location",
+          "mode",
+          "take off",
+          "taking off",
+          "travel",
+          "trip",
+          "plane-departure"
         ]
       },
       {
-        'name': 'WordPress Logo',
-        'id'  : 'wordpress'
+        "name": "Plane Arrival",
+        "id": "plane-arrival",
+        "filter": [
+          "travel",
+          "airplane",
+          "arriving",
+          "destination",
+          "fly",
+          "land",
+          "landing",
+          "location",
+          "mode",
+          "travel",
+          "trip",
+          "plane-arrival"
+        ]
       },
       {
-        'name': 'OpenID',
-        'id'  : 'openid'
+        "name": "plane",
+        "id": "plane",
+        "filter": [
+          "travel",
+          "vehicles",
+          "objects",
+          "maps",
+          "airplane",
+          "destination",
+          "fly",
+          "location",
+          "mode",
+          "travel",
+          "trip",
+          "plane"
+        ]
       },
       {
-        'name'   : 'University',
-        'id'     : 'university',
-        'aliases': [
-          'institution',
-          'bank'
+        "name": "Pinterest Square",
+        "id": "pinterest-square",
+        "filter": [
+          "pinterest-square"
         ]
       },
       {
-        'name'   : 'Graduation Cap',
-        'id'     : 'graduation-cap',
-        'aliases': [
-          'mortar-board'
-        ],
-        'filter' : [
-          'learning',
-          'school',
-          'student'
+        "name": "Pinterest P",
+        "id": "pinterest-p",
+        "filter": [
+          "pinterest-p"
         ]
       },
       {
-        'name': 'Yahoo Logo',
-        'id'  : 'yahoo'
+        "name": "Pinterest",
+        "id": "pinterest",
+        "filter": [
+          "pinterest"
+        ]
       },
       {
-        'name': 'Google Logo',
-        'id'  : 'google'
+        "name": "Pills",
+        "id": "pills",
+        "filter": [
+          "medical",
+          "drugs",
+          "medicine",
+          "pills"
+        ]
       },
       {
-        'name': 'reddit Logo',
-        'id'  : 'reddit'
+        "name": "Piggy Bank",
+        "id": "piggy-bank",
+        "filter": [
+          "charity",
+          "save",
+          "savings",
+          "piggy-bank"
+        ]
       },
       {
-        'name': 'reddit Square',
-        'id'  : 'reddit-square'
+        "name": "Pied Piper PP Logo (Old)",
+        "id": "pied-piper-pp",
+        "filter": [
+          "pied-piper-pp"
+        ]
       },
       {
-        'name': 'StumbleUpon Circle',
-        'id'  : 'stumbleupon-circle'
+        "name": "Pied Piper-hat",
+        "id": "pied-piper-hat",
+        "filter": [
+          "clothing",
+          "pied-piper-hat"
+        ]
       },
       {
-        'name': 'StumbleUpon Logo',
-        'id'  : 'stumbleupon'
+        "name": "Alternate Pied Piper Logo",
+        "id": "pied-piper-alt",
+        "filter": [
+          "pied-piper-alt"
+        ]
       },
       {
-        'name': 'Delicious Logo',
-        'id'  : 'delicious'
+        "name": "Pied Piper Logo",
+        "id": "pied-piper",
+        "filter": [
+          "pied-piper"
+        ]
       },
       {
-        'name': 'Digg Logo',
-        'id'  : 'digg'
+        "name": "PHP",
+        "id": "php",
+        "filter": [
+          "php"
+        ]
       },
       {
-        'name': 'Pied Piper PP Logo (Old)',
-        'id'  : 'pied-piper-pp'
+        "name": "Phone Volume",
+        "id": "phone-volume",
+        "filter": [
+          "audio-video",
+          "communication",
+          "business",
+          "accessibility",
+          "maps",
+          "telephone",
+          "volume-control-phone",
+          "phone-volume"
+        ]
       },
       {
-        'name': 'Pied Piper Alternate Logo',
-        'id'  : 'pied-piper-alt'
+        "name": "Phone Square",
+        "id": "phone-square",
+        "filter": [
+          "communication",
+          "business",
+          "maps",
+          "call",
+          "number",
+          "support",
+          "telephone",
+          "voice",
+          "phone-square"
+        ]
       },
       {
-        'name': 'Drupal Logo',
-        'id'  : 'drupal'
+        "name": "Phone Slash",
+        "id": "phone-slash",
+        "filter": [
+          "chat",
+          "communication",
+          "business",
+          "phone-slash"
+        ]
       },
       {
-        'name': 'Joomla Logo',
-        'id'  : 'joomla'
+        "name": "Phone",
+        "id": "phone",
+        "filter": [
+          "chat",
+          "communication",
+          "business",
+          "objects",
+          "maps",
+          "call",
+          "earphone",
+          "number",
+          "support",
+          "telephone",
+          "voice",
+          "phone"
+        ]
       },
       {
-        'name': 'Language',
-        'id'  : 'language'
+        "name": "Phoenix Squadron",
+        "id": "phoenix-squadron",
+        "filter": [
+          "phoenix-squadron"
+        ]
       },
       {
-        'name': 'Fax',
-        'id'  : 'fax'
+        "name": "Phoenix Framework",
+        "id": "phoenix-framework",
+        "filter": [
+          "phoenix-framework"
+        ]
       },
       {
-        'name'  : 'Building',
-        'id'    : 'building',
-        'filter': [
-          'work',
-          'business',
-          'apartment',
-          'office',
-          'company'
+        "name": "Phabricator",
+        "id": "phabricator",
+        "filter": [
+          "phabricator"
         ]
       },
       {
-        'name': 'Child',
-        'id'  : 'child'
+        "name": "Periscope",
+        "id": "periscope",
+        "filter": [
+          "periscope"
+        ]
       },
       {
-        'name'  : 'Paw',
-        'id'    : 'paw',
-        'filter': [
-          'pet'
+        "name": "Percentage",
+        "id": "percentage",
+        "filter": [
+          "mathematics",
+          "percentage"
         ]
       },
       {
-        'name': 'spoon',
-        'id'  : 'spoon'
+        "name": "Percent",
+        "id": "percent",
+        "filter": [
+          "business",
+          "percent"
+        ]
       },
       {
-        'name': 'Cube',
-        'id'  : 'cube'
+        "name": "People Carry",
+        "id": "people-carry",
+        "filter": [
+          "moving",
+          "movers",
+          "people-carry"
+        ]
       },
       {
-        'name': 'Cubes',
-        'id'  : 'cubes'
+        "name": "Pencil Ruler",
+        "id": "pencil-ruler",
+        "filter": [
+          "design",
+          "pencil-ruler"
+        ]
       },
       {
-        'name': 'Behance',
-        'id'  : 'behance'
+        "name": "Alternate Pencil",
+        "id": "pencil-alt",
+        "filter": [
+          "design",
+          "writing",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "design",
+          "edit",
+          "pencil",
+          "update",
+          "write",
+          "pencil-alt"
+        ]
       },
       {
-        'name': 'Behance Square',
-        'id'  : 'behance-square'
+        "name": "Pen Square",
+        "id": "pen-square",
+        "filter": [
+          "writing",
+          "business",
+          "edit",
+          "pencil-square",
+          "update",
+          "write",
+          "pen-square"
+        ]
       },
       {
-        'name': 'Steam',
-        'id'  : 'steam'
+        "name": "Pen Nib",
+        "id": "pen-nib",
+        "filter": [
+          "design",
+          "editors",
+          "business",
+          "objects",
+          "design",
+          "edit",
+          "fountain pen",
+          "update",
+          "write",
+          "pen-nib"
+        ]
       },
       {
-        'name': 'Steam Square',
-        'id'  : 'steam-square'
+        "name": "Pen Fancy",
+        "id": "pen-fancy",
+        "filter": [
+          "design",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "design",
+          "edit",
+          "fountain pen",
+          "update",
+          "write",
+          "pen-fancy"
+        ]
       },
       {
-        'name': 'Recycle',
-        'id'  : 'recycle'
+        "name": "Alternate Pen",
+        "id": "pen-alt",
+        "filter": [
+          "design",
+          "writing",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "design",
+          "edit",
+          "update",
+          "write",
+          "pen-alt"
+        ]
       },
       {
-        'name'   : 'Car',
-        'id'     : 'car',
-        'aliases': [
-          'automobile'
-        ],
-        'filter' : [
-          'vehicle'
+        "name": "Pen",
+        "id": "pen",
+        "filter": [
+          "design",
+          "writing",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "design",
+          "edit",
+          "update",
+          "write",
+          "pen"
         ]
       },
       {
-        'name'   : 'Taxi',
-        'id'     : 'taxi',
-        'aliases': [
-          'cab'
-        ],
-        'filter' : [
-          'vehicle'
+        "name": "Paypal",
+        "id": "paypal",
+        "filter": [
+          "payments-shopping",
+          "paypal"
         ]
       },
       {
-        'name': 'Tree',
-        'id'  : 'tree'
+        "name": "Paw",
+        "id": "paw",
+        "filter": [
+          "objects",
+          "maps",
+          "pet",
+          "paw"
+        ]
       },
       {
-        'name': 'Spotify',
-        'id'  : 'spotify'
+        "name": "Pause Circle",
+        "id": "pause-circle",
+        "filter": [
+          "audio-video",
+          "pause-circle"
+        ]
       },
       {
-        'name': 'deviantART',
-        'id'  : 'deviantart'
+        "name": "pause",
+        "id": "pause",
+        "filter": [
+          "audio-video",
+          "wait",
+          "pause"
+        ]
       },
       {
-        'name': 'SoundCloud',
-        'id'  : 'soundcloud'
+        "name": "Patreon",
+        "id": "patreon",
+        "filter": [
+          "patreon"
+        ]
       },
       {
-        'name': 'Database',
-        'id'  : 'database'
+        "name": "Paste",
+        "id": "paste",
+        "filter": [
+          "files",
+          "design",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "clipboard",
+          "copy",
+          "paste"
+        ]
       },
       {
-        'name': 'PDF File Outlined',
-        'id'  : 'file-pdf-o'
+        "name": "Passport",
+        "id": "passport",
+        "filter": [
+          "travel",
+          "document",
+          "identification",
+          "issued",
+          "passport"
+        ]
       },
       {
-        'name': 'Word File Outlined',
-        'id'  : 'file-word-o'
+        "name": "Parking",
+        "id": "parking",
+        "filter": [
+          "parking"
+        ]
       },
       {
-        'name': 'Excel File Outlined',
-        'id'  : 'file-excel-o'
+        "name": "paragraph",
+        "id": "paragraph",
+        "filter": [
+          "writing",
+          "editors",
+          "paragraph"
+        ]
       },
       {
-        'name': 'Powerpoint File Outlined',
-        'id'  : 'file-powerpoint-o'
+        "name": "Parachute Box",
+        "id": "parachute-box",
+        "filter": [
+          "charity",
+          "aid",
+          "assistance",
+          "rescue",
+          "supplies",
+          "parachute-box"
+        ]
       },
       {
-        'name'   : 'Image File Outlined',
-        'id'     : 'file-image-o',
-        'aliases': [
-          'file-photo-o',
-          'file-picture-o'
+        "name": "Paperclip",
+        "id": "paperclip",
+        "filter": [
+          "writing",
+          "editors",
+          "business",
+          "objects",
+          "attachment",
+          "paperclip"
         ]
       },
       {
-        'name'   : 'Archive File Outlined',
-        'id'     : 'file-archive-o',
-        'aliases': [
-          'file-zip-o'
+        "name": "Paper Plane",
+        "id": "paper-plane",
+        "filter": [
+          "vehicles",
+          "writing",
+          "communication",
+          "editors",
+          "objects",
+          "paper-plane"
         ]
       },
       {
-        'name'   : 'Audio File Outlined',
-        'id'     : 'file-audio-o',
-        'aliases': [
-          'file-sound-o'
+        "name": "Pallet",
+        "id": "pallet",
+        "filter": [
+          "logistics",
+          "pallet"
         ]
       },
       {
-        'name'   : 'Video File Outlined',
-        'id'     : 'file-video-o',
-        'aliases': [
-          'file-movie-o'
+        "name": "Palfed",
+        "id": "palfed",
+        "filter": [
+          "palfed"
         ]
       },
       {
-        'name': 'Code File Outlined',
-        'id'  : 'file-code-o'
+        "name": "Palette",
+        "id": "palette",
+        "filter": [
+          "design",
+          "colors",
+          "painting",
+          "palette"
+        ]
       },
       {
-        'name': 'Vine',
-        'id'  : 'vine'
+        "name": "Paint Roller",
+        "id": "paint-roller",
+        "filter": [
+          "design",
+          "brush",
+          "painting",
+          "tool",
+          "paint-roller"
+        ]
       },
       {
-        'name': 'Codepen',
-        'id'  : 'codepen'
+        "name": "Paint Brush",
+        "id": "paint-brush",
+        "filter": [
+          "design",
+          "objects",
+          "paint-brush"
+        ]
       },
       {
-        'name': 'jsFiddle',
-        'id'  : 'jsfiddle'
+        "name": "Pagelines",
+        "id": "pagelines",
+        "filter": [
+          "eco",
+          "leaf",
+          "leaves",
+          "nature",
+          "plant",
+          "tree",
+          "pagelines"
+        ]
       },
       {
-        'name'   : 'Life Ring',
-        'id'     : 'life-ring',
-        'aliases': [
-          'life-buoy',
-          'life-saver',
-          'support'
+        "name": "page4 Corporation",
+        "id": "page4",
+        "filter": [
+          "page4"
         ]
       },
       {
-        'name': 'Circle Outlined Notched',
-        'id'  : 'circle-o-notch'
+        "name": "Outdent",
+        "id": "outdent",
+        "filter": [
+          "editors",
+          "outdent"
+        ]
       },
       {
-        'name'   : 'Rebel Alliance',
-        'id'     : 'rebel',
-        'aliases': [
-          'ra',
-          'resistance'
+        "name": "Open Source Initiative",
+        "id": "osi",
+        "filter": [
+          "osi"
         ]
       },
       {
-        'name'   : 'Galactic Empire',
-        'id'     : 'empire',
-        'aliases': [
-          'ge'
+        "name": "Optin Monster",
+        "id": "optin-monster",
+        "filter": [
+          "optin-monster"
         ]
       },
       {
-        'name': 'Git Square',
-        'id'  : 'git-square'
+        "name": "Opera",
+        "id": "opera",
+        "filter": [
+          "opera"
+        ]
       },
       {
-        'name': 'Git',
-        'id'  : 'git'
+        "name": "OpenID",
+        "id": "openid",
+        "filter": [
+          "openid"
+        ]
       },
       {
-        'name'   : 'Hacker News',
-        'id'     : 'hacker-news',
-        'aliases': [
-          'y-combinator-square',
-          'yc-square'
+        "name": "OpenCart",
+        "id": "opencart",
+        "filter": [
+          "opencart"
         ]
       },
       {
-        'name': 'Tencent Weibo',
-        'id'  : 'tencent-weibo'
+        "name": "Old Republic",
+        "id": "old-republic",
+        "filter": [
+          "old-republic"
+        ]
       },
       {
-        'name': 'QQ',
-        'id'  : 'qq'
+        "name": "Odnoklassniki Square",
+        "id": "odnoklassniki-square",
+        "filter": [
+          "odnoklassniki-square"
+        ]
       },
       {
-        'name'   : 'Weixin (WeChat)',
-        'id'     : 'weixin',
-        'aliases': [
-          'wechat'
+        "name": "Odnoklassniki",
+        "id": "odnoklassniki",
+        "filter": [
+          "odnoklassniki"
         ]
       },
       {
-        'name'   : 'Paper Plane',
-        'id'     : 'paper-plane',
-        'aliases': [
-          'send'
+        "name": "Object Ungroup",
+        "id": "object-ungroup",
+        "filter": [
+          "design",
+          "design",
+          "object-ungroup"
         ]
       },
       {
-        'name'   : 'Paper Plane Outlined',
-        'id'     : 'paper-plane-o',
-        'aliases': [
-          'send-o'
+        "name": "Object Group",
+        "id": "object-group",
+        "filter": [
+          "design",
+          "design",
+          "object-group"
         ]
       },
       {
-        'name': 'History',
-        'id'  : 'history'
+        "name": "Nutritionix",
+        "id": "nutritionix",
+        "filter": [
+          "nutritionix"
+        ]
       },
       {
-        'name': 'Circle Outlined Thin',
-        'id'  : 'circle-thin'
+        "name": "NS8",
+        "id": "ns8",
+        "filter": [
+          "ns8"
+        ]
       },
       {
-        'name'  : 'header',
-        'id'    : 'header',
-        'filter': [
-          'heading'
+        "name": "npm",
+        "id": "npm",
+        "filter": [
+          "npm"
         ]
       },
       {
-        'name': 'paragraph',
-        'id'  : 'paragraph'
+        "name": "Medical Notes",
+        "id": "notes-medical",
+        "filter": [
+          "medical",
+          "notes-medical"
+        ]
       },
       {
-        'name'  : 'Sliders',
-        'id'    : 'sliders',
-        'filter': [
-          'settings'
+        "name": "Not Equal",
+        "id": "not-equal",
+        "filter": [
+          "mathematics",
+          "not-equal"
         ]
       },
       {
-        'name': 'Share Alt',
-        'id'  : 'share-alt'
+        "name": "Node.js JS",
+        "id": "node-js",
+        "filter": [
+          "node-js"
+        ]
       },
       {
-        'name': 'Share Alt Square',
-        'id'  : 'share-alt-square'
+        "name": "Node.js",
+        "id": "node",
+        "filter": [
+          "node"
+        ]
       },
       {
-        'name': 'Bomb',
-        'id'  : 'bomb'
+        "name": "Nintendo Switch",
+        "id": "nintendo-switch",
+        "filter": [
+          "nintendo-switch"
+        ]
       },
       {
-        'name'   : 'Futbol Outlined',
-        'id'     : 'futbol-o',
-        'aliases': [
-          'soccer-ball-o'
+        "name": "Nimblr",
+        "id": "nimblr",
+        "filter": [
+          "nimblr"
         ]
       },
       {
-        'name': 'TTY',
-        'id'  : 'tty'
+        "name": "Newspaper",
+        "id": "newspaper",
+        "filter": [
+          "writing",
+          "objects",
+          "maps",
+          "article",
+          "press",
+          "newspaper"
+        ]
       },
       {
-        'name': 'Binoculars',
-        'id'  : 'binoculars'
+        "name": "Neuter",
+        "id": "neuter",
+        "filter": [
+          "gender",
+          "neuter"
+        ]
       },
       {
-        'name'  : 'Plug',
-        'id'    : 'plug',
-        'filter': [
-          'power',
-          'connect'
+        "name": "Napster",
+        "id": "napster",
+        "filter": [
+          "napster"
         ]
       },
       {
-        'name': 'Slideshare',
-        'id'  : 'slideshare'
+        "name": "Music",
+        "id": "music",
+        "filter": [
+          "audio-video",
+          "maps",
+          "note",
+          "sound",
+          "music"
+        ]
       },
       {
-        'name': 'Twitch',
-        'id'  : 'twitch'
+        "name": "Mouse Pointer",
+        "id": "mouse-pointer",
+        "filter": [
+          "arrows",
+          "select",
+          "mouse-pointer"
+        ]
       },
       {
-        'name': 'Yelp',
-        'id'  : 'yelp'
+        "name": "Motorcycle",
+        "id": "motorcycle",
+        "filter": [
+          "vehicles",
+          "objects",
+          "maps",
+          "bike",
+          "machine",
+          "transportation",
+          "vehicle",
+          "motorcycle"
+        ]
       },
       {
-        'name'  : 'Newspaper Outlined',
-        'id'    : 'newspaper-o',
-        'filter': [
-          'press'
+        "name": "Mortar Pestle",
+        "id": "mortar-pestle",
+        "filter": [
+          "crush",
+          "culinary",
+          "grind",
+          "medical",
+          "mix",
+          "spices",
+          "mortar-pestle"
         ]
       },
       {
-        'name': 'WiFi',
-        'id'  : 'wifi'
+        "name": "Moon",
+        "id": "moon",
+        "filter": [
+          "objects",
+          "contrast",
+          "darker",
+          "night",
+          "moon"
+        ]
       },
       {
-        'name': 'Calculator',
-        'id'  : 'calculator'
+        "name": "Monument",
+        "id": "monument",
+        "filter": [
+          "travel",
+          "building",
+          "historic",
+          "memoroable",
+          "monument"
+        ]
       },
       {
-        'name': 'Paypal',
-        'id'  : 'paypal'
+        "name": "Alternate Money Check",
+        "id": "money-check-alt",
+        "filter": [
+          "currency",
+          "payments-shopping",
+          "objects",
+          "bank check",
+          "cheque",
+          "money-check-alt"
+        ]
       },
       {
-        'name': 'Google Wallet',
-        'id'  : 'google-wallet'
+        "name": "Money Check",
+        "id": "money-check",
+        "filter": [
+          "currency",
+          "payments-shopping",
+          "objects",
+          "bank check",
+          "cheque",
+          "money-check"
+        ]
       },
       {
-        'name': 'Visa Credit Card',
-        'id'  : 'cc-visa'
+        "name": "Alternate Wavy Money Bill",
+        "id": "money-bill-wave-alt",
+        "filter": [
+          "currency",
+          "money-bill-wave-alt"
+        ]
       },
       {
-        'name': 'MasterCard Credit Card',
-        'id'  : 'cc-mastercard'
+        "name": "Wavy Money Bill",
+        "id": "money-bill-wave",
+        "filter": [
+          "currency",
+          "money-bill-wave"
+        ]
       },
       {
-        'name': 'Discover Credit Card',
-        'id'  : 'cc-discover'
+        "name": "Alternate Money Bill",
+        "id": "money-bill-alt",
+        "filter": [
+          "currency",
+          "objects",
+          "maps",
+          "buy",
+          "cash",
+          "checkout",
+          "money",
+          "payment",
+          "price",
+          "purchase",
+          "money-bill-alt"
+        ]
       },
       {
-        'name'  : 'American Express Credit Card',
-        'id'    : 'cc-amex',
-        'filter': [
-          'amex'
+        "name": "Money Bill",
+        "id": "money-bill",
+        "filter": [
+          "currency",
+          "objects",
+          "objects",
+          "maps",
+          "buy",
+          "cash",
+          "checkout",
+          "money",
+          "payment",
+          "price",
+          "purchase",
+          "money-bill"
         ]
       },
       {
-        'name': 'Paypal Credit Card',
-        'id'  : 'cc-paypal'
+        "name": "Monero",
+        "id": "monero",
+        "filter": [
+          "monero"
+        ]
       },
       {
-        'name': 'Stripe Credit Card',
-        'id'  : 'cc-stripe'
+        "name": "MODX",
+        "id": "modx",
+        "filter": [
+          "modx"
+        ]
       },
       {
-        'name': 'Bell Slash',
-        'id'  : 'bell-slash'
+        "name": "Alternate Mobile",
+        "id": "mobile-alt",
+        "filter": [
+          "computers",
+          "communication",
+          "objects",
+          "apple",
+          "call",
+          "cell phone",
+          "cellphone",
+          "device",
+          "iphone",
+          "number",
+          "screen",
+          "telephone",
+          "text",
+          "mobile-alt"
+        ]
       },
       {
-        'name': 'Bell Slash Outlined',
-        'id'  : 'bell-slash-o'
+        "name": "Mobile Phone",
+        "id": "mobile",
+        "filter": [
+          "computers",
+          "communication",
+          "objects",
+          "apple",
+          "call",
+          "cell phone",
+          "cellphone",
+          "device",
+          "iphone",
+          "number",
+          "screen",
+          "telephone",
+          "text",
+          "mobile"
+        ]
       },
       {
-        'name'  : 'Trash',
-        'id'    : 'trash',
-        'filter': [
-          'garbage',
-          'delete',
-          'remove',
-          'hide'
+        "name": "Mizuni",
+        "id": "mizuni",
+        "filter": [
+          "mizuni"
         ]
       },
       {
-        'name': 'Copyright',
-        'id'  : 'copyright'
+        "name": "Mixcloud",
+        "id": "mixcloud",
+        "filter": [
+          "mixcloud"
+        ]
       },
       {
-        'name'  : 'At',
-        'id'    : 'at',
-        'filter': [
-          'email',
-          'e-mail'
+        "name": "Mix",
+        "id": "mix",
+        "filter": [
+          "mix"
         ]
       },
       {
-        'name': 'Eyedropper',
-        'id'  : 'eyedropper'
+        "name": "Minus Square",
+        "id": "minus-square",
+        "filter": [
+          "status",
+          "interfaces",
+          "collapse",
+          "delete",
+          "hide",
+          "hide",
+          "minify",
+          "remove",
+          "trash",
+          "minus-square"
+        ]
       },
       {
-        'name': 'Paint Brush',
-        'id'  : 'paint-brush'
+        "name": "Minus Circle",
+        "id": "minus-circle",
+        "filter": [
+          "status",
+          "interfaces",
+          "delete",
+          "hide",
+          "remove",
+          "trash",
+          "minus-circle"
+        ]
       },
       {
-        'name': 'Birthday Cake',
-        'id'  : 'birthday-cake'
+        "name": "minus",
+        "id": "minus",
+        "filter": [
+          "mathematics",
+          "status",
+          "interfaces",
+          "collapse",
+          "delete",
+          "hide",
+          "hide",
+          "minify",
+          "remove",
+          "trash",
+          "minus"
+        ]
       },
       {
-        'name'  : 'Area Chart',
-        'id'    : 'area-chart',
-        'filter': [
-          'graph',
-          'analytics'
+        "name": "Microsoft",
+        "id": "microsoft",
+        "filter": [
+          "microsoft"
         ]
       },
       {
-        'name'  : 'Pie Chart',
-        'id'    : 'pie-chart',
-        'filter': [
-          'graph',
-          'analytics'
+        "name": "Microphone Slash",
+        "id": "microphone-slash",
+        "filter": [
+          "audio-video",
+          "interfaces",
+          "communication",
+          "disable",
+          "mute",
+          "record",
+          "sound",
+          "voice",
+          "microphone-slash"
         ]
       },
       {
-        'name'  : 'Line Chart',
-        'id'    : 'line-chart',
-        'filter': [
-          'graph',
-          'analytics'
+        "name": "Alternate Microphone Slash",
+        "id": "microphone-alt-slash",
+        "filter": [
+          "audio-video",
+          "communication",
+          "disable",
+          "mute",
+          "record",
+          "sound",
+          "voice",
+          "microphone-alt-slash"
         ]
       },
       {
-        'name': 'last.fm',
-        'id'  : 'lastfm'
+        "name": "Alternate Microphone",
+        "id": "microphone-alt",
+        "filter": [
+          "audio-video",
+          "interfaces",
+          "communication",
+          "objects",
+          "record",
+          "sound",
+          "voice",
+          "microphone-alt"
+        ]
       },
       {
-        'name': 'last.fm Square',
-        'id'  : 'lastfm-square'
+        "name": "microphone",
+        "id": "microphone",
+        "filter": [
+          "audio-video",
+          "interfaces",
+          "communication",
+          "objects",
+          "record",
+          "sound",
+          "voice",
+          "microphone"
+        ]
       },
       {
-        'name': 'Toggle Off',
-        'id'  : 'toggle-off'
+        "name": "Microchip",
+        "id": "microchip",
+        "filter": [
+          "computers",
+          "objects",
+          "code",
+          "cpu",
+          "processor",
+          "microchip"
+        ]
       },
       {
-        'name': 'Toggle On',
-        'id'  : 'toggle-on'
+        "name": "Mercury",
+        "id": "mercury",
+        "filter": [
+          "gender",
+          "transgender",
+          "mercury"
+        ]
       },
       {
-        'name'  : 'Bicycle',
-        'id'    : 'bicycle',
-        'filter': [
-          'vehicle',
-          'bike'
+        "name": "Memory",
+        "id": "memory",
+        "filter": [
+          "computers",
+          "objects",
+          "DIMM",
+          "RAM",
+          "memory"
         ]
       },
       {
-        'name'  : 'Bus',
-        'id'    : 'bus',
-        'filter': [
-          'vehicle'
+        "name": "Face With Rolling Eyes",
+        "id": "meh-rolling-eyes",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "neutral",
+          "rating",
+          "meh-rolling-eyes"
         ]
       },
       {
-        'name': 'ioxhost',
-        'id'  : 'ioxhost'
+        "name": "Face Without Mouth",
+        "id": "meh-blank",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "neutral",
+          "rating",
+          "meh-blank"
+        ]
       },
       {
-        'name': 'AngelList',
-        'id'  : 'angellist'
+        "name": "Neutral Face",
+        "id": "meh",
+        "filter": [
+          "users-people",
+          "chat",
+          "interfaces",
+          "emoji",
+          "emoticon",
+          "face",
+          "neutral",
+          "rating",
+          "meh"
+        ]
       },
       {
-        'name': 'Closed Captions',
-        'id'  : 'cc'
+        "name": "Megaport",
+        "id": "megaport",
+        "filter": [
+          "megaport"
+        ]
       },
       {
-        'name'   : 'Shekel (ILS)',
-        'id'     : 'ils',
-        'aliases': [
-          'shekel',
-          'sheqel'
+        "name": "Meetup",
+        "id": "meetup",
+        "filter": [
+          "meetup"
         ]
       },
       {
-        'name': 'meanpath',
-        'id'  : 'meanpath'
+        "name": "MRT",
+        "id": "medrt",
+        "filter": [
+          "medrt"
+        ]
       },
       {
-        'name': 'BuySellAds',
-        'id'  : 'buysellads'
+        "name": "medkit",
+        "id": "medkit",
+        "filter": [
+          "health",
+          "objects",
+          "maps",
+          "first aid",
+          "firstaid",
+          "health",
+          "help",
+          "support",
+          "medkit"
+        ]
       },
       {
-        'name': 'Connect Develop',
-        'id'  : 'connectdevelop'
+        "name": "Medium M",
+        "id": "medium-m",
+        "filter": [
+          "medium-m"
+        ]
       },
       {
-        'name': 'DashCube',
-        'id'  : 'dashcube'
+        "name": "Medium",
+        "id": "medium",
+        "filter": [
+          "medium"
+        ]
       },
       {
-        'name': 'Forumbee',
-        'id'  : 'forumbee'
+        "name": "MedApps",
+        "id": "medapps",
+        "filter": [
+          "medapps"
+        ]
       },
       {
-        'name': 'Leanpub',
-        'id'  : 'leanpub'
+        "name": "Medal",
+        "id": "medal",
+        "filter": [
+          "interfaces",
+          "objects",
+          "medal"
+        ]
       },
       {
-        'name': 'Sellsy',
-        'id'  : 'sellsy'
+        "name": "MaxCDN",
+        "id": "maxcdn",
+        "filter": [
+          "maxcdn"
+        ]
       },
       {
-        'name': 'Shirts in Bulk',
-        'id'  : 'shirtsinbulk'
+        "name": "Mastodon",
+        "id": "mastodon",
+        "filter": [
+          "mastodon"
+        ]
       },
       {
-        'name': 'SimplyBuilt',
-        'id'  : 'simplybuilt'
+        "name": "Mars Stroke Vertical",
+        "id": "mars-stroke-v",
+        "filter": [
+          "gender",
+          "mars-stroke-v"
+        ]
       },
       {
-        'name': 'skyatlas',
-        'id'  : 'skyatlas'
+        "name": "Mars Stroke Horizontal",
+        "id": "mars-stroke-h",
+        "filter": [
+          "gender",
+          "mars-stroke-h"
+        ]
       },
       {
-        'name'  : 'Add to Shopping Cart',
-        'id'    : 'cart-plus',
-        'filter': [
-          'add',
-          'shopping'
+        "name": "Mars Stroke",
+        "id": "mars-stroke",
+        "filter": [
+          "gender",
+          "mars-stroke"
         ]
       },
       {
-        'name'  : 'Shopping Cart Arrow Down',
-        'id'    : 'cart-arrow-down',
-        'filter': [
-          'shopping'
+        "name": "Mars Double",
+        "id": "mars-double",
+        "filter": [
+          "gender",
+          "mars-double"
         ]
       },
       {
-        'name'  : 'Diamond',
-        'id'    : 'diamond',
-        'filter': [
-          'gem',
-          'gemstone'
+        "name": "Mars",
+        "id": "mars",
+        "filter": [
+          "gender",
+          "male",
+          "mars"
         ]
       },
       {
-        'name'  : 'Ship',
-        'id'    : 'ship',
-        'filter': [
-          'boat',
-          'sea'
+        "name": "Marker",
+        "id": "marker",
+        "filter": [
+          "design",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "edit",
+          "sharpie",
+          "update",
+          "write",
+          "marker"
         ]
       },
       {
-        'name'  : 'User Secret',
-        'id'    : 'user-secret',
-        'filter': [
-          'whisper',
-          'spy',
-          'incognito',
-          'privacy'
+        "name": "Map Signs",
+        "id": "map-signs",
+        "filter": [
+          "objects",
+          "maps",
+          "map-signs"
         ]
       },
       {
-        'name'  : 'Motorcycle',
-        'id'    : 'motorcycle',
-        'filter': [
-          'vehicle',
-          'bike'
+        "name": "Map Pin",
+        "id": "map-pin",
+        "filter": [
+          "objects",
+          "maps",
+          "address",
+          "coordinates",
+          "gps",
+          "localize",
+          "location",
+          "map",
+          "marker",
+          "place",
+          "position",
+          "travel",
+          "where",
+          "map-pin"
         ]
       },
       {
-        'name'  : 'Street View',
-        'id'    : 'street-view',
-        'filter': [
-          'map'
+        "name": "Alternate Map Marker",
+        "id": "map-marker-alt",
+        "filter": [
+          "objects",
+          "maps",
+          "address",
+          "coordinates",
+          "gps",
+          "localize",
+          "location",
+          "map",
+          "pin",
+          "place",
+          "position",
+          "travel",
+          "where",
+          "map-marker-alt"
         ]
       },
       {
-        'name'  : 'Heartbeat',
-        'id'    : 'heartbeat',
-        'filter': [
-          'ekg'
+        "name": "map-marker",
+        "id": "map-marker",
+        "filter": [
+          "shapes",
+          "objects",
+          "maps",
+          "address",
+          "coordinates",
+          "gps",
+          "localize",
+          "location",
+          "map",
+          "pin",
+          "place",
+          "position",
+          "travel",
+          "where",
+          "map-marker"
         ]
       },
       {
-        'name'  : 'Venus',
-        'id'    : 'venus',
-        'filter': [
-          'female'
+        "name": "Map Marked-alt",
+        "id": "map-marked-alt",
+        "filter": [
+          "travel",
+          "address",
+          "coordinates",
+          "destination",
+          "gps",
+          "localize",
+          "location",
+          "map",
+          "paper",
+          "pin",
+          "place",
+          "point of interest",
+          "position",
+          "route",
+          "travel",
+          "where",
+          "map-marked-alt"
         ]
       },
       {
-        'name'  : 'Mars',
-        'id'    : 'mars',
-        'filter': [
-          'male'
+        "name": "Map Marked",
+        "id": "map-marked",
+        "filter": [
+          "travel",
+          "address",
+          "coordinates",
+          "destination",
+          "gps",
+          "localize",
+          "location",
+          "map",
+          "paper",
+          "pin",
+          "place",
+          "point of interest",
+          "position",
+          "route",
+          "travel",
+          "where",
+          "map-marked"
         ]
       },
       {
-        'name'  : 'Mercury',
-        'id'    : 'mercury',
-        'filter': [
-          'transgender'
+        "name": "Map",
+        "id": "map",
+        "filter": [
+          "travel",
+          "objects",
+          "maps",
+          "coordinates",
+          "location",
+          "paper",
+          "place",
+          "travel",
+          "map"
         ]
       },
       {
-        'name'   : 'Transgender',
-        'id'     : 'transgender',
-        'aliases': [
-          'intersex'
+        "name": "Mandalorian",
+        "id": "mandalorian",
+        "filter": [
+          "mandalorian"
         ]
       },
       {
-        'name': 'Transgender Alt',
-        'id'  : 'transgender-alt'
+        "name": "Male",
+        "id": "male",
+        "filter": [
+          "users-people",
+          "maps",
+          "human",
+          "man",
+          "person",
+          "profile",
+          "user",
+          "male"
+        ]
       },
       {
-        'name': 'Venus Double',
-        'id'  : 'venus-double'
+        "name": "Mailchimp",
+        "id": "mailchimp",
+        "filter": [
+          "mailchimp"
+        ]
       },
       {
-        'name': 'Mars Double',
-        'id'  : 'mars-double'
+        "name": "magnet",
+        "id": "magnet",
+        "filter": [
+          "objects",
+          "maps",
+          "magnet"
+        ]
       },
       {
-        'name': 'Venus Mars',
-        'id'  : 'venus-mars'
+        "name": "magic",
+        "id": "magic",
+        "filter": [
+          "design",
+          "interfaces",
+          "objects",
+          "autocomplete",
+          "automatic",
+          "wizard",
+          "magic"
+        ]
       },
       {
-        'name': 'Mars Stroke',
-        'id'  : 'mars-stroke'
+        "name": "Magento",
+        "id": "magento",
+        "filter": [
+          "magento"
+        ]
       },
       {
-        'name': 'Mars Stroke Vertical',
-        'id'  : 'mars-stroke-v'
+        "name": "lyft",
+        "id": "lyft",
+        "filter": [
+          "lyft"
+        ]
       },
       {
-        'name': 'Mars Stroke Horizontal',
-        'id'  : 'mars-stroke-h'
+        "name": "Luggage Cart",
+        "id": "luggage-cart",
+        "filter": [
+          "travel",
+          "luggage-cart"
+        ]
       },
       {
-        'name': 'Neuter',
-        'id'  : 'neuter'
+        "name": "Low Vision",
+        "id": "low-vision",
+        "filter": [
+          "accessibility",
+          "maps",
+          "low-vision"
+        ]
       },
       {
-        'name': 'Genderless',
-        'id'  : 'genderless'
+        "name": "Alternate Long Arrow Up",
+        "id": "long-arrow-alt-up",
+        "filter": [
+          "arrows",
+          "long-arrow-up",
+          "long-arrow-alt-up"
+        ]
       },
       {
-        'name': 'Facebook Official',
-        'id'  : 'facebook-official'
+        "name": "Alternate Long Arrow Right",
+        "id": "long-arrow-alt-right",
+        "filter": [
+          "arrows",
+          "long-arrow-right",
+          "long-arrow-alt-right"
+        ]
       },
       {
-        'name': 'Pinterest P',
-        'id'  : 'pinterest-p'
+        "name": "Alternate Long Arrow Left",
+        "id": "long-arrow-alt-left",
+        "filter": [
+          "arrows",
+          "back",
+          "long-arrow-left",
+          "previous",
+          "long-arrow-alt-left"
+        ]
       },
       {
-        'name': 'What\'s App',
-        'id'  : 'whatsapp'
+        "name": "Alternate Long Arrow Down",
+        "id": "long-arrow-alt-down",
+        "filter": [
+          "arrows",
+          "long-arrow-down",
+          "long-arrow-alt-down"
+        ]
       },
       {
-        'name': 'Server',
-        'id'  : 'server'
+        "name": "Lock Open",
+        "id": "lock-open",
+        "filter": [
+          "status",
+          "objects",
+          "admin",
+          "lock",
+          "open",
+          "password",
+          "protect",
+          "lock-open"
+        ]
       },
       {
-        'name'  : 'Add User',
-        'id'    : 'user-plus',
-        'filter': [
-          'sign up',
-          'signup'
+        "name": "lock",
+        "id": "lock",
+        "filter": [
+          "status",
+          "objects",
+          "admin",
+          "protect",
+          "security",
+          "lock"
         ]
       },
       {
-        'name': 'Remove User',
-        'id'  : 'user-times'
+        "name": "location-arrow",
+        "id": "location-arrow",
+        "filter": [
+          "arrows",
+          "maps",
+          "address",
+          "coordinates",
+          "gps",
+          "location",
+          "map",
+          "place",
+          "where",
+          "location-arrow"
+        ]
       },
       {
-        'name'   : 'Bed',
-        'id'     : 'bed',
-        'filter' : [
-          'travel'
-        ],
-        'aliases': [
-          'hotel'
+        "name": "list-ul",
+        "id": "list-ul",
+        "filter": [
+          "editors",
+          "checklist",
+          "list",
+          "ol",
+          "todo",
+          "ul",
+          "list-ul"
         ]
       },
       {
-        'name': 'Viacoin',
-        'id'  : 'viacoin'
+        "name": "list-ol",
+        "id": "list-ol",
+        "filter": [
+          "editors",
+          "checklist",
+          "list",
+          "list",
+          "numbers",
+          "ol",
+          "todo",
+          "ul",
+          "list-ol"
+        ]
       },
       {
-        'name': 'Train',
-        'id'  : 'train'
+        "name": "Alternate List",
+        "id": "list-alt",
+        "filter": [
+          "editors",
+          "checklist",
+          "completed",
+          "done",
+          "finished",
+          "ol",
+          "todo",
+          "ul",
+          "list-alt"
+        ]
       },
       {
-        'name': 'Subway',
-        'id'  : 'subway'
+        "name": "List",
+        "id": "list",
+        "filter": [
+          "editors",
+          "checklist",
+          "completed",
+          "done",
+          "finished",
+          "ol",
+          "todo",
+          "ul",
+          "list"
+        ]
       },
       {
-        'name': 'Medium',
-        'id'  : 'medium'
+        "name": "Turkish Lira Sign",
+        "id": "lira-sign",
+        "filter": [
+          "currency",
+          "try",
+          "try",
+          "turkish",
+          "lira-sign"
+        ]
       },
       {
-        'name'   : 'Y Combinator',
-        'id'     : 'y-combinator',
-        'aliases': [
-          'yc'
+        "name": "Linux",
+        "id": "linux",
+        "filter": [
+          "tux",
+          "linux"
         ]
       },
       {
-        'name': 'Optin Monster',
-        'id'  : 'optin-monster'
+        "name": "Linode",
+        "id": "linode",
+        "filter": [
+          "linode"
+        ]
       },
       {
-        'name': 'OpenCart',
-        'id'  : 'opencart'
+        "name": "LinkedIn In",
+        "id": "linkedin-in",
+        "filter": [
+          "linkedin",
+          "linkedin-in"
+        ]
       },
       {
-        'name': 'ExpeditedSSL',
-        'id'  : 'expeditedssl'
+        "name": "LinkedIn",
+        "id": "linkedin",
+        "filter": [
+          "linkedin-square",
+          "linkedin"
+        ]
       },
       {
-        'name'   : 'Battery Full',
-        'id'     : 'battery-full',
-        'aliases': [
-          'battery-4',
-          'battery'
-        ],
-        'filter' : [
-          'power'
+        "name": "Link",
+        "id": "link",
+        "filter": [
+          "editors",
+          "chain",
+          "link"
         ]
       },
       {
-        'name'   : 'Battery 3/4 Full',
-        'id'     : 'battery-three-quarters',
-        'aliases': [
-          'battery-3'
-        ],
-        'filter' : [
-          'power'
+        "name": "Line",
+        "id": "line",
+        "filter": [
+          "line"
         ]
       },
       {
-        'name'   : 'Battery 1/2 Full',
-        'id'     : 'battery-half',
-        'aliases': [
-          'battery-2'
-        ],
-        'filter' : [
-          'power'
+        "name": "Lightbulb",
+        "id": "lightbulb",
+        "filter": [
+          "objects",
+          "maps",
+          "idea",
+          "inspiration",
+          "lightbulb"
         ]
       },
       {
-        'name'   : 'Battery 1/4 Full',
-        'id'     : 'battery-quarter',
-        'aliases': [
-          'battery-1'
-        ],
-        'filter' : [
-          'power'
+        "name": "Life Ring",
+        "id": "life-ring",
+        "filter": [
+          "spinners",
+          "objects",
+          "maps",
+          "support",
+          "life-ring"
         ]
       },
       {
-        'name'   : 'Battery Empty',
-        'id'     : 'battery-empty',
-        'aliases': [
-          'battery-0'
-        ],
-        'filter' : [
-          'power'
+        "name": "Alternate Level Up",
+        "id": "level-up-alt",
+        "filter": [
+          "arrows",
+          "level-up",
+          "level-up-alt"
         ]
       },
       {
-        'name': 'Mouse Pointer',
-        'id'  : 'mouse-pointer'
+        "name": "Alternate Level Down",
+        "id": "level-down-alt",
+        "filter": [
+          "arrows",
+          "level-down",
+          "level-down-alt"
+        ]
       },
       {
-        'name': 'I Beam Cursor',
-        'id'  : 'i-cursor'
+        "name": "Less Than Equal To",
+        "id": "less-than-equal",
+        "filter": [
+          "mathematics",
+          "less-than-equal"
+        ]
       },
       {
-        'name': 'Object Group',
-        'id'  : 'object-group'
+        "name": "Less Than",
+        "id": "less-than",
+        "filter": [
+          "mathematics",
+          "less-than"
+        ]
       },
       {
-        'name': 'Object Ungroup',
-        'id'  : 'object-ungroup'
+        "name": "Less",
+        "id": "less",
+        "filter": [
+          "less"
+        ]
       },
       {
-        'name': 'Sticky Note',
-        'id'  : 'sticky-note'
+        "name": "Lemon",
+        "id": "lemon",
+        "filter": [
+          "objects",
+          "maps",
+          "food",
+          "lemon"
+        ]
       },
       {
-        'name': 'Sticky Note Outlined',
-        'id'  : 'sticky-note-o'
+        "name": "Leanpub",
+        "id": "leanpub",
+        "filter": [
+          "leanpub"
+        ]
       },
       {
-        'name': 'JCB Credit Card',
-        'id'  : 'cc-jcb'
+        "name": "leaf",
+        "id": "leaf",
+        "filter": [
+          "charity",
+          "objects",
+          "maps",
+          "eco",
+          "nature",
+          "plant",
+          "leaf"
+        ]
       },
       {
-        'name': 'Diner\'s Club Credit Card',
-        'id'  : 'cc-diners-club'
+        "name": "Laughing Winking Face",
+        "id": "laugh-wink",
+        "filter": [
+          "emoji",
+          "LOL",
+          "emoticon",
+          "face",
+          "laugh-wink"
+        ]
       },
       {
-        'name'  : 'Clone',
-        'id'    : 'clone',
-        'filter': [
-          'copy'
+        "name": "Laughing Squinting Face",
+        "id": "laugh-squint",
+        "filter": [
+          "emoji",
+          "LOL",
+          "emoticon",
+          "face",
+          "laugh-squint"
         ]
       },
       {
-        'name': 'Balance Scale',
-        'id'  : 'balance-scale'
+        "name": "Laugh Face with Beaming Eyes",
+        "id": "laugh-beam",
+        "filter": [
+          "emoji",
+          "LOL",
+          "emoticon",
+          "face",
+          "laugh-beam"
+        ]
       },
       {
-        'name': 'Hourglass Outlined',
-        'id'  : 'hourglass-o'
+        "name": "Grinning Face With Big Eyes",
+        "id": "laugh",
+        "filter": [
+          "emoji",
+          "LOL",
+          "emoticon",
+          "face",
+          "laugh",
+          "laugh"
+        ]
       },
       {
-        'name'   : 'Hourglass Start',
-        'id'     : 'hourglass-start',
-        'aliases': [
-          'hourglass-1'
+        "name": "last.fm Square",
+        "id": "lastfm-square",
+        "filter": [
+          "lastfm-square"
         ]
       },
       {
-        'name'   : 'Hourglass Half',
-        'id'     : 'hourglass-half',
-        'aliases': [
-          'hourglass-2'
+        "name": "last.fm",
+        "id": "lastfm",
+        "filter": [
+          "lastfm"
         ]
       },
       {
-        'name'   : 'Hourglass End',
-        'id'     : 'hourglass-end',
-        'aliases': [
-          'hourglass-3'
+        "name": "Laravel",
+        "id": "laravel",
+        "filter": [
+          "laravel"
         ]
       },
       {
-        'name': 'Hourglass',
-        'id'  : 'hourglass'
+        "name": "Laptop",
+        "id": "laptop",
+        "filter": [
+          "computers",
+          "objects",
+          "computer",
+          "cpu",
+          "dell",
+          "demo",
+          "device",
+          "dude you're getting",
+          "mac",
+          "macbook",
+          "machine",
+          "pc",
+          "pc",
+          "laptop"
+        ]
       },
       {
-        'name'   : 'Rock (Hand)',
-        'id'     : 'hand-rock-o',
-        'aliases': [
-          'hand-grab-o'
+        "name": "Language",
+        "id": "language",
+        "filter": [
+          "interfaces",
+          "communication",
+          "dialect",
+          "idiom",
+          "localize",
+          "speech",
+          "translate",
+          "vernacular",
+          "language"
         ]
       },
       {
-        'name'   : 'Paper (Hand)',
-        'id'     : 'hand-paper-o',
-        'aliases': [
-          'hand-stop-o'
-        ],
-        'filter' : [
-          'stop'
+        "name": "KORVUE",
+        "id": "korvue",
+        "filter": [
+          "korvue"
         ]
       },
       {
-        'name': 'Scissors (Hand)',
-        'id'  : 'hand-scissors-o'
+        "name": "Kiwi Bird",
+        "id": "kiwi-bird",
+        "filter": [
+          "animals",
+          "kiwi-bird"
+        ]
       },
       {
-        'name': 'Lizard (Hand)',
-        'id'  : 'hand-lizard-o'
+        "name": "Face Blowing a Kiss",
+        "id": "kiss-wink-heart",
+        "filter": [
+          "emoji",
+          "beso",
+          "emoticon",
+          "face",
+          "love",
+          "smooch",
+          "kiss-wink-heart"
+        ]
       },
       {
-        'name': 'Spock (Hand)',
-        'id'  : 'hand-spock-o'
+        "name": "Kissing Face With Smiling Eyes",
+        "id": "kiss-beam",
+        "filter": [
+          "emoji",
+          "beso",
+          "emoticon",
+          "face",
+          "love",
+          "smooch",
+          "kiss-beam"
+        ]
       },
       {
-        'name': 'Hand Pointer',
-        'id'  : 'hand-pointer-o'
+        "name": "Kissing Face",
+        "id": "kiss",
+        "filter": [
+          "emoji",
+          "beso",
+          "emoticon",
+          "face",
+          "love",
+          "smooch",
+          "kiss"
+        ]
       },
       {
-        'name': 'Hand Peace',
-        'id'  : 'hand-peace-o'
+        "name": "Kickstarter K",
+        "id": "kickstarter-k",
+        "filter": [
+          "kickstarter-k"
+        ]
       },
       {
-        'name': 'Trademark',
-        'id'  : 'trademark'
+        "name": "Kickstarter",
+        "id": "kickstarter",
+        "filter": [
+          "kickstarter"
+        ]
       },
       {
-        'name': 'Registered Trademark',
-        'id'  : 'registered'
+        "name": "KeyCDN",
+        "id": "keycdn",
+        "filter": [
+          "keycdn"
+        ]
       },
       {
-        'name': 'Creative Commons',
-        'id'  : 'creative-commons'
+        "name": "Keyboard",
+        "id": "keyboard",
+        "filter": [
+          "computers",
+          "writing",
+          "objects",
+          "code",
+          "input",
+          "type",
+          "keyboard"
+        ]
       },
       {
-        'name': 'GG Currency',
-        'id'  : 'gg'
+        "name": "Keybase",
+        "id": "keybase",
+        "filter": [
+          "keybase"
+        ]
       },
       {
-        'name': 'GG Currency Circle',
-        'id'  : 'gg-circle'
+        "name": "key",
+        "id": "key",
+        "filter": [
+          "payments-shopping",
+          "objects",
+          "maps",
+          "password",
+          "unlock",
+          "key"
+        ]
       },
       {
-        'name': 'TripAdvisor',
-        'id'  : 'tripadvisor'
+        "name": "jsFiddle",
+        "id": "jsfiddle",
+        "filter": [
+          "jsfiddle"
+        ]
       },
       {
-        'name': 'Odnoklassniki',
-        'id'  : 'odnoklassniki'
+        "name": "JavaScript (JS) Square",
+        "id": "js-square",
+        "filter": [
+          "js-square"
+        ]
       },
       {
-        'name': 'Odnoklassniki Square',
-        'id'  : 'odnoklassniki-square'
+        "name": "JavaScript (JS)",
+        "id": "js",
+        "filter": [
+          "js"
+        ]
       },
       {
-        'name': 'Get Pocket',
-        'id'  : 'get-pocket'
+        "name": "Joomla Logo",
+        "id": "joomla",
+        "filter": [
+          "joomla"
+        ]
       },
       {
-        'name': 'Wikipedia W',
-        'id'  : 'wikipedia-w'
+        "name": "Joint",
+        "id": "joint",
+        "filter": [
+          "blunt",
+          "cannabis",
+          "doobie",
+          "drugs",
+          "marijuana",
+          "roach",
+          "smoke",
+          "smoking",
+          "spliff",
+          "joint"
+        ]
       },
       {
-        'name'  : 'Safari',
-        'id'    : 'safari',
-        'filter': [
-          'browser'
+        "name": "Joget",
+        "id": "joget",
+        "filter": [
+          "joget"
         ]
       },
       {
-        'name'  : 'Chrome',
-        'id'    : 'chrome',
-        'filter': [
-          'browser'
+        "name": "Jenkis",
+        "id": "jenkins",
+        "filter": [
+          "jenkins"
         ]
       },
       {
-        'name'  : 'Firefox',
-        'id'    : 'firefox',
-        'filter': [
-          'browser'
+        "name": "Jedi Order",
+        "id": "jedi-order",
+        "filter": [
+          "jedi-order"
         ]
       },
       {
-        'name': 'Opera',
-        'id'  : 'opera'
+        "name": "Java",
+        "id": "java",
+        "filter": [
+          "java"
+        ]
       },
       {
-        'name'  : 'Internet-explorer',
-        'id'    : 'internet-explorer',
-        'filter': [
-          'browser',
-          'ie'
+        "name": "Itunes Note",
+        "id": "itunes-note",
+        "filter": [
+          "itunes-note"
         ]
       },
       {
-        'name'   : 'Television',
-        'id'     : 'television',
-        'aliases': [
-          'tv'
-        ],
-        'filter' : [
-          'display',
-          'computer',
-          'monitor'
+        "name": "iTunes",
+        "id": "itunes",
+        "filter": [
+          "itunes"
         ]
       },
       {
-        'name': 'Contao',
-        'id'  : 'contao'
+        "name": "italic",
+        "id": "italic",
+        "filter": [
+          "editors",
+          "italics",
+          "italic"
+        ]
       },
       {
-        'name': '500px',
-        'id'  : '500px'
+        "name": "ioxhost",
+        "id": "ioxhost",
+        "filter": [
+          "ioxhost"
+        ]
       },
       {
-        'name': 'Amazon',
-        'id'  : 'amazon'
+        "name": "Internet-explorer",
+        "id": "internet-explorer",
+        "filter": [
+          "browser",
+          "ie",
+          "internet-explorer"
+        ]
       },
       {
-        'name': 'Calendar Plus Outlined',
-        'id'  : 'calendar-plus-o'
+        "name": "Instagram",
+        "id": "instagram",
+        "filter": [
+          "instagram"
+        ]
       },
       {
-        'name': 'Calendar Minus Outlined',
-        'id'  : 'calendar-minus-o'
+        "name": "Info Circle",
+        "id": "info-circle",
+        "filter": [
+          "status",
+          "interfaces",
+          "maps",
+          "details",
+          "help",
+          "information",
+          "more",
+          "info-circle"
+        ]
       },
       {
-        'name': 'Calendar Times Outlined',
-        'id'  : 'calendar-times-o'
+        "name": "Info",
+        "id": "info",
+        "filter": [
+          "status",
+          "interfaces",
+          "maps",
+          "details",
+          "help",
+          "information",
+          "more",
+          "info"
+        ]
       },
       {
-        'name'  : 'Calendar Check Outlined',
-        'id'    : 'calendar-check-o',
-        'filter': [
-          'ok'
+        "name": "Infinity",
+        "id": "infinity",
+        "filter": [
+          "infinity"
         ]
       },
       {
-        'name'  : 'Industry',
-        'id'    : 'industry',
-        'filter': [
-          'factory'
+        "name": "Industry",
+        "id": "industry",
+        "filter": [
+          "buildings",
+          "business",
+          "objects",
+          "maps",
+          "factory",
+          "manufacturing",
+          "industry"
         ]
       },
       {
-        'name': 'Map Pin',
-        'id'  : 'map-pin'
+        "name": "Indent",
+        "id": "indent",
+        "filter": [
+          "editors",
+          "indent"
+        ]
       },
       {
-        'name': 'Map Signs',
-        'id'  : 'map-signs'
+        "name": "inbox",
+        "id": "inbox",
+        "filter": [
+          "communication",
+          "inbox"
+        ]
       },
       {
-        'name': 'Map Outlined',
-        'id'  : 'map-o'
+        "name": "IMDB",
+        "id": "imdb",
+        "filter": [
+          "imdb"
+        ]
       },
       {
-        'name': 'Map',
-        'id'  : 'map'
+        "name": "Images",
+        "id": "images",
+        "filter": [
+          "images",
+          "objects",
+          "maps",
+          "album",
+          "photo",
+          "picture",
+          "images"
+        ]
       },
       {
-        'name'  : 'Commenting',
-        'id'    : 'commenting',
-        'filter': [
-          'speech',
-          'notification',
-          'note',
-          'chat',
-          'bubble',
-          'feedback',
-          'message',
-          'texting',
-          'sms',
-          'conversation'
+        "name": "Image",
+        "id": "image",
+        "filter": [
+          "images",
+          "objects",
+          "maps",
+          "album",
+          "photo",
+          "picture",
+          "picture",
+          "image"
         ]
       },
       {
-        'name'  : 'Commenting Outlined',
-        'id'    : 'commenting-o',
-        'filter': [
-          'speech',
-          'notification',
-          'note',
-          'chat',
-          'bubble',
-          'feedback',
-          'message',
-          'texting',
-          'sms',
-          'conversation'
+        "name": "Alternate Identification Card",
+        "id": "id-card-alt",
+        "filter": [
+          "users-people",
+          "medical",
+          "demographics",
+          "id-card-alt"
         ]
       },
       {
-        'name': 'Houzz',
-        'id'  : 'houzz'
+        "name": "Identification Card",
+        "id": "id-card",
+        "filter": [
+          "users-people",
+          "images",
+          "document",
+          "identification",
+          "issued",
+          "id-card"
+        ]
       },
       {
-        'name': 'Vimeo',
-        'id'  : 'vimeo'
+        "name": "Identification Badge",
+        "id": "id-badge",
+        "filter": [
+          "users-people",
+          "images",
+          "id-badge"
+        ]
       },
       {
-        'name': 'Font Awesome Black Tie',
-        'id'  : 'black-tie'
+        "name": "I Beam Cursor",
+        "id": "i-cursor",
+        "filter": [
+          "interfaces",
+          "editors",
+          "i-cursor"
+        ]
       },
       {
-        'name': 'Fonticons',
-        'id'  : 'fonticons'
+        "name": "HubSpot",
+        "id": "hubspot",
+        "filter": [
+          "hubspot"
+        ]
       },
       {
-        'name': 'reddit Alien',
-        'id'  : 'reddit-alien'
+        "name": "HTML 5 Logo",
+        "id": "html5",
+        "filter": [
+          "html5"
+        ]
       },
       {
-        'name'  : 'Edge Browser',
-        'id'    : 'edge',
-        'filter': [
-          'browser',
-          'ie'
+        "name": "Houzz",
+        "id": "houzz",
+        "filter": [
+          "houzz"
         ]
       },
       {
-        'name'  : 'Credit Card',
-        'id'    : 'credit-card-alt',
-        'filter': [
-          'money',
-          'buy',
-          'debit',
-          'checkout',
-          'purchase',
-          'payment',
-          'credit card'
+        "name": "Hourglass Start",
+        "id": "hourglass-start",
+        "filter": [
+          "date-time",
+          "hourglass-start"
         ]
       },
       {
-        'name': 'Codie Pie',
-        'id'  : 'codiepie'
+        "name": "Hourglass Half",
+        "id": "hourglass-half",
+        "filter": [
+          "date-time",
+          "hourglass-half"
+        ]
       },
       {
-        'name': 'MODX',
-        'id'  : 'modx'
+        "name": "Hourglass End",
+        "id": "hourglass-end",
+        "filter": [
+          "date-time",
+          "hourglass-end"
+        ]
       },
       {
-        'name': 'Fort Awesome',
-        'id'  : 'fort-awesome'
+        "name": "Hourglass",
+        "id": "hourglass",
+        "filter": [
+          "date-time",
+          "objects",
+          "hourglass"
+        ]
       },
       {
-        'name': 'USB',
-        'id'  : 'usb'
+        "name": "Hotjar",
+        "id": "hotjar",
+        "filter": [
+          "hotjar"
+        ]
       },
       {
-        'name': 'Product Hunt',
-        'id'  : 'product-hunt'
+        "name": "Hotel",
+        "id": "hotel",
+        "filter": [
+          "travel",
+          "building",
+          "lodging",
+          "hotel"
+        ]
       },
       {
-        'name': 'Mixcloud',
-        'id'  : 'mixcloud'
+        "name": "Hot Tub",
+        "id": "hot-tub",
+        "filter": [
+          "travel",
+          "hot-tub"
+        ]
       },
       {
-        'name': 'Scribd',
-        'id'  : 'scribd'
+        "name": "Hospital Symbol",
+        "id": "hospital-symbol",
+        "filter": [
+          "medical",
+          "hospital-symbol"
+        ]
       },
       {
-        'name': 'Pause Circle',
-        'id'  : 'pause-circle'
+        "name": "Alternate Hospital",
+        "id": "hospital-alt",
+        "filter": [
+          "buildings",
+          "medical",
+          "building",
+          "emergency room",
+          "medical center",
+          "hospital-alt"
+        ]
       },
       {
-        'name': 'Pause Circle Outlined',
-        'id'  : 'pause-circle-o'
+        "name": "hospital",
+        "id": "hospital",
+        "filter": [
+          "buildings",
+          "medical",
+          "health",
+          "objects",
+          "maps",
+          "building",
+          "emergency room",
+          "medical center",
+          "hospital"
+        ]
       },
       {
-        'name': 'Stop Circle',
-        'id'  : 'stop-circle'
+        "name": "Hornbill",
+        "id": "hornbill",
+        "filter": [
+          "hornbill"
+        ]
       },
       {
-        'name': 'Stop Circle Outlined',
-        'id'  : 'stop-circle-o'
+        "name": "Hooli",
+        "id": "hooli",
+        "filter": [
+          "hooli"
+        ]
       },
       {
-        'name': 'Shopping Bag',
-        'id'  : 'shopping-bag'
+        "name": "home",
+        "id": "home",
+        "filter": [
+          "buildings",
+          "interfaces",
+          "objects",
+          "maps",
+          "house",
+          "main",
+          "home"
+        ]
       },
       {
-        'name': 'Shopping Basket',
-        'id'  : 'shopping-basket'
+        "name": "Hockey Puck",
+        "id": "hockey-puck",
+        "filter": [
+          "sports",
+          "hockey-puck"
+        ]
       },
       {
-        'name': 'Hashtag',
-        'id'  : 'hashtag'
+        "name": "History",
+        "id": "history",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "history"
+        ]
       },
       {
-        'name': 'Bluetooth',
-        'id'  : 'bluetooth'
+        "name": "HireAHelper",
+        "id": "hire-a-helper",
+        "filter": [
+          "hire-a-helper"
+        ]
       },
       {
-        'name': 'Bluetooth',
-        'id'  : 'bluetooth-b'
+        "name": "Hips",
+        "id": "hips",
+        "filter": [
+          "hips"
+        ]
       },
       {
-        'name': 'Percent',
-        'id'  : 'percent'
+        "name": "Highlighter",
+        "id": "highlighter",
+        "filter": [
+          "design",
+          "editors",
+          "business",
+          "objects",
+          "edit",
+          "marker",
+          "sharpie",
+          "update",
+          "write",
+          "highlighter"
+        ]
       },
       {
-        'name': 'GitLab',
-        'id'  : 'gitlab'
+        "name": "Helicopter",
+        "id": "helicopter",
+        "filter": [
+          "vehicles",
+          "objects",
+          "maps",
+          "airwolf",
+          "apache",
+          "chopper",
+          "flight",
+          "fly",
+          "helicopter"
+        ]
       },
       {
-        'name': 'WPBeginner',
-        'id'  : 'wpbeginner'
+        "name": "Heartbeat",
+        "id": "heartbeat",
+        "filter": [
+          "medical",
+          "health",
+          "maps",
+          "ekg",
+          "lifeline",
+          "vital signs",
+          "heartbeat"
+        ]
       },
       {
-        'name': 'WPForms',
-        'id'  : 'wpforms'
+        "name": "Heart",
+        "id": "heart",
+        "filter": [
+          "medical",
+          "charity",
+          "shapes",
+          "interfaces",
+          "payments-shopping",
+          "health",
+          "objects",
+          "maps",
+          "favorite",
+          "like",
+          "love",
+          "heart"
+        ]
       },
       {
-        'name'  : 'Envira Gallery',
-        'id'    : 'envira',
-        'filter': [
-          'leaf'
+        "name": "Headset",
+        "id": "headset",
+        "filter": [
+          "objects",
+          "audio",
+          "gamer",
+          "gaming",
+          "listen",
+          "live chat",
+          "microphone",
+          "shot caller",
+          "sound",
+          "support",
+          "telemarketer",
+          "headset"
         ]
       },
       {
-        'name': 'Universal Access',
-        'id'  : 'universal-access'
+        "name": "Headphones Alt",
+        "id": "headphones-alt",
+        "filter": [
+          "objects",
+          "audio",
+          "listen",
+          "music",
+          "sound",
+          "speaker",
+          "headphones-alt"
+        ]
       },
       {
-        'name'  : 'Wheelchair Alt',
-        'id'    : 'wheelchair-alt',
-        'filter': [
-          'handicap',
-          'person'
+        "name": "headphones",
+        "id": "headphones",
+        "filter": [
+          "computers",
+          "audio-video",
+          "objects",
+          "objects",
+          "audio",
+          "listen",
+          "music",
+          "sound",
+          "speaker",
+          "headphones"
         ]
       },
       {
-        'name': 'Question Circle Outlined',
-        'id'  : 'question-circle-o'
+        "name": "heading",
+        "id": "heading",
+        "filter": [
+          "editors",
+          "header",
+          "header",
+          "heading"
+        ]
       },
       {
-        'name': 'Blind',
-        'id'  : 'blind'
+        "name": "HDD",
+        "id": "hdd",
+        "filter": [
+          "computers",
+          "objects",
+          "cpu",
+          "hard drive",
+          "harddrive",
+          "machine",
+          "save",
+          "storage",
+          "hdd"
+        ]
       },
       {
-        'name': 'Audio Description',
-        'id'  : 'audio-description'
+        "name": "Hashtag",
+        "id": "hashtag",
+        "filter": [
+          "interfaces",
+          "hashtag"
+        ]
       },
       {
-        'name'  : 'Volume Control Phone',
-        'id'    : 'volume-control-phone',
-        'filter': [
-          'telephone'
+        "name": "Handshake",
+        "id": "handshake",
+        "filter": [
+          "charity",
+          "hands",
+          "payments-shopping",
+          "greeting",
+          "partnership",
+          "handshake"
         ]
       },
       {
-        'name': 'Braille',
-        'id'  : 'braille'
+        "name": "Helping Hands",
+        "id": "hands-helping",
+        "filter": [
+          "charity",
+          "aid",
+          "assistance",
+          "partnership",
+          "volunteering",
+          "hands-helping"
+        ]
       },
       {
-        'name': 'Assistive Listening Systems',
-        'id'  : 'assistive-listening-systems'
+        "name": "Hands",
+        "id": "hands",
+        "filter": [
+          "hands",
+          "hands"
+        ]
       },
       {
-        'name'   : 'American Sign Language Interpreting',
-        'id'     : 'american-sign-language-interpreting',
-        'aliases': [
-          'asl-interpreting'
+        "name": "Spock (Hand)",
+        "id": "hand-spock",
+        "filter": [
+          "hands",
+          "hand-spock"
         ]
       },
       {
-        'name'   : 'Deaf',
-        'id'     : 'deaf',
-        'aliases': [
-          'deafness',
-          'hard-of-hearing'
+        "name": "Scissors (Hand)",
+        "id": "hand-scissors",
+        "filter": [
+          "hands",
+          "hand-scissors"
         ]
       },
       {
-        'name': 'Glide',
-        'id'  : 'glide'
+        "name": "Rock (Hand)",
+        "id": "hand-rock",
+        "filter": [
+          "hands",
+          "hand-rock"
+        ]
       },
       {
-        'name': 'Glide G',
-        'id'  : 'glide-g'
+        "name": "Pointer (Hand)",
+        "id": "hand-pointer",
+        "filter": [
+          "arrows",
+          "hands",
+          "select",
+          "hand-pointer"
+        ]
       },
       {
-        'name'   : 'Sign Language',
-        'id'     : 'sign-language',
-        'aliases': [
-          'signing'
+        "name": "Hand Pointing Up",
+        "id": "hand-point-up",
+        "filter": [
+          "arrows",
+          "hands",
+          "finger",
+          "hand-o-up",
+          "point",
+          "hand-point-up"
         ]
       },
       {
-        'name': 'Low Vision',
-        'id'  : 'low-vision'
+        "name": "Hand Pointing Right",
+        "id": "hand-point-right",
+        "filter": [
+          "arrows",
+          "hands",
+          "finger",
+          "forward",
+          "hand-o-right",
+          "next",
+          "point",
+          "right",
+          "hand-point-right"
+        ]
       },
       {
-        'name': 'Viadeo',
-        'id'  : 'viadeo'
+        "name": "Hand Pointing Left",
+        "id": "hand-point-left",
+        "filter": [
+          "arrows",
+          "hands",
+          "back",
+          "finger",
+          "hand-o-left",
+          "left",
+          "point",
+          "previous",
+          "hand-point-left"
+        ]
       },
       {
-        'name': 'Viadeo Square',
-        'id'  : 'viadeo-square'
+        "name": "Hand Pointing Down",
+        "id": "hand-point-down",
+        "filter": [
+          "arrows",
+          "hands",
+          "finger",
+          "hand-o-down",
+          "point",
+          "hand-point-down"
+        ]
       },
       {
-        'name': 'Snapchat',
-        'id'  : 'snapchat'
+        "name": "Peace (Hand)",
+        "id": "hand-peace",
+        "filter": [
+          "hands",
+          "hand-peace"
+        ]
       },
       {
-        'name': 'Snapchat Ghost',
-        'id'  : 'snapchat-ghost'
+        "name": "Paper (Hand)",
+        "id": "hand-paper",
+        "filter": [
+          "hands",
+          "stop",
+          "hand-paper"
+        ]
       },
       {
-        'name': 'Snapchat Square',
-        'id'  : 'snapchat-square'
+        "name": "Lizard (Hand)",
+        "id": "hand-lizard",
+        "filter": [
+          "hands",
+          "hand-lizard"
+        ]
       },
       {
-        'name': 'Pied Piper Logo',
-        'id'  : 'pied-piper'
+        "name": "Hand Holding US Dollar",
+        "id": "hand-holding-usd",
+        "filter": [
+          "charity",
+          "$",
+          "dollar sign",
+          "donation",
+          "giving",
+          "money",
+          "price",
+          "hand-holding-usd"
+        ]
       },
       {
-        'name': 'First Order',
-        'id'  : 'first-order'
+        "name": "Hand Holding Heart",
+        "id": "hand-holding-heart",
+        "filter": [
+          "charity",
+          "hand-holding-heart"
+        ]
       },
       {
-        'name': 'Yoast',
-        'id'  : 'yoast'
+        "name": "Hand Holding",
+        "id": "hand-holding",
+        "filter": [
+          "hands",
+          "hand-holding"
+        ]
       },
       {
-        'name': 'ThemeIsle',
-        'id'  : 'themeisle'
+        "name": "Hacker News Square",
+        "id": "hacker-news-square",
+        "filter": [
+          "hacker-news-square"
+        ]
       },
       {
-        'name'   : 'Google Plus Official',
-        'id'     : 'google-plus-official',
-        'aliases': [
-          'google-plus-circle'
+        "name": "Hacker News",
+        "id": "hacker-news",
+        "filter": [
+          "hacker-news"
         ]
       },
       {
-        'name'   : 'Font Awesome',
-        'id'     : 'font-awesome',
-        'aliases': [
-          'fa'
+        "name": "H Square",
+        "id": "h-square",
+        "filter": [
+          "health",
+          "maps",
+          "hospital",
+          "hotel",
+          "h-square"
         ]
       },
       {
-        'name': 'Handshake Outlined',
-        'id'  : 'handshake-o'
+        "name": "Gulp",
+        "id": "gulp",
+        "filter": [
+          "gulp"
+        ]
       },
       {
-        'name'  : 'Envelope Open',
-        'id'    : 'envelope-open',
-        'filter': [
-          'email',
-          'e-mail',
-          'letter',
-          'support',
-          'mail',
-          'message',
-          'notification'
+        "name": "Grunt",
+        "id": "grunt",
+        "filter": [
+          "grunt"
         ]
       },
       {
-        'name'  : 'Envelope Open Outlined',
-        'id'    : 'envelope-open-o',
-        'filter': [
-          'email',
-          'e-mail',
-          'letter',
-          'support',
-          'mail',
-          'message',
-          'notification'
+        "name": "Gripfire, Inc.",
+        "id": "gripfire",
+        "filter": [
+          "gripfire"
         ]
       },
       {
-        'name': 'Linode',
-        'id'  : 'linode'
+        "name": "Grip Vertical",
+        "id": "grip-vertical",
+        "filter": [
+          "interfaces",
+          "affordance",
+          "drag",
+          "drop",
+          "grab",
+          "handle",
+          "grip-vertical"
+        ]
       },
       {
-        'name': 'Address Book',
-        'id'  : 'address-book'
+        "name": "Grip Horizontal",
+        "id": "grip-horizontal",
+        "filter": [
+          "interfaces",
+          "affordance",
+          "drag",
+          "drop",
+          "grab",
+          "handle",
+          "grip-horizontal"
+        ]
       },
       {
-        'name': 'Address Book Outlined',
-        'id'  : 'address-book-o'
+        "name": "Grinning Winking Face",
+        "id": "grin-wink",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "flirt",
+          "laugh",
+          "smile",
+          "grin-wink"
+        ]
       },
       {
-        'name'   : 'Address Card',
-        'id'     : 'address-card',
-        'aliases': [
-          'vcard'
+        "name": "Winking Face With Tongue",
+        "id": "grin-tongue-wink",
+        "filter": [
+          "emoji",
+          "LOL",
+          "emoticon",
+          "face",
+          "grin-tongue-wink"
         ]
       },
       {
-        'name'   : 'Address Card Outlined',
-        'id'     : 'address-card-o',
-        'aliases': [
-          'vcard-o'
+        "name": "Squinting Face With Tongue",
+        "id": "grin-tongue-squint",
+        "filter": [
+          "emoji",
+          "LOL",
+          "emoticon",
+          "face",
+          "grin-tongue-squint"
         ]
       },
       {
-        'name': 'User Circle',
-        'id'  : 'user-circle'
+        "name": "Face With Tongue",
+        "id": "grin-tongue",
+        "filter": [
+          "emoji",
+          "LOL",
+          "emoticon",
+          "face",
+          "grin-tongue"
+        ]
       },
       {
-        'name': 'User Circle Outlined',
-        'id'  : 'user-circle-o'
+        "name": "Face With Tears of Joy",
+        "id": "grin-tears",
+        "filter": [
+          "emoji",
+          "LOL",
+          "emoticon",
+          "face",
+          "grin-tears"
+        ]
       },
       {
-        'name': 'User Outlined',
-        'id'  : 'user-o'
+        "name": "Star-Struck",
+        "id": "grin-stars",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "star-struck",
+          "grin-stars"
+        ]
       },
       {
-        'name': 'Identification Badge',
-        'id'  : 'id-badge'
+        "name": "Rolling on the Floor Laughing",
+        "id": "grin-squint-tears",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "happy",
+          "smile",
+          "grin-squint-tears"
+        ]
       },
       {
-        'name'   : 'Identification Card',
-        'id'     : 'id-card',
-        'aliases': [
-          'drivers-license'
+        "name": "Grinning Squinting Face",
+        "id": "grin-squint",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "laugh",
+          "smile",
+          "grin-squint"
         ]
       },
       {
-        'name'   : 'Identification Card Outlined',
-        'id'     : 'id-card-o',
-        'aliases': [
-          'drivers-license-o'
+        "name": "Smiling Face With Heart-Eyes",
+        "id": "grin-hearts",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "love",
+          "smile",
+          "grin-hearts"
         ]
       },
       {
-        'name': 'Quora',
-        'id'  : 'quora'
+        "name": "Grinning Face With Sweat",
+        "id": "grin-beam-sweat",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "smile",
+          "grin-beam-sweat"
+        ]
       },
       {
-        'name': 'Free Code Camp',
-        'id'  : 'free-code-camp'
+        "name": "Grinning Face With Smiling Eyes",
+        "id": "grin-beam",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "laugh",
+          "smile",
+          "grin-beam"
+        ]
+      },
+      {
+        "name": "Alternate Grinning Face",
+        "id": "grin-alt",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "laugh",
+          "smile",
+          "grin-alt"
+        ]
+      },
+      {
+        "name": "Grinning Face",
+        "id": "grin",
+        "filter": [
+          "emoji",
+          "emoticon",
+          "face",
+          "laugh",
+          "smile",
+          "grin"
+        ]
+      },
+      {
+        "name": "Grimacing Face",
+        "id": "grimace",
+        "filter": [
+          "emoji",
+          "cringe",
+          "emoticon",
+          "face",
+          "grimace"
+        ]
+      },
+      {
+        "name": "Greater Than Equal To",
+        "id": "greater-than-equal",
+        "filter": [
+          "mathematics",
+          "greater-than-equal"
+        ]
+      },
+      {
+        "name": "Greater Than",
+        "id": "greater-than",
+        "filter": [
+          "mathematics",
+          "greater-than"
+        ]
+      },
+      {
+        "name": "Grav",
+        "id": "grav",
+        "filter": [
+          "grav"
+        ]
+      },
+      {
+        "name": "Gratipay (Gittip)",
+        "id": "gratipay",
+        "filter": [
+          "favorite",
+          "heart",
+          "like",
+          "love",
+          "gratipay"
+        ]
+      },
+      {
+        "name": "Graduation Cap",
+        "id": "graduation-cap",
+        "filter": [
+          "objects",
+          "maps",
+          "learning",
+          "school",
+          "student",
+          "graduation-cap"
+        ]
+      },
+      {
+        "name": "Google Wallet",
+        "id": "google-wallet",
+        "filter": [
+          "payments-shopping",
+          "google-wallet"
+        ]
+      },
+      {
+        "name": "Google Plus Square",
+        "id": "google-plus-square",
+        "filter": [
+          "social network",
+          "google-plus-square"
+        ]
+      },
+      {
+        "name": "Google Plus G",
+        "id": "google-plus-g",
+        "filter": [
+          "google-plus",
+          "social network",
+          "google-plus-g"
+        ]
+      },
+      {
+        "name": "Google Plus",
+        "id": "google-plus",
+        "filter": [
+          "google-plus-circle",
+          "google-plus-official",
+          "google-plus"
+        ]
+      },
+      {
+        "name": "Google Play",
+        "id": "google-play",
+        "filter": [
+          "google-play"
+        ]
+      },
+      {
+        "name": "Google Drive",
+        "id": "google-drive",
+        "filter": [
+          "google-drive"
+        ]
+      },
+      {
+        "name": "Google Logo",
+        "id": "google",
+        "filter": [
+          "google"
+        ]
+      },
+      {
+        "name": "Goodreads G",
+        "id": "goodreads-g",
+        "filter": [
+          "goodreads-g"
+        ]
+      },
+      {
+        "name": "Goodreads",
+        "id": "goodreads",
+        "filter": [
+          "goodreads"
+        ]
+      },
+      {
+        "name": "Golf Ball",
+        "id": "golf-ball",
+        "filter": [
+          "sports",
+          "golf-ball"
+        ]
+      },
+      {
+        "name": "Gofore",
+        "id": "gofore",
+        "filter": [
+          "gofore"
+        ]
+      },
+      {
+        "name": "Globe with Asia shown",
+        "id": "globe-asia",
+        "filter": [
+          "travel",
+          "all",
+          "country",
+          "earth",
+          "global",
+          "gps",
+          "language",
+          "localize",
+          "location",
+          "map",
+          "online",
+          "place",
+          "planet",
+          "translate",
+          "travel",
+          "world",
+          "globe-asia"
+        ]
+      },
+      {
+        "name": "Globe with Americas shown",
+        "id": "globe-americas",
+        "filter": [
+          "travel",
+          "all",
+          "country",
+          "earth",
+          "global",
+          "gps",
+          "language",
+          "localize",
+          "location",
+          "map",
+          "online",
+          "place",
+          "planet",
+          "translate",
+          "travel",
+          "world",
+          "globe-americas"
+        ]
+      },
+      {
+        "name": "Globe with Africa shown",
+        "id": "globe-africa",
+        "filter": [
+          "travel",
+          "all",
+          "country",
+          "earth",
+          "global",
+          "gps",
+          "language",
+          "localize",
+          "location",
+          "map",
+          "online",
+          "place",
+          "planet",
+          "translate",
+          "travel",
+          "world",
+          "globe-africa"
+        ]
+      },
+      {
+        "name": "Globe",
+        "id": "globe",
+        "filter": [
+          "charity",
+          "business",
+          "objects",
+          "maps",
+          "all",
+          "coordinates",
+          "country",
+          "earth",
+          "global",
+          "gps",
+          "language",
+          "localize",
+          "location",
+          "map",
+          "online",
+          "place",
+          "planet",
+          "translate",
+          "travel",
+          "world",
+          "globe"
+        ]
+      },
+      {
+        "name": "Glide G",
+        "id": "glide-g",
+        "filter": [
+          "glide-g"
+        ]
+      },
+      {
+        "name": "Glide",
+        "id": "glide",
+        "filter": [
+          "glide"
+        ]
+      },
+      {
+        "name": "Glasses",
+        "id": "glasses",
+        "filter": [
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "foureyes",
+          "hipster",
+          "nerd",
+          "reading",
+          "sight",
+          "spectacles",
+          "glasses"
+        ]
+      },
+      {
+        "name": "Glass Martini-alt",
+        "id": "glass-martini-alt",
+        "filter": [
+          "travel",
+          "glass-martini-alt"
+        ]
+      },
+      {
+        "name": "Martini Glass",
+        "id": "glass-martini",
+        "filter": [
+          "travel",
+          "objects",
+          "maps",
+          "alcohol",
+          "bar",
+          "drink",
+          "glass",
+          "liquor",
+          "martini",
+          "glass-martini"
+        ]
+      },
+      {
+        "name": "Gitter",
+        "id": "gitter",
+        "filter": [
+          "gitter"
+        ]
+      },
+      {
+        "name": "GitLab",
+        "id": "gitlab",
+        "filter": [
+          "Axosoft",
+          "gitlab"
+        ]
+      },
+      {
+        "name": "GitKraken",
+        "id": "gitkraken",
+        "filter": [
+          "gitkraken"
+        ]
+      },
+      {
+        "name": "GitHub Square",
+        "id": "github-square",
+        "filter": [
+          "octocat",
+          "github-square"
+        ]
+      },
+      {
+        "name": "Alternate GitHub",
+        "id": "github-alt",
+        "filter": [
+          "octocat",
+          "github-alt"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "id": "github",
+        "filter": [
+          "octocat",
+          "github"
+        ]
+      },
+      {
+        "name": "Git Square",
+        "id": "git-square",
+        "filter": [
+          "git-square"
+        ]
+      },
+      {
+        "name": "Git",
+        "id": "git",
+        "filter": [
+          "git"
+        ]
+      },
+      {
+        "name": "gift",
+        "id": "gift",
+        "filter": [
+          "charity",
+          "payments-shopping",
+          "objects",
+          "maps",
+          "generosity",
+          "giving",
+          "party",
+          "present",
+          "wrapped",
+          "gift"
+        ]
+      },
+      {
+        "name": "GG Currency Circle",
+        "id": "gg-circle",
+        "filter": [
+          "currency",
+          "gg-circle"
+        ]
+      },
+      {
+        "name": "GG Currency",
+        "id": "gg",
+        "filter": [
+          "currency",
+          "gg"
+        ]
+      },
+      {
+        "name": "Get Pocket",
+        "id": "get-pocket",
+        "filter": [
+          "get-pocket"
+        ]
+      },
+      {
+        "name": "Genderless",
+        "id": "genderless",
+        "filter": [
+          "gender",
+          "genderless"
+        ]
+      },
+      {
+        "name": "Gem",
+        "id": "gem",
+        "filter": [
+          "payments-shopping",
+          "objects",
+          "diamond",
+          "gem"
+        ]
+      },
+      {
+        "name": "Gavel",
+        "id": "gavel",
+        "filter": [
+          "objects",
+          "maps",
+          "hammer",
+          "judge",
+          "lawyer",
+          "opinion",
+          "gavel"
+        ]
+      },
+      {
+        "name": "Gas Pump",
+        "id": "gas-pump",
+        "filter": [
+          "gas-pump"
+        ]
+      },
+      {
+        "name": "Gamepad",
+        "id": "gamepad",
+        "filter": [
+          "objects",
+          "maps",
+          "controller",
+          "gamepad"
+        ]
+      },
+      {
+        "name": "Galactic Senate",
+        "id": "galactic-senate",
+        "filter": [
+          "galactic-senate"
+        ]
+      },
+      {
+        "name": "Galactic Republic",
+        "id": "galactic-republic",
+        "filter": [
+          "galactic-republic"
+        ]
+      },
+      {
+        "name": "Futbol",
+        "id": "futbol",
+        "filter": [
+          "sports",
+          "objects",
+          "ball",
+          "football",
+          "soccer",
+          "futbol"
+        ]
+      },
+      {
+        "name": "Fulcrum",
+        "id": "fulcrum",
+        "filter": [
+          "fulcrum"
+        ]
+      },
+      {
+        "name": "Frowning Face With Open Mouth",
+        "id": "frown-open",
+        "filter": [
+          "emoji",
+          "disapprove",
+          "emoticon",
+          "face",
+          "rating",
+          "sad",
+          "frown-open"
+        ]
+      },
+      {
+        "name": "Frowning Face",
+        "id": "frown",
+        "filter": [
+          "users-people",
+          "chat",
+          "interfaces",
+          "emoji",
+          "disapprove",
+          "emoticon",
+          "face",
+          "rating",
+          "sad",
+          "frown"
+        ]
+      },
+      {
+        "name": "Frog",
+        "id": "frog",
+        "filter": [
+          "animals",
+          "bullfrog",
+          "kermit",
+          "kiss",
+          "prince",
+          "toad",
+          "wart",
+          "frog"
+        ]
+      },
+      {
+        "name": "FreeBSD",
+        "id": "freebsd",
+        "filter": [
+          "freebsd"
+        ]
+      },
+      {
+        "name": "Free Code Camp",
+        "id": "free-code-camp",
+        "filter": [
+          "free-code-camp"
+        ]
+      },
+      {
+        "name": "Foursquare",
+        "id": "foursquare",
+        "filter": [
+          "foursquare"
+        ]
+      },
+      {
+        "name": "forward",
+        "id": "forward",
+        "filter": [
+          "audio-video",
+          "forward",
+          "next",
+          "forward"
+        ]
+      },
+      {
+        "name": "Forumbee",
+        "id": "forumbee",
+        "filter": [
+          "forumbee"
+        ]
+      },
+      {
+        "name": "Alternate Fort Awesome",
+        "id": "fort-awesome-alt",
+        "filter": [
+          "castle",
+          "fort-awesome-alt"
+        ]
+      },
+      {
+        "name": "Fort Awesome",
+        "id": "fort-awesome",
+        "filter": [
+          "castle",
+          "fort-awesome"
+        ]
+      },
+      {
+        "name": "Football Ball",
+        "id": "football-ball",
+        "filter": [
+          "sports",
+          "football-ball"
+        ]
+      },
+      {
+        "name": "Fonticons Fi",
+        "id": "fonticons-fi",
+        "filter": [
+          "fonticons-fi"
+        ]
+      },
+      {
+        "name": "Fonticons",
+        "id": "fonticons",
+        "filter": [
+          "fonticons"
+        ]
+      },
+      {
+        "name": "Font Awesome Full Logo",
+        "id": "font-awesome-logo-full",
+        "filter": [
+          "font-awesome-logo-full"
+        ]
+      },
+      {
+        "name": "Font Awesome Flag",
+        "id": "font-awesome-flag",
+        "filter": [
+          "font-awesome-flag"
+        ]
+      },
+      {
+        "name": "Alternate Font Awesome",
+        "id": "font-awesome-alt",
+        "filter": [
+          "font-awesome-alt"
+        ]
+      },
+      {
+        "name": "Font Awesome",
+        "id": "font-awesome",
+        "filter": [
+          "meanpath",
+          "font-awesome"
+        ]
+      },
+      {
+        "name": "font",
+        "id": "font",
+        "filter": [
+          "editors",
+          "text",
+          "font"
+        ]
+      },
+      {
+        "name": "Folder Open",
+        "id": "folder-open",
+        "filter": [
+          "files",
+          "status",
+          "writing",
+          "interfaces",
+          "business",
+          "code",
+          "folder-open"
+        ]
+      },
+      {
+        "name": "Folder",
+        "id": "folder",
+        "filter": [
+          "files",
+          "status",
+          "shapes",
+          "writing",
+          "interfaces",
+          "business",
+          "code",
+          "folder"
+        ]
+      },
+      {
+        "name": "Fly",
+        "id": "fly",
+        "filter": [
+          "fly"
+        ]
+      },
+      {
+        "name": "Flushed Face",
+        "id": "flushed",
+        "filter": [
+          "emoji",
+          "embarrassed",
+          "emoticon",
+          "face",
+          "flushed"
+        ]
+      },
+      {
+        "name": "Flipboard",
+        "id": "flipboard",
+        "filter": [
+          "flipboard"
+        ]
+      },
+      {
+        "name": "Flickr",
+        "id": "flickr",
+        "filter": [
+          "flickr"
+        ]
+      },
+      {
+        "name": "Flask",
+        "id": "flask",
+        "filter": [
+          "objects",
+          "maps",
+          "beaker",
+          "experimental",
+          "labs",
+          "science",
+          "flask"
+        ]
+      },
+      {
+        "name": "flag-checkered",
+        "id": "flag-checkered",
+        "filter": [
+          "interfaces",
+          "objects",
+          "maps",
+          "notice",
+          "notification",
+          "notify",
+          "report",
+          "flag-checkered"
+        ]
+      },
+      {
+        "name": "flag",
+        "id": "flag",
+        "filter": [
+          "interfaces",
+          "objects",
+          "maps",
+          "notice",
+          "notification",
+          "notify",
+          "report",
+          "flag"
+        ]
+      },
+      {
+        "name": "Fish",
+        "id": "fish",
+        "filter": [
+          "animals",
+          "fish"
+        ]
+      },
+      {
+        "name": "firstdraft",
+        "id": "firstdraft",
+        "filter": [
+          "firstdraft"
+        ]
+      },
+      {
+        "name": "Alternate First Order",
+        "id": "first-order-alt",
+        "filter": [
+          "first-order-alt"
+        ]
+      },
+      {
+        "name": "First Order",
+        "id": "first-order",
+        "filter": [
+          "first-order"
+        ]
+      },
+      {
+        "name": "First Aid",
+        "id": "first-aid",
+        "filter": [
+          "medical",
+          "first-aid"
+        ]
+      },
+      {
+        "name": "Firefox",
+        "id": "firefox",
+        "filter": [
+          "browser",
+          "firefox"
+        ]
+      },
+      {
+        "name": "fire-extinguisher",
+        "id": "fire-extinguisher",
+        "filter": [
+          "objects",
+          "maps",
+          "code",
+          "fire-extinguisher"
+        ]
+      },
+      {
+        "name": "fire",
+        "id": "fire",
+        "filter": [
+          "objects",
+          "maps",
+          "flame",
+          "hot",
+          "popular",
+          "fire"
+        ]
+      },
+      {
+        "name": "Fingerprint",
+        "id": "fingerprint",
+        "filter": [
+          "interfaces",
+          "human",
+          "id",
+          "identification",
+          "lock",
+          "smudge",
+          "touch",
+          "unique",
+          "unlock",
+          "fingerprint"
+        ]
+      },
+      {
+        "name": "Filter",
+        "id": "filter",
+        "filter": [
+          "interfaces",
+          "code",
+          "funnel",
+          "options",
+          "filter"
+        ]
+      },
+      {
+        "name": "Film",
+        "id": "film",
+        "filter": [
+          "images",
+          "audio-video",
+          "objects",
+          "movie",
+          "film"
+        ]
+      },
+      {
+        "name": "Fill Drip",
+        "id": "fill-drip",
+        "filter": [
+          "design",
+          "bucket",
+          "color",
+          "drop",
+          "paint",
+          "paint bucket",
+          "spill",
+          "fill-drip"
+        ]
+      },
+      {
+        "name": "Fill",
+        "id": "fill",
+        "filter": [
+          "design",
+          "bucket",
+          "color",
+          "paint",
+          "paint bucket",
+          "fill"
+        ]
+      },
+      {
+        "name": "Word File",
+        "id": "file-word",
+        "filter": [
+          "files",
+          "file-word"
+        ]
+      },
+      {
+        "name": "Video File",
+        "id": "file-video",
+        "filter": [
+          "files",
+          "audio-video",
+          "file-video"
+        ]
+      },
+      {
+        "name": "File Upload",
+        "id": "file-upload",
+        "filter": [
+          "interfaces",
+          "file-upload"
+        ]
+      },
+      {
+        "name": "File Signature",
+        "id": "file-signature",
+        "filter": [
+          "John Hancock",
+          "contract",
+          "document",
+          "name",
+          "file-signature"
+        ]
+      },
+      {
+        "name": "File Prescription",
+        "id": "file-prescription",
+        "filter": [
+          "medical",
+          "objects",
+          "drugs",
+          "medical",
+          "medicine",
+          "rx",
+          "file-prescription"
+        ]
+      },
+      {
+        "name": "Powerpoint File",
+        "id": "file-powerpoint",
+        "filter": [
+          "files",
+          "file-powerpoint"
+        ]
+      },
+      {
+        "name": "PDF File",
+        "id": "file-pdf",
+        "filter": [
+          "files",
+          "file-pdf"
+        ]
+      },
+      {
+        "name": "Alternate Medical File",
+        "id": "file-medical-alt",
+        "filter": [
+          "medical",
+          "file-medical-alt"
+        ]
+      },
+      {
+        "name": "Medical File",
+        "id": "file-medical",
+        "filter": [
+          "medical",
+          "file-medical"
+        ]
+      },
+      {
+        "name": "File Invoice with US Dollar",
+        "id": "file-invoice-dollar",
+        "filter": [
+          "$",
+          "bill",
+          "document",
+          "dollar-sign",
+          "money",
+          "receipt",
+          "usd",
+          "file-invoice-dollar"
+        ]
+      },
+      {
+        "name": "File Invoice",
+        "id": "file-invoice",
+        "filter": [
+          "bill",
+          "document",
+          "receipt",
+          "file-invoice"
+        ]
+      },
+      {
+        "name": "File Import",
+        "id": "file-import",
+        "filter": [
+          "interfaces",
+          "file-import"
+        ]
+      },
+      {
+        "name": "Image File",
+        "id": "file-image",
+        "filter": [
+          "files",
+          "images",
+          "file-image"
+        ]
+      },
+      {
+        "name": "File Export",
+        "id": "file-export",
+        "filter": [
+          "interfaces",
+          "file-export"
+        ]
+      },
+      {
+        "name": "Excel File",
+        "id": "file-excel",
+        "filter": [
+          "files",
+          "file-excel"
+        ]
+      },
+      {
+        "name": "File Download",
+        "id": "file-download",
+        "filter": [
+          "interfaces",
+          "file-download"
+        ]
+      },
+      {
+        "name": "File Contract",
+        "id": "file-contract",
+        "filter": [
+          "agreement",
+          "binding",
+          "document",
+          "legal",
+          "signature",
+          "file-contract"
+        ]
+      },
+      {
+        "name": "Code File",
+        "id": "file-code",
+        "filter": [
+          "files",
+          "code",
+          "file-code"
+        ]
+      },
+      {
+        "name": "Audio File",
+        "id": "file-audio",
+        "filter": [
+          "files",
+          "audio-video",
+          "file-audio"
+        ]
+      },
+      {
+        "name": "Archive File",
+        "id": "file-archive",
+        "filter": [
+          "files",
+          ".zip",
+          "bundle",
+          "compress",
+          "compression",
+          "download",
+          "zip",
+          "file-archive"
+        ]
+      },
+      {
+        "name": "Alternate File",
+        "id": "file-alt",
+        "filter": [
+          "files",
+          "status",
+          "writing",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "code",
+          "document",
+          "file-text",
+          "invoice",
+          "new",
+          "page",
+          "pdf",
+          "file-alt"
+        ]
+      },
+      {
+        "name": "File",
+        "id": "file",
+        "filter": [
+          "files",
+          "status",
+          "shapes",
+          "writing",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "code",
+          "document",
+          "new",
+          "page",
+          "pdf",
+          "resume",
+          "file"
+        ]
+      },
+      {
+        "name": "fighter-jet",
+        "id": "fighter-jet",
+        "filter": [
+          "vehicles",
+          "objects",
+          "maps",
+          "airplane",
+          "fast",
+          "fly",
+          "goose",
+          "maverick",
+          "plane",
+          "quick",
+          "top gun",
+          "transportation",
+          "travel",
+          "fighter-jet"
+        ]
+      },
+      {
+        "name": "Female",
+        "id": "female",
+        "filter": [
+          "users-people",
+          "human",
+          "person",
+          "profile",
+          "user",
+          "woman",
+          "female"
+        ]
+      },
+      {
+        "name": "Feather Alt",
+        "id": "feather-alt",
+        "filter": [
+          "animals",
+          "objects",
+          "bird",
+          "light",
+          "plucked",
+          "quill",
+          "feather-alt"
+        ]
+      },
+      {
+        "name": "Feather",
+        "id": "feather",
+        "filter": [
+          "animals",
+          "objects",
+          "bird",
+          "light",
+          "plucked",
+          "quill",
+          "feather"
+        ]
+      },
+      {
+        "name": "Fax",
+        "id": "fax",
+        "filter": [
+          "communication",
+          "business",
+          "objects",
+          "fax"
+        ]
+      },
+      {
+        "name": "fast-forward",
+        "id": "fast-forward",
+        "filter": [
+          "audio-video",
+          "end",
+          "last",
+          "next",
+          "fast-forward"
+        ]
+      },
+      {
+        "name": "fast-backward",
+        "id": "fast-backward",
+        "filter": [
+          "audio-video",
+          "beginning",
+          "first",
+          "previous",
+          "rewind",
+          "start",
+          "fast-backward"
+        ]
+      },
+      {
+        "name": "Facebook Square",
+        "id": "facebook-square",
+        "filter": [
+          "social network",
+          "facebook-square"
+        ]
+      },
+      {
+        "name": "Facebook Messenger",
+        "id": "facebook-messenger",
+        "filter": [
+          "facebook-messenger"
+        ]
+      },
+      {
+        "name": "Facebook F",
+        "id": "facebook-f",
+        "filter": [
+          "facebook",
+          "facebook-f"
+        ]
+      },
+      {
+        "name": "Facebook",
+        "id": "facebook",
+        "filter": [
+          "facebook-official",
+          "social network",
+          "facebook"
+        ]
+      },
+      {
+        "name": "Eye Slash",
+        "id": "eye-slash",
+        "filter": [
+          "images",
+          "status",
+          "design",
+          "interfaces",
+          "maps",
+          "blind",
+          "hide",
+          "show",
+          "toggle",
+          "unseen",
+          "views",
+          "visible",
+          "visiblity",
+          "eye-slash"
+        ]
+      },
+      {
+        "name": "Eye Dropper",
+        "id": "eye-dropper",
+        "filter": [
+          "images",
+          "design",
+          "objects",
+          "eyedropper",
+          "eye-dropper"
+        ]
+      },
+      {
+        "name": "Eye",
+        "id": "eye",
+        "filter": [
+          "images",
+          "status",
+          "design",
+          "interfaces",
+          "objects",
+          "maps",
+          "optic",
+          "see",
+          "seen",
+          "show",
+          "sight",
+          "views",
+          "visible",
+          "eye"
+        ]
+      },
+      {
+        "name": "Alternate External Link Square",
+        "id": "external-link-square-alt",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "external-link-square",
+          "new",
+          "open",
+          "external-link-square-alt"
+        ]
+      },
+      {
+        "name": "Alternate External Link",
+        "id": "external-link-alt",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "external-link",
+          "new",
+          "open",
+          "external-link-alt"
+        ]
+      },
+      {
+        "name": "ExpeditedSSL",
+        "id": "expeditedssl",
+        "filter": [
+          "expeditedssl"
+        ]
+      },
+      {
+        "name": "Alternate Expand Arrows",
+        "id": "expand-arrows-alt",
+        "filter": [
+          "arrows",
+          "audio-video",
+          "arrows-alt",
+          "bigger",
+          "enlarge",
+          "move",
+          "resize",
+          "expand-arrows-alt"
+        ]
+      },
+      {
+        "name": "Expand",
+        "id": "expand",
+        "filter": [
+          "images",
+          "audio-video",
+          "bigger",
+          "enlarge",
+          "resize",
+          "expand"
+        ]
+      },
+      {
+        "name": "Exclamation Triangle",
+        "id": "exclamation-triangle",
+        "filter": [
+          "status",
+          "interfaces",
+          "alert",
+          "danger",
+          "error",
+          "important",
+          "notice",
+          "notification",
+          "notify",
+          "problem",
+          "warning",
+          "exclamation-triangle"
+        ]
+      },
+      {
+        "name": "Exclamation Circle",
+        "id": "exclamation-circle",
+        "filter": [
+          "status",
+          "interfaces",
+          "alert",
+          "danger",
+          "error",
+          "important",
+          "notice",
+          "notification",
+          "notify",
+          "problem",
+          "warning",
+          "exclamation-circle"
+        ]
+      },
+      {
+        "name": "exclamation",
+        "id": "exclamation",
+        "filter": [
+          "status",
+          "interfaces",
+          "alert",
+          "danger",
+          "error",
+          "important",
+          "notice",
+          "notification",
+          "notify",
+          "problem",
+          "warning",
+          "exclamation"
+        ]
+      },
+      {
+        "name": "Alternate Exchange",
+        "id": "exchange-alt",
+        "filter": [
+          "arrows",
+          "arrow",
+          "arrows",
+          "exchange",
+          "reciprocate",
+          "return",
+          "swap",
+          "transfer",
+          "exchange-alt"
+        ]
+      },
+      {
+        "name": "Euro Sign",
+        "id": "euro-sign",
+        "filter": [
+          "currency",
+          "eur",
+          "eur",
+          "euro-sign"
+        ]
+      },
+      {
+        "name": "Etsy",
+        "id": "etsy",
+        "filter": [
+          "etsy"
+        ]
+      },
+      {
+        "name": "Ethereum",
+        "id": "ethereum",
+        "filter": [
+          "payments-shopping",
+          "ethereum"
+        ]
+      },
+      {
+        "name": "Erlang",
+        "id": "erlang",
+        "filter": [
+          "erlang"
+        ]
+      },
+      {
+        "name": "eraser",
+        "id": "eraser",
+        "filter": [
+          "design",
+          "writing",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "delete",
+          "remove",
+          "eraser"
+        ]
+      },
+      {
+        "name": "Equals",
+        "id": "equals",
+        "filter": [
+          "mathematics",
+          "equals"
+        ]
+      },
+      {
+        "name": "Envira Gallery",
+        "id": "envira",
+        "filter": [
+          "leaf",
+          "envira"
+        ]
+      },
+      {
+        "name": "Envelope Square",
+        "id": "envelope-square",
+        "filter": [
+          "communication",
+          "business",
+          "e-mail",
+          "email",
+          "letter",
+          "mail",
+          "message",
+          "notification",
+          "support",
+          "envelope-square"
+        ]
+      },
+      {
+        "name": "Envelope Open",
+        "id": "envelope-open",
+        "filter": [
+          "writing",
+          "interfaces",
+          "communication",
+          "business",
+          "objects",
+          "e-mail",
+          "email",
+          "letter",
+          "mail",
+          "message",
+          "notification",
+          "support",
+          "envelope-open"
+        ]
+      },
+      {
+        "name": "Envelope",
+        "id": "envelope",
+        "filter": [
+          "writing",
+          "interfaces",
+          "communication",
+          "business",
+          "objects",
+          "e-mail",
+          "email",
+          "letter",
+          "mail",
+          "message",
+          "notification",
+          "support",
+          "envelope"
+        ]
+      },
+      {
+        "name": "Galactic Empire",
+        "id": "empire",
+        "filter": [
+          "empire"
+        ]
+      },
+      {
+        "name": "Ember",
+        "id": "ember",
+        "filter": [
+          "ember"
+        ]
+      },
+      {
+        "name": "Vertical Ellipsis",
+        "id": "ellipsis-v",
+        "filter": [
+          "interfaces",
+          "dots",
+          "drag",
+          "kebab",
+          "list",
+          "menu",
+          "nav",
+          "navigation",
+          "ol",
+          "reorder",
+          "settings",
+          "ul",
+          "ellipsis-v"
+        ]
+      },
+      {
+        "name": "Horizontal Ellipsis",
+        "id": "ellipsis-h",
+        "filter": [
+          "interfaces",
+          "dots",
+          "drag",
+          "kebab",
+          "list",
+          "menu",
+          "nav",
+          "navigation",
+          "ol",
+          "reorder",
+          "settings",
+          "ul",
+          "ellipsis-h"
+        ]
+      },
+      {
+        "name": "Elementor",
+        "id": "elementor",
+        "filter": [
+          "elementor"
+        ]
+      },
+      {
+        "name": "eject",
+        "id": "eject",
+        "filter": [
+          "audio-video",
+          "eject"
+        ]
+      },
+      {
+        "name": "Edit",
+        "id": "edit",
+        "filter": [
+          "design",
+          "writing",
+          "interfaces",
+          "editors",
+          "business",
+          "edit",
+          "pen",
+          "pencil",
+          "update",
+          "write",
+          "edit"
+        ]
+      },
+      {
+        "name": "Edge Browser",
+        "id": "edge",
+        "filter": [
+          "browser",
+          "ie",
+          "edge"
+        ]
+      },
+      {
+        "name": "eBay",
+        "id": "ebay",
+        "filter": [
+          "ebay"
+        ]
+      },
+      {
+        "name": "Earlybirds",
+        "id": "earlybirds",
+        "filter": [
+          "earlybirds"
+        ]
+      },
+      {
+        "name": "Dyalog",
+        "id": "dyalog",
+        "filter": [
+          "dyalog"
+        ]
+      },
+      {
+        "name": "Dumbbell",
+        "id": "dumbbell",
+        "filter": [
+          "travel",
+          "sports",
+          "exercise",
+          "gym",
+          "strength",
+          "weight",
+          "weight-lifting",
+          "dumbbell"
+        ]
+      },
+      {
+        "name": "Drupal Logo",
+        "id": "drupal",
+        "filter": [
+          "drupal"
+        ]
+      },
+      {
+        "name": "Drum Steelpan",
+        "id": "drum-steelpan",
+        "filter": [
+          "objects",
+          "calypso",
+          "instrument",
+          "music",
+          "percussion",
+          "reggae",
+          "snare",
+          "sound",
+          "steel",
+          "tropical",
+          "drum-steelpan"
+        ]
+      },
+      {
+        "name": "Drum",
+        "id": "drum",
+        "filter": [
+          "objects",
+          "instrument",
+          "music",
+          "percussion",
+          "snare",
+          "sound",
+          "drum"
+        ]
+      },
+      {
+        "name": "Dropbox",
+        "id": "dropbox",
+        "filter": [
+          "dropbox"
+        ]
+      },
+      {
+        "name": "Dribbble Square",
+        "id": "dribbble-square",
+        "filter": [
+          "dribbble-square"
+        ]
+      },
+      {
+        "name": "Dribbble",
+        "id": "dribbble",
+        "filter": [
+          "dribbble"
+        ]
+      },
+      {
+        "name": "Drafting Compass",
+        "id": "drafting-compass",
+        "filter": [
+          "design",
+          "mechanical drawing",
+          "plot",
+          "plotting",
+          "drafting-compass"
+        ]
+      },
+      {
+        "name": "Draft2digital",
+        "id": "draft2digital",
+        "filter": [
+          "draft2digital"
+        ]
+      },
+      {
+        "name": "Download",
+        "id": "download",
+        "filter": [
+          "computers",
+          "arrows",
+          "interfaces",
+          "import",
+          "download"
+        ]
+      },
+      {
+        "name": "Dove",
+        "id": "dove",
+        "filter": [
+          "animals",
+          "charity",
+          "dove"
+        ]
+      },
+      {
+        "name": "Dot Circle",
+        "id": "dot-circle",
+        "filter": [
+          "interfaces",
+          "bullseye",
+          "notification",
+          "target",
+          "dot-circle"
+        ]
+      },
+      {
+        "name": "Door Open",
+        "id": "door-open",
+        "filter": [
+          "status",
+          "objects",
+          "door-open"
+        ]
+      },
+      {
+        "name": "Door Closed",
+        "id": "door-closed",
+        "filter": [
+          "status",
+          "objects",
+          "door-closed"
+        ]
+      },
+      {
+        "name": "Donate",
+        "id": "donate",
+        "filter": [
+          "charity",
+          "generosity",
+          "give",
+          "donate"
+        ]
+      },
+      {
+        "name": "Dolly Flatbed",
+        "id": "dolly-flatbed",
+        "filter": [
+          "logistics",
+          "dolly-flatbed"
+        ]
+      },
+      {
+        "name": "Dolly",
+        "id": "dolly",
+        "filter": [
+          "logistics",
+          "moving",
+          "dolly"
+        ]
+      },
+      {
+        "name": "Dollar Sign",
+        "id": "dollar-sign",
+        "filter": [
+          "charity",
+          "currency",
+          "maps",
+          "$",
+          "dollar-sign",
+          "money",
+          "price",
+          "usd",
+          "dollar-sign"
+        ]
+      },
+      {
+        "name": "Docker",
+        "id": "docker",
+        "filter": [
+          "docker"
+        ]
+      },
+      {
+        "name": "DocHub",
+        "id": "dochub",
+        "filter": [
+          "dochub"
+        ]
+      },
+      {
+        "name": "DNA",
+        "id": "dna",
+        "filter": [
+          "medical",
+          "double helix",
+          "helix",
+          "dna"
+        ]
+      },
+      {
+        "name": "Dizzy Face",
+        "id": "dizzy",
+        "filter": [
+          "emoji",
+          "dazed",
+          "disapprove",
+          "emoticon",
+          "face",
+          "dizzy"
+        ]
+      },
+      {
+        "name": "Divide",
+        "id": "divide",
+        "filter": [
+          "mathematics",
+          "divide"
+        ]
+      },
+      {
+        "name": "Discourse",
+        "id": "discourse",
+        "filter": [
+          "discourse"
+        ]
+      },
+      {
+        "name": "Discord",
+        "id": "discord",
+        "filter": [
+          "discord"
+        ]
+      },
+      {
+        "name": "Digital Tachograph",
+        "id": "digital-tachograph",
+        "filter": [
+          "objects",
+          "digital-tachograph"
+        ]
+      },
+      {
+        "name": "Digital Ocean",
+        "id": "digital-ocean",
+        "filter": [
+          "digital-ocean"
+        ]
+      },
+      {
+        "name": "Digg Logo",
+        "id": "digg",
+        "filter": [
+          "digg"
+        ]
+      },
+      {
+        "name": "Dice Two",
+        "id": "dice-two",
+        "filter": [
+          "objects",
+          "chance",
+          "gambling",
+          "game",
+          "roll",
+          "dice-two"
+        ]
+      },
+      {
+        "name": "Dice Three",
+        "id": "dice-three",
+        "filter": [
+          "objects",
+          "chance",
+          "gambling",
+          "game",
+          "roll",
+          "dice-three"
+        ]
+      },
+      {
+        "name": "Dice Six",
+        "id": "dice-six",
+        "filter": [
+          "objects",
+          "chance",
+          "gambling",
+          "game",
+          "roll",
+          "dice-six"
+        ]
+      },
+      {
+        "name": "Dice One",
+        "id": "dice-one",
+        "filter": [
+          "objects",
+          "chance",
+          "gambling",
+          "game",
+          "roll",
+          "dice-one"
+        ]
+      },
+      {
+        "name": "Dice Four",
+        "id": "dice-four",
+        "filter": [
+          "objects",
+          "chance",
+          "gambling",
+          "game",
+          "roll",
+          "dice-four"
+        ]
+      },
+      {
+        "name": "Dice Five",
+        "id": "dice-five",
+        "filter": [
+          "objects",
+          "chance",
+          "gambling",
+          "game",
+          "roll",
+          "dice-five"
+        ]
+      },
+      {
+        "name": "Dice",
+        "id": "dice",
+        "filter": [
+          "objects",
+          "chance",
+          "gambling",
+          "game",
+          "roll",
+          "dice"
+        ]
+      },
+      {
+        "name": "Diagnoses",
+        "id": "diagnoses",
+        "filter": [
+          "medical",
+          "diagnoses"
+        ]
+      },
+      {
+        "name": "deviantART",
+        "id": "deviantart",
+        "filter": [
+          "deviantart"
+        ]
+      },
+      {
+        "name": "Desktop",
+        "id": "desktop",
+        "filter": [
+          "computers",
+          "computer",
+          "cpu",
+          "demo",
+          "desktop",
+          "device",
+          "machine",
+          "monitor",
+          "pc",
+          "screen",
+          "desktop"
+        ]
+      },
+      {
+        "name": "Deskpro",
+        "id": "deskpro",
+        "filter": [
+          "deskpro"
+        ]
+      },
+      {
+        "name": "deploy.dog",
+        "id": "deploydog",
+        "filter": [
+          "deploydog"
+        ]
+      },
+      {
+        "name": "Delicious Logo",
+        "id": "delicious",
+        "filter": [
+          "delicious"
+        ]
+      },
+      {
+        "name": "Deaf",
+        "id": "deaf",
+        "filter": [
+          "accessibility",
+          "deaf"
+        ]
+      },
+      {
+        "name": "Database",
+        "id": "database",
+        "filter": [
+          "computers",
+          "interfaces",
+          "database"
+        ]
+      },
+      {
+        "name": "DashCube",
+        "id": "dashcube",
+        "filter": [
+          "dashcube"
+        ]
+      },
+      {
+        "name": "Dungeons & Dragons",
+        "id": "d-and-d",
+        "filter": [
+          "d-and-d"
+        ]
+      },
+      {
+        "name": "Cuttlefish",
+        "id": "cuttlefish",
+        "filter": [
+          "cuttlefish"
+        ]
+      },
+      {
+        "name": "Cut",
+        "id": "cut",
+        "filter": [
+          "files",
+          "design",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "scissors",
+          "scissors",
+          "cut"
+        ]
+      },
+      {
+        "name": "Cubes",
+        "id": "cubes",
+        "filter": [
+          "objects",
+          "packages",
+          "cubes"
+        ]
+      },
+      {
+        "name": "Cube",
+        "id": "cube",
+        "filter": [
+          "objects",
+          "package",
+          "cube"
+        ]
+      },
+      {
+        "name": "Alternate CSS3 Logo",
+        "id": "css3-alt",
+        "filter": [
+          "css3-alt"
+        ]
+      },
+      {
+        "name": "CSS 3 Logo",
+        "id": "css3",
+        "filter": [
+          "code",
+          "css3"
+        ]
+      },
+      {
+        "name": "Crown",
+        "id": "crown",
+        "filter": [
+          "crown"
+        ]
+      },
+      {
+        "name": "Crow",
+        "id": "crow",
+        "filter": [
+          "animals",
+          "bird",
+          "bullfrog",
+          "toad",
+          "crow"
+        ]
+      },
+      {
+        "name": "Crosshairs",
+        "id": "crosshairs",
+        "filter": [
+          "design",
+          "spinners",
+          "maps",
+          "gpd",
+          "picker",
+          "position",
+          "crosshairs"
+        ]
+      },
+      {
+        "name": "Alternate Crop",
+        "id": "crop-alt",
+        "filter": [
+          "design",
+          "crop-alt"
+        ]
+      },
+      {
+        "name": "crop",
+        "id": "crop",
+        "filter": [
+          "design",
+          "design",
+          "crop"
+        ]
+      },
+      {
+        "name": "Credit Card",
+        "id": "credit-card",
+        "filter": [
+          "payments-shopping",
+          "buy",
+          "checkout",
+          "credit-card-alt",
+          "debit",
+          "money",
+          "payment",
+          "purchase",
+          "credit-card"
+        ]
+      },
+      {
+        "name": "Creative Commons Share",
+        "id": "creative-commons-share",
+        "filter": [
+          "creative-commons-share"
+        ]
+      },
+      {
+        "name": "Creative Commons Sampling +",
+        "id": "creative-commons-sampling-plus",
+        "filter": [
+          "creative-commons-sampling-plus"
+        ]
+      },
+      {
+        "name": "Creative Commons Sampling",
+        "id": "creative-commons-sampling",
+        "filter": [
+          "creative-commons-sampling"
+        ]
+      },
+      {
+        "name": "Creative Commons Share Alike",
+        "id": "creative-commons-sa",
+        "filter": [
+          "creative-commons-sa"
+        ]
+      },
+      {
+        "name": "Creative Commons Remix",
+        "id": "creative-commons-remix",
+        "filter": [
+          "creative-commons-remix"
+        ]
+      },
+      {
+        "name": "Creative Commons Public Domain Alternate",
+        "id": "creative-commons-pd-alt",
+        "filter": [
+          "creative-commons-pd-alt"
+        ]
+      },
+      {
+        "name": "Creative Commons Public Domain",
+        "id": "creative-commons-pd",
+        "filter": [
+          "creative-commons-pd"
+        ]
+      },
+      {
+        "name": "Creative Commons No Derivative Works",
+        "id": "creative-commons-nd",
+        "filter": [
+          "creative-commons-nd"
+        ]
+      },
+      {
+        "name": "Creative Commons Noncommercial (Yen Sign)",
+        "id": "creative-commons-nc-jp",
+        "filter": [
+          "creative-commons-nc-jp"
+        ]
+      },
+      {
+        "name": "Creative Commons Noncommercial (Euro Sign)",
+        "id": "creative-commons-nc-eu",
+        "filter": [
+          "creative-commons-nc-eu"
+        ]
+      },
+      {
+        "name": "Creative Commons Noncommercial",
+        "id": "creative-commons-nc",
+        "filter": [
+          "creative-commons-nc"
+        ]
+      },
+      {
+        "name": "Creative Commons Attribution",
+        "id": "creative-commons-by",
+        "filter": [
+          "creative-commons-by"
+        ]
+      },
+      {
+        "name": "Creative Commons",
+        "id": "creative-commons",
+        "filter": [
+          "creative-commons"
+        ]
+      },
+      {
+        "name": "cPanel",
+        "id": "cpanel",
+        "filter": [
+          "cpanel"
+        ]
+      },
+      {
+        "name": "Couch",
+        "id": "couch",
+        "filter": [
+          "moving",
+          "couch"
+        ]
+      },
+      {
+        "name": "Copyright",
+        "id": "copyright",
+        "filter": [
+          "business",
+          "copyright"
+        ]
+      },
+      {
+        "name": "Copy",
+        "id": "copy",
+        "filter": [
+          "files",
+          "design",
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "clone",
+          "duplicate",
+          "file",
+          "files-o",
+          "copy"
+        ]
+      },
+      {
+        "name": "Cookie Bite",
+        "id": "cookie-bite",
+        "filter": [
+          "objects",
+          "baked good",
+          "bitten",
+          "chips",
+          "eating",
+          "food",
+          "snack",
+          "sweet",
+          "treat",
+          "cookie-bite"
+        ]
+      },
+      {
+        "name": "Cookie",
+        "id": "cookie",
+        "filter": [
+          "objects",
+          "baked good",
+          "chips",
+          "food",
+          "snack",
+          "sweet",
+          "treat",
+          "cookie"
+        ]
+      },
+      {
+        "name": "Contao",
+        "id": "contao",
+        "filter": [
+          "contao"
+        ]
+      },
+      {
+        "name": "Connect Develop",
+        "id": "connectdevelop",
+        "filter": [
+          "connectdevelop"
+        ]
+      },
+      {
+        "name": "Concierge Bell",
+        "id": "concierge-bell",
+        "filter": [
+          "travel",
+          "attention",
+          "hotel",
+          "service",
+          "support",
+          "concierge-bell"
+        ]
+      },
+      {
+        "name": "Compress",
+        "id": "compress",
+        "filter": [
+          "images",
+          "audio-video",
+          "collapse",
+          "combine",
+          "contract",
+          "merge",
+          "smaller",
+          "compress"
+        ]
+      },
+      {
+        "name": "Compass",
+        "id": "compass",
+        "filter": [
+          "spinners",
+          "business",
+          "objects",
+          "directory",
+          "location",
+          "menu",
+          "safari",
+          "compass"
+        ]
+      },
+      {
+        "name": "Compact Disc",
+        "id": "compact-disc",
+        "filter": [
+          "bluray",
+          "cd",
+          "disc",
+          "media",
+          "compact-disc"
+        ]
+      },
+      {
+        "name": "comments",
+        "id": "comments",
+        "filter": [
+          "chat",
+          "communication",
+          "bubble",
+          "chat",
+          "conversation",
+          "feedback",
+          "message",
+          "note",
+          "notification",
+          "sms",
+          "speech",
+          "texting",
+          "comments"
+        ]
+      },
+      {
+        "name": "Comment Slash",
+        "id": "comment-slash",
+        "filter": [
+          "chat",
+          "comment-slash"
+        ]
+      },
+      {
+        "name": "Comment Dots",
+        "id": "comment-dots",
+        "filter": [
+          "chat",
+          "comment-dots"
+        ]
+      },
+      {
+        "name": "Alternate Comment",
+        "id": "comment-alt",
+        "filter": [
+          "chat",
+          "communication",
+          "bubble",
+          "chat",
+          "commenting",
+          "commenting",
+          "conversation",
+          "feedback",
+          "message",
+          "note",
+          "notification",
+          "sms",
+          "speech",
+          "texting",
+          "comment-alt"
+        ]
+      },
+      {
+        "name": "comment",
+        "id": "comment",
+        "filter": [
+          "chat",
+          "shapes",
+          "communication",
+          "bubble",
+          "chat",
+          "conversation",
+          "feedback",
+          "message",
+          "note",
+          "notification",
+          "sms",
+          "speech",
+          "texting",
+          "comment"
+        ]
+      },
+      {
+        "name": "Columns",
+        "id": "columns",
+        "filter": [
+          "editors",
+          "business",
+          "dashboard",
+          "panes",
+          "split",
+          "columns"
+        ]
+      },
+      {
+        "name": "Coins",
+        "id": "coins",
+        "filter": [
+          "coins"
+        ]
+      },
+      {
+        "name": "cogs",
+        "id": "cogs",
+        "filter": [
+          "interfaces",
+          "objects",
+          "gears",
+          "settings",
+          "cogs"
+        ]
       },
       {
-        'name': 'Telegram',
-        'id'  : 'telegram'
+        "name": "cog",
+        "id": "cog",
+        "filter": [
+          "spinners",
+          "interfaces",
+          "objects",
+          "settings",
+          "cog"
+        ]
+      },
+      {
+        "name": "Coffee",
+        "id": "coffee",
+        "filter": [
+          "interfaces",
+          "business",
+          "objects",
+          "maps",
+          "code",
+          "breakfast",
+          "cafe",
+          "drink",
+          "morning",
+          "mug",
+          "tea",
+          "coffee"
+        ]
+      },
+      {
+        "name": "Codie Pie",
+        "id": "codiepie",
+        "filter": [
+          "codiepie"
+        ]
+      },
+      {
+        "name": "Codepen",
+        "id": "codepen",
+        "filter": [
+          "codepen"
+        ]
+      },
+      {
+        "name": "Code Branch",
+        "id": "code-branch",
+        "filter": [
+          "code",
+          "branch",
+          "code-fork",
+          "fork",
+          "git",
+          "github",
+          "rebase",
+          "svn",
+          "vcs",
+          "version",
+          "code-branch"
+        ]
+      },
+      {
+        "name": "Code",
+        "id": "code",
+        "filter": [
+          "code",
+          "brackets",
+          "html",
+          "code"
+        ]
+      },
+      {
+        "name": "Cocktail",
+        "id": "cocktail",
+        "filter": [
+          "travel",
+          "alcohol",
+          "drink",
+          "cocktail"
+        ]
+      },
+      {
+        "name": "cloudversify",
+        "id": "cloudversify",
+        "filter": [
+          "cloudversify"
+        ]
+      },
+      {
+        "name": "Cloudsmith",
+        "id": "cloudsmith",
+        "filter": [
+          "cloudsmith"
+        ]
+      },
+      {
+        "name": "cloudscale.ch",
+        "id": "cloudscale",
+        "filter": [
+          "cloudscale"
+        ]
+      },
+      {
+        "name": "Alternate Cloud Upload",
+        "id": "cloud-upload-alt",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "cloud-upload",
+          "cloud-upload-alt"
+        ]
+      },
+      {
+        "name": "Alternate Cloud Download",
+        "id": "cloud-download-alt",
+        "filter": [
+          "arrows",
+          "interfaces",
+          "cloud-download",
+          "cloud-download-alt"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "id": "cloud",
+        "filter": [
+          "shapes",
+          "interfaces",
+          "objects",
+          "save",
+          "cloud"
+        ]
+      },
+      {
+        "name": "Closed Captioning",
+        "id": "closed-captioning",
+        "filter": [
+          "audio-video",
+          "accessibility",
+          "cc",
+          "closed-captioning"
+        ]
+      },
+      {
+        "name": "Clone",
+        "id": "clone",
+        "filter": [
+          "files",
+          "images",
+          "design",
+          "interfaces",
+          "editors",
+          "copy",
+          "duplicate",
+          "clone"
+        ]
+      },
+      {
+        "name": "Clock",
+        "id": "clock",
+        "filter": [
+          "date-time",
+          "date",
+          "late",
+          "schedule",
+          "timer",
+          "timestamp",
+          "watch",
+          "clock"
+        ]
+      },
+      {
+        "name": "Clipboard List",
+        "id": "clipboard-list",
+        "filter": [
+          "logistics",
+          "checklist",
+          "completed",
+          "done",
+          "finished",
+          "intinerary",
+          "ol",
+          "schedule",
+          "todo",
+          "ul",
+          "clipboard-list"
+        ]
+      },
+      {
+        "name": "Clipboard Check",
+        "id": "clipboard-check",
+        "filter": [
+          "logistics",
+          "accept",
+          "agree",
+          "confirm",
+          "done",
+          "ok",
+          "select",
+          "success",
+          "todo",
+          "yes",
+          "clipboard-check"
+        ]
+      },
+      {
+        "name": "Clipboard",
+        "id": "clipboard",
+        "filter": [
+          "interfaces",
+          "editors",
+          "business",
+          "objects",
+          "paste",
+          "clipboard"
+        ]
+      },
+      {
+        "name": "Circle Notched",
+        "id": "circle-notch",
+        "filter": [
+          "spinners",
+          "circle-o-notch",
+          "circle-notch"
+        ]
+      },
+      {
+        "name": "Circle",
+        "id": "circle",
+        "filter": [
+          "audio-video",
+          "shapes",
+          "interfaces",
+          "circle-thin",
+          "dot",
+          "notification",
+          "circle"
+        ]
+      },
+      {
+        "name": "Church",
+        "id": "church",
+        "filter": [
+          "buildings",
+          "objects",
+          "building",
+          "community",
+          "religion",
+          "church"
+        ]
+      },
+      {
+        "name": "Chrome",
+        "id": "chrome",
+        "filter": [
+          "browser",
+          "chrome"
+        ]
+      },
+      {
+        "name": "Child",
+        "id": "child",
+        "filter": [
+          "users-people",
+          "child"
+        ]
+      },
+      {
+        "name": "chevron-up",
+        "id": "chevron-up",
+        "filter": [
+          "arrows",
+          "chevron-up"
+        ]
+      },
+      {
+        "name": "chevron-right",
+        "id": "chevron-right",
+        "filter": [
+          "arrows",
+          "bracket",
+          "forward",
+          "next",
+          "chevron-right"
+        ]
+      },
+      {
+        "name": "chevron-left",
+        "id": "chevron-left",
+        "filter": [
+          "arrows",
+          "back",
+          "bracket",
+          "previous",
+          "chevron-left"
+        ]
+      },
+      {
+        "name": "chevron-down",
+        "id": "chevron-down",
+        "filter": [
+          "arrows",
+          "chevron-down"
+        ]
+      },
+      {
+        "name": "Chevron Circle Up",
+        "id": "chevron-circle-up",
+        "filter": [
+          "arrows",
+          "arrow",
+          "chevron-circle-up"
+        ]
+      },
+      {
+        "name": "Chevron Circle Right",
+        "id": "chevron-circle-right",
+        "filter": [
+          "arrows",
+          "arrow",
+          "forward",
+          "next",
+          "chevron-circle-right"
+        ]
+      },
+      {
+        "name": "Chevron Circle Left",
+        "id": "chevron-circle-left",
+        "filter": [
+          "arrows",
+          "arrow",
+          "back",
+          "previous",
+          "chevron-circle-left"
+        ]
+      },
+      {
+        "name": "Chevron Circle Down",
+        "id": "chevron-circle-down",
+        "filter": [
+          "arrows",
+          "arrow",
+          "dropdown",
+          "menu",
+          "more",
+          "chevron-circle-down"
+        ]
+      },
+      {
+        "name": "Chess Rook",
+        "id": "chess-rook",
+        "filter": [
+          "chess",
+          "chess-rook"
+        ]
+      },
+      {
+        "name": "Chess Queen",
+        "id": "chess-queen",
+        "filter": [
+          "chess",
+          "chess-queen"
+        ]
+      },
+      {
+        "name": "Chess Pawn",
+        "id": "chess-pawn",
+        "filter": [
+          "chess",
+          "chess-pawn"
+        ]
+      },
+      {
+        "name": "Chess Knight",
+        "id": "chess-knight",
+        "filter": [
+          "chess",
+          "chess-knight"
+        ]
+      },
+      {
+        "name": "Chess King",
+        "id": "chess-king",
+        "filter": [
+          "chess",
+          "chess-king"
+        ]
+      },
+      {
+        "name": "Chess Board",
+        "id": "chess-board",
+        "filter": [
+          "chess",
+          "chess-board"
+        ]
+      },
+      {
+        "name": "Chess Bishop",
+        "id": "chess-bishop",
+        "filter": [
+          "chess",
+          "chess-bishop"
+        ]
+      },
+      {
+        "name": "Chess",
+        "id": "chess",
+        "filter": [
+          "chess",
+          "chess"
+        ]
+      },
+      {
+        "name": "Check Square",
+        "id": "check-square",
+        "filter": [
+          "interfaces",
+          "accept",
+          "agree",
+          "checkmark",
+          "confirm",
+          "correct",
+          "done",
+          "ok",
+          "select",
+          "success",
+          "todo",
+          "yes",
+          "check-square"
+        ]
+      },
+      {
+        "name": "Check Double",
+        "id": "check-double",
+        "filter": [
+          "interfaces",
+          "accept",
+          "agree",
+          "checkmark",
+          "confirm",
+          "correct",
+          "done",
+          "notice",
+          "notification",
+          "notify",
+          "ok",
+          "select",
+          "success",
+          "tick",
+          "todo",
+          "check-double"
+        ]
+      },
+      {
+        "name": "Check Circle",
+        "id": "check-circle",
+        "filter": [
+          "interfaces",
+          "accept",
+          "agree",
+          "confirm",
+          "correct",
+          "done",
+          "ok",
+          "select",
+          "success",
+          "todo",
+          "yes",
+          "check-circle"
+        ]
+      },
+      {
+        "name": "Check",
+        "id": "check",
+        "filter": [
+          "interfaces",
+          "accept",
+          "agree",
+          "checkmark",
+          "confirm",
+          "correct",
+          "done",
+          "notice",
+          "notification",
+          "notify",
+          "ok",
+          "select",
+          "success",
+          "tick",
+          "todo",
+          "yes",
+          "check"
+        ]
+      },
+      {
+        "name": "Pie Chart",
+        "id": "chart-pie",
+        "filter": [
+          "business",
+          "analytics",
+          "graph",
+          "pie-chart",
+          "chart-pie"
+        ]
+      },
+      {
+        "name": "Line Chart",
+        "id": "chart-line",
+        "filter": [
+          "arrows",
+          "business",
+          "activity",
+          "analytics",
+          "dashboard",
+          "graph",
+          "line-chart",
+          "chart-line"
+        ]
+      },
+      {
+        "name": "Bar Chart",
+        "id": "chart-bar",
+        "filter": [
+          "business",
+          "analytics",
+          "bar-chart",
+          "graph",
+          "chart-bar"
+        ]
+      },
+      {
+        "name": "Area Chart",
+        "id": "chart-area",
+        "filter": [
+          "business",
+          "analytics",
+          "area-chart",
+          "graph",
+          "chart-area"
+        ]
+      },
+      {
+        "name": "Chalkboard Teacher",
+        "id": "chalkboard-teacher",
+        "filter": [
+          "users-people",
+          "blackboard",
+          "instructor",
+          "learning",
+          "professor",
+          "school",
+          "whiteboard",
+          "writing",
+          "chalkboard-teacher"
+        ]
+      },
+      {
+        "name": "Chalkboard",
+        "id": "chalkboard",
+        "filter": [
+          "images",
+          "communication",
+          "blackboard",
+          "learning",
+          "school",
+          "teaching",
+          "whiteboard",
+          "writing",
+          "chalkboard"
+        ]
+      },
+      {
+        "name": "certificate",
+        "id": "certificate",
+        "filter": [
+          "spinners",
+          "shapes",
+          "interfaces",
+          "payments-shopping",
+          "business",
+          "badge",
+          "star",
+          "certificate"
+        ]
+      },
+      {
+        "name": "Centercode",
+        "id": "centercode",
+        "filter": [
+          "centercode"
+        ]
+      },
+      {
+        "name": "Visa Credit Card",
+        "id": "cc-visa",
+        "filter": [
+          "payments-shopping",
+          "cc-visa"
+        ]
+      },
+      {
+        "name": "Stripe Credit Card",
+        "id": "cc-stripe",
+        "filter": [
+          "payments-shopping",
+          "cc-stripe"
+        ]
+      },
+      {
+        "name": "Paypal Credit Card",
+        "id": "cc-paypal",
+        "filter": [
+          "payments-shopping",
+          "cc-paypal"
+        ]
+      },
+      {
+        "name": "MasterCard Credit Card",
+        "id": "cc-mastercard",
+        "filter": [
+          "payments-shopping",
+          "cc-mastercard"
+        ]
+      },
+      {
+        "name": "JCB Credit Card",
+        "id": "cc-jcb",
+        "filter": [
+          "payments-shopping",
+          "cc-jcb"
+        ]
+      },
+      {
+        "name": "Discover Credit Card",
+        "id": "cc-discover",
+        "filter": [
+          "payments-shopping",
+          "cc-discover"
+        ]
+      },
+      {
+        "name": "Diner's Club Credit Card",
+        "id": "cc-diners-club",
+        "filter": [
+          "payments-shopping",
+          "cc-diners-club"
+        ]
+      },
+      {
+        "name": "Apple Pay Credit Card",
+        "id": "cc-apple-pay",
+        "filter": [
+          "payments-shopping",
+          "cc-apple-pay"
+        ]
+      },
+      {
+        "name": "American Express Credit Card",
+        "id": "cc-amex",
+        "filter": [
+          "payments-shopping",
+          "amex",
+          "cc-amex"
+        ]
+      },
+      {
+        "name": "Amazon Pay Credit Card",
+        "id": "cc-amazon-pay",
+        "filter": [
+          "payments-shopping",
+          "cc-amazon-pay"
+        ]
+      },
+      {
+        "name": "Add to Shopping Cart",
+        "id": "cart-plus",
+        "filter": [
+          "status",
+          "payments-shopping",
+          "add",
+          "shopping",
+          "cart-plus"
+        ]
+      },
+      {
+        "name": "Shopping Cart Arrow Down",
+        "id": "cart-arrow-down",
+        "filter": [
+          "status",
+          "arrows",
+          "payments-shopping",
+          "shopping",
+          "cart-arrow-down"
+        ]
+      },
+      {
+        "name": "Caret Up",
+        "id": "caret-up",
+        "filter": [
+          "arrows",
+          "arrow",
+          "triangle up",
+          "caret-up"
+        ]
+      },
+      {
+        "name": "Caret Square Up",
+        "id": "caret-square-up",
+        "filter": [
+          "arrows",
+          "caret-square-o-up",
+          "caret-square-up"
+        ]
+      },
+      {
+        "name": "Caret Square Right",
+        "id": "caret-square-right",
+        "filter": [
+          "arrows",
+          "caret-square-o-right",
+          "forward",
+          "next",
+          "caret-square-right"
+        ]
+      },
+      {
+        "name": "Caret Square Left",
+        "id": "caret-square-left",
+        "filter": [
+          "arrows",
+          "back",
+          "caret-square-o-left",
+          "previous",
+          "caret-square-left"
+        ]
+      },
+      {
+        "name": "Caret Square Down",
+        "id": "caret-square-down",
+        "filter": [
+          "arrows",
+          "caret-square-o-down",
+          "dropdown",
+          "menu",
+          "more",
+          "caret-square-down"
+        ]
+      },
+      {
+        "name": "Caret Right",
+        "id": "caret-right",
+        "filter": [
+          "arrows",
+          "arrow",
+          "forward",
+          "next",
+          "triangle right",
+          "caret-right"
+        ]
+      },
+      {
+        "name": "Caret Left",
+        "id": "caret-left",
+        "filter": [
+          "arrows",
+          "arrow",
+          "back",
+          "previous",
+          "triangle left",
+          "caret-left"
+        ]
+      },
+      {
+        "name": "Caret Down",
+        "id": "caret-down",
+        "filter": [
+          "arrows",
+          "arrow",
+          "dropdown",
+          "menu",
+          "more",
+          "triangle down",
+          "caret-down"
+        ]
+      },
+      {
+        "name": "Car",
+        "id": "car",
+        "filter": [
+          "vehicles",
+          "objects",
+          "maps",
+          "machine",
+          "transportation",
+          "vehicle",
+          "car"
+        ]
+      },
+      {
+        "name": "Capsules",
+        "id": "capsules",
+        "filter": [
+          "medical",
+          "drugs",
+          "medicine",
+          "capsules"
+        ]
+      },
+      {
+        "name": "Cannabis",
+        "id": "cannabis",
+        "filter": [
+          "medical",
+          "bud",
+          "chronic",
+          "drugs",
+          "endica",
+          "endo",
+          "ganja",
+          "marijuana",
+          "mary jane",
+          "pot",
+          "reefer",
+          "sativa",
+          "spliff",
+          "weed",
+          "whacky-tabacky",
+          "cannabis"
+        ]
+      },
+      {
+        "name": "Retro Camera",
+        "id": "camera-retro",
+        "filter": [
+          "images",
+          "payments-shopping",
+          "objects",
+          "photo",
+          "picture",
+          "record",
+          "camera-retro"
+        ]
+      },
+      {
+        "name": "camera",
+        "id": "camera",
+        "filter": [
+          "images",
+          "payments-shopping",
+          "objects",
+          "photo",
+          "picture",
+          "record",
+          "camera"
+        ]
+      },
+      {
+        "name": "Calendar Times",
+        "id": "calendar-times",
+        "filter": [
+          "status",
+          "interfaces",
+          "date-time",
+          "calendar-times"
+        ]
+      },
+      {
+        "name": "Calendar Plus",
+        "id": "calendar-plus",
+        "filter": [
+          "status",
+          "interfaces",
+          "date-time",
+          "calendar-plus"
+        ]
+      },
+      {
+        "name": "Calendar Minus",
+        "id": "calendar-minus",
+        "filter": [
+          "status",
+          "interfaces",
+          "date-time",
+          "calendar-minus"
+        ]
+      },
+      {
+        "name": "Calendar Check",
+        "id": "calendar-check",
+        "filter": [
+          "status",
+          "interfaces",
+          "date-time",
+          "accept",
+          "agree",
+          "appointment",
+          "confirm",
+          "correct",
+          "done",
+          "ok",
+          "select",
+          "success",
+          "todo",
+          "calendar-check"
+        ]
       },
       {
-        'name'   : 'Thermometer Full',
-        'id'     : 'thermometer-full',
-        'aliases': [
-          'thermometer-4',
-          'thermometer'
+        "name": "Alternate Calendar",
+        "id": "calendar-alt",
+        "filter": [
+          "status",
+          "interfaces",
+          "business",
+          "date-time",
+          "objects",
+          "calendar",
+          "date",
+          "event",
+          "schedule",
+          "time",
+          "when",
+          "calendar-alt"
         ]
       },
       {
-        'name'   : 'Thermometer 3/4 Full',
-        'id'     : 'thermometer-three-quarters',
-        'aliases': [
-          'thermometer-3'
+        "name": "Calendar",
+        "id": "calendar",
+        "filter": [
+          "status",
+          "shapes",
+          "interfaces",
+          "business",
+          "date-time",
+          "objects",
+          "calendar-o",
+          "date",
+          "event",
+          "schedule",
+          "time",
+          "when",
+          "calendar"
         ]
       },
       {
-        'name'   : 'Thermometer 1/2 Full',
-        'id'     : 'thermometer-half',
-        'aliases': [
-          'thermometer-2'
+        "name": "Calculator",
+        "id": "calculator",
+        "filter": [
+          "interfaces",
+          "business",
+          "objects",
+          "calculator"
         ]
       },
       {
-        'name'   : 'Thermometer 1/4 Full',
-        'id'     : 'thermometer-quarter',
-        'aliases': [
-          'thermometer-1'
+        "name": "BuySellAds",
+        "id": "buysellads",
+        "filter": [
+          "buysellads"
         ]
       },
       {
-        'name'   : 'Thermometer Empty',
-        'id'     : 'thermometer-empty',
-        'aliases': [
-          'thermometer-0'
+        "name": "Bus Alt",
+        "id": "bus-alt",
+        "filter": [
+          "travel",
+          "machine",
+          "public transportation",
+          "transportation",
+          "vehicle",
+          "bus-alt"
         ]
       },
       {
-        'name': 'Shower',
-        'id'  : 'shower'
+        "name": "Bus",
+        "id": "bus",
+        "filter": [
+          "travel",
+          "vehicles",
+          "objects",
+          "machine",
+          "public transportation",
+          "transportation",
+          "vehicle",
+          "bus"
+        ]
       },
       {
-        'name'   : 'Bath',
-        'id'     : 'bath',
-        'aliases': [
-          'bathtub',
-          's15'
+        "name": "Büromöbel-Experte GmbH & Co. KG.",
+        "id": "buromobelexperte",
+        "filter": [
+          "buromobelexperte"
         ]
       },
       {
-        'name': 'Podcast',
-        'id'  : 'podcast'
+        "name": "Burn",
+        "id": "burn",
+        "filter": [
+          "medical",
+          "energy",
+          "burn"
+        ]
       },
       {
-        'name': 'Window Maximize',
-        'id'  : 'window-maximize'
+        "name": "Bullseye",
+        "id": "bullseye",
+        "filter": [
+          "interfaces",
+          "business",
+          "objects",
+          "target",
+          "bullseye"
+        ]
       },
       {
-        'name': 'Window Minimize',
-        'id'  : 'window-minimize'
+        "name": "bullhorn",
+        "id": "bullhorn",
+        "filter": [
+          "interfaces",
+          "communication",
+          "payments-shopping",
+          "business",
+          "objects",
+          "announcement",
+          "broadcast",
+          "louder",
+          "megaphone",
+          "share",
+          "bullhorn"
+        ]
       },
       {
-        'name': 'Window Restore',
-        'id'  : 'window-restore'
+        "name": "Building",
+        "id": "building",
+        "filter": [
+          "buildings",
+          "business",
+          "objects",
+          "maps",
+          "apartment",
+          "business",
+          "company",
+          "office",
+          "work",
+          "building"
+        ]
       },
       {
-        'name'   : 'Window Close',
-        'id'     : 'window-close',
-        'aliases': [
-          'times-rectangle'
+        "name": "Bug",
+        "id": "bug",
+        "filter": [
+          "interfaces",
+          "objects",
+          "code",
+          "insect",
+          "report",
+          "bug"
         ]
       },
       {
-        'name'   : 'Window Close Outline',
-        'id'     : 'window-close-o',
-        'aliases': [
-          'times-rectangle-o'
+        "name": "BTC",
+        "id": "btc",
+        "filter": [
+          "currency",
+          "btc"
         ]
       },
       {
-        'name': 'Bandcamp',
-        'id'  : 'bandcamp'
+        "name": "Brush",
+        "id": "brush",
+        "filter": [
+          "design",
+          "bristles",
+          "color",
+          "handle",
+          "painting",
+          "brush"
+        ]
       },
       {
-        'name': 'Grav',
-        'id'  : 'grav'
+        "name": "Broom",
+        "id": "broom",
+        "filter": [
+          "broom"
+        ]
       },
       {
-        'name': 'Etsy',
-        'id'  : 'etsy'
+        "name": "Broadcast Tower",
+        "id": "broadcast-tower",
+        "filter": [
+          "audio-video",
+          "communication",
+          "objects",
+          "airwaves",
+          "radio",
+          "waves",
+          "broadcast-tower"
+        ]
       },
       {
-        'name': 'IMDB',
-        'id'  : 'imdb'
+        "name": "Medical Briefcase",
+        "id": "briefcase-medical",
+        "filter": [
+          "medical",
+          "health briefcase",
+          "briefcase-medical"
+        ]
       },
       {
-        'name': 'Ravelry',
-        'id'  : 'ravelry'
+        "name": "Briefcase",
+        "id": "briefcase",
+        "filter": [
+          "business",
+          "objects",
+          "maps",
+          "bag",
+          "business",
+          "luggage",
+          "office",
+          "work",
+          "briefcase"
+        ]
       },
       {
-        'name': 'Eercast',
-        'id'  : 'eercast'
+        "name": "Braille",
+        "id": "braille",
+        "filter": [
+          "accessibility",
+          "braille"
+        ]
       },
       {
-        'name': 'Microchip',
-        'id'  : 'microchip'
+        "name": "Boxes",
+        "id": "boxes",
+        "filter": [
+          "logistics",
+          "boxes"
+        ]
       },
       {
-        'name': 'Snowflake Outlined',
-        'id'  : 'snowflake-o'
+        "name": "Box Open",
+        "id": "box-open",
+        "filter": [
+          "moving",
+          "box-open"
+        ]
       },
       {
-        'name': 'Superpowers',
-        'id'  : 'superpowers'
+        "name": "Box",
+        "id": "box",
+        "filter": [
+          "logistics",
+          "package",
+          "box"
+        ]
       },
       {
-        'name': 'WPExplorer',
-        'id'  : 'wpexplorer'
+        "name": "Bowling Ball",
+        "id": "bowling-ball",
+        "filter": [
+          "sports",
+          "bowling-ball"
+        ]
       },
       {
-        'name': 'Meetup',
-        'id'  : 'meetup'
+        "name": "bookmark",
+        "id": "bookmark",
+        "filter": [
+          "shapes",
+          "writing",
+          "payments-shopping",
+          "objects",
+          "maps",
+          "save",
+          "bookmark"
+        ]
       }
-    ];
+    ]
   }
 
   private getBsIcons(): Icon[] {
     return [
       {
-        'id'  : 'asterisk',
+        'id': 'asterisk',
         'name': 'Asterisk'
       },
       {
-        'id'  : 'plus',
+        'id': 'plus',
         'name': 'Plus'
       },
       {
-        'id'  : 'euro',
+        'id': 'euro',
         'name': 'Euro'
       },
       {
-        'id'  : 'minus',
+        'id': 'minus',
         'name': 'Minus'
       },
       {
-        'id'  : 'cloud',
+        'id': 'cloud',
         'name': 'Cloud'
       },
       {
-        'id'  : 'envelope',
+        'id': 'envelope',
         'name': 'Envelope'
       },
       {
-        'id'  : 'pencil',
+        'id': 'pencil',
         'name': 'Pencil'
       },
       {
-        'id'  : 'glass',
+        'id': 'glass',
         'name': 'Glass'
       },
       {
-        'id'  : 'music',
+        'id': 'music',
         'name': 'Music'
       },
       {
-        'id'  : 'search',
+        'id': 'search',
         'name': 'Search'
       },
       {
-        'id'  : 'heart',
+        'id': 'heart',
         'name': 'Heart'
       },
       {
-        'id'  : 'star',
+        'id': 'star',
         'name': 'Star'
       },
       {
-        'id'  : 'star-empty',
+        'id': 'star-empty',
         'name': 'Star-empty'
       },
       {
-        'id'  : 'user',
+        'id': 'user',
         'name': 'User'
       },
       {
-        'id'  : 'film',
+        'id': 'film',
         'name': 'Film'
       },
       {
-        'id'  : 'th-large',
+        'id': 'th-large',
         'name': 'Th-large'
       },
       {
-        'id'  : 'th',
+        'id': 'th',
         'name': 'Th'
       },
       {
-        'id'  : 'th-list',
+        'id': 'th-list',
         'name': 'Th-list'
       },
       {
-        'id'  : 'ok',
+        'id': 'ok',
         'name': 'Ok'
       },
       {
-        'id'  : 'remove',
+        'id': 'remove',
         'name': 'Remove'
       },
       {
-        'id'  : 'zoom-in',
+        'id': 'zoom-in',
         'name': 'Zoom-in'
       },
       {
-        'id'  : 'zoom-out',
+        'id': 'zoom-out',
         'name': 'Zoom-out'
       },
       {
-        'id'  : 'off',
+        'id': 'off',
         'name': 'Off'
       },
       {
-        'id'  : 'signal',
+        'id': 'signal',
         'name': 'Signal'
       },
       {
-        'id'  : 'cog',
+        'id': 'cog',
         'name': 'Cog'
       },
       {
-        'id'  : 'trash',
+        'id': 'trash',
         'name': 'Trash'
       },
       {
-        'id'  : 'home',
+        'id': 'home',
         'name': 'Home'
       },
       {
-        'id'  : 'file',
+        'id': 'file',
         'name': 'File'
       },
       {
-        'id'  : 'time',
+        'id': 'time',
         'name': 'Time'
       },
       {
-        'id'  : 'road',
+        'id': 'road',
         'name': 'Road'
       },
       {
-        'id'  : 'download-alt',
+        'id': 'download-alt',
         'name': 'Download-alt'
       },
       {
-        'id'  : 'download',
+        'id': 'download',
         'name': 'Download'
       },
       {
-        'id'  : 'upload',
+        'id': 'upload',
         'name': 'Upload'
       },
       {
-        'id'  : 'inbox',
+        'id': 'inbox',
         'name': 'Inbox'
       },
       {
-        'id'  : 'play-circle',
+        'id': 'play-circle',
         'name': 'Play-circle'
       },
       {
-        'id'  : 'repeat',
+        'id': 'repeat',
         'name': 'Repeat'
       },
       {
-        'id'  : 'refresh',
+        'id': 'refresh',
         'name': 'Refresh'
       },
       {
-        'id'  : 'list-alt',
+        'id': 'list-alt',
         'name': 'List-alt'
       },
       {
-        'id'  : 'lock',
+        'id': 'lock',
         'name': 'Lock'
       },
       {
-        'id'  : 'flag',
+        'id': 'flag',
         'name': 'Flag'
       },
       {
-        'id'  : 'headphones',
+        'id': 'headphones',
         'name': 'Headphones'
       },
       {
-        'id'  : 'volume-off',
+        'id': 'volume-off',
         'name': 'Volume-off'
       },
       {
-        'id'  : 'volume-down',
+        'id': 'volume-down',
         'name': 'Volume-down'
       },
       {
-        'id'  : 'volume-up',
+        'id': 'volume-up',
         'name': 'Volume-up'
       },
       {
-        'id'  : 'qrcode',
+        'id': 'qrcode',
         'name': 'Qrcode'
       },
       {
-        'id'  : 'barcode',
+        'id': 'barcode',
         'name': 'Barcode'
       },
       {
-        'id'  : 'tag',
+        'id': 'tag',
         'name': 'Tag'
       },
       {
-        'id'  : 'tags',
+        'id': 'tags',
         'name': 'Tags'
       },
       {
-        'id'  : 'book',
+        'id': 'book',
         'name': 'Book'
       },
       {
-        'id'  : 'bookmark',
+        'id': 'bookmark',
         'name': 'Bookmark'
       },
       {
-        'id'  : 'print',
+        'id': 'print',
         'name': 'Print'
       },
       {
-        'id'  : 'camera',
+        'id': 'camera',
         'name': 'Camera'
       },
       {
-        'id'  : 'font',
+        'id': 'font',
         'name': 'Font'
       },
       {
-        'id'  : 'bold',
+        'id': 'bold',
         'name': 'Bold'
       },
       {
-        'id'  : 'italic',
+        'id': 'italic',
         'name': 'Italic'
       },
       {
-        'id'  : 'text-height',
+        'id': 'text-height',
         'name': 'Text-height'
       },
       {
-        'id'  : 'text-width',
+        'id': 'text-width',
         'name': 'Text-width'
       },
       {
-        'id'  : 'align-left',
+        'id': 'align-left',
         'name': 'Align-left'
       },
       {
-        'id'  : 'align-center',
+        'id': 'align-center',
         'name': 'Align-center'
       },
       {
-        'id'  : 'align-right',
+        'id': 'align-right',
         'name': 'Align-right'
       },
       {
-        'id'  : 'align-justify',
+        'id': 'align-justify',
         'name': 'Align-justify'
       },
       {
-        'id'  : 'list',
+        'id': 'list',
         'name': 'List'
       },
       {
-        'id'  : 'indent-left',
+        'id': 'indent-left',
         'name': 'Indent-left'
       },
       {
-        'id'  : 'indent-right',
+        'id': 'indent-right',
         'name': 'Indent-right'
       },
       {
-        'id'  : 'facetime-video',
+        'id': 'facetime-video',
         'name': 'Facetime-video'
       },
       {
-        'id'  : 'picture',
+        'id': 'picture',
         'name': 'Picture'
       },
       {
-        'id'  : 'map-marker',
+        'id': 'map-marker',
         'name': 'Map-marker'
       },
       {
-        'id'  : 'adjust',
+        'id': 'adjust',
         'name': 'Adjust'
       },
       {
-        'id'  : 'tint',
+        'id': 'tint',
         'name': 'Tint'
       },
       {
-        'id'  : 'edit',
+        'id': 'edit',
         'name': 'Edit'
       },
       {
-        'id'  : 'share',
+        'id': 'share',
         'name': 'Share'
       },
       {
-        'id'  : 'check',
+        'id': 'check',
         'name': 'Check'
       },
       {
-        'id'  : 'move',
+        'id': 'move',
         'name': 'Move'
       },
       {
-        'id'  : 'step-backward',
+        'id': 'step-backward',
         'name': 'Step-backward'
       },
       {
-        'id'  : 'fast-backward',
+        'id': 'fast-backward',
         'name': 'Fast-backward'
       },
       {
-        'id'  : 'backward',
+        'id': 'backward',
         'name': 'Backward'
       },
       {
-        'id'  : 'play',
+        'id': 'play',
         'name': 'Play'
       },
       {
-        'id'  : 'pause',
+        'id': 'pause',
         'name': 'Pause'
       },
       {
-        'id'  : 'stop',
+        'id': 'stop',
         'name': 'Stop'
       },
       {
-        'id'  : 'forward',
+        'id': 'forward',
         'name': 'Forward'
       },
       {
-        'id'  : 'fast-forward',
+        'id': 'fast-forward',
         'name': 'Fast-forward'
       },
       {
-        'id'  : 'step-forward',
+        'id': 'step-forward',
         'name': 'Step-forward'
       },
       {
-        'id'  : 'eject',
+        'id': 'eject',
         'name': 'Eject'
       },
       {
-        'id'  : 'chevron-left',
+        'id': 'chevron-left',
         'name': 'Chevron-left'
       },
       {
-        'id'  : 'chevron-right',
+        'id': 'chevron-right',
         'name': 'Chevron-right'
       },
       {
-        'id'  : 'plus-sign',
+        'id': 'plus-sign',
         'name': 'Plus-sign'
       },
       {
-        'id'  : 'minus-sign',
+        'id': 'minus-sign',
         'name': 'Minus-sign'
       },
       {
-        'id'  : 'remove-sign',
+        'id': 'remove-sign',
         'name': 'Remove-sign'
       },
       {
-        'id'  : 'ok-sign',
+        'id': 'ok-sign',
         'name': 'Ok-sign'
       },
       {
-        'id'  : 'question-sign',
+        'id': 'question-sign',
         'name': 'Question-sign'
       },
       {
-        'id'  : 'info-sign',
+        'id': 'info-sign',
         'name': 'Info-sign'
       },
       {
-        'id'  : 'screenshot',
+        'id': 'screenshot',
         'name': 'Screenshot'
       },
       {
-        'id'  : 'remove-circle',
+        'id': 'remove-circle',
         'name': 'Remove-circle'
       },
       {
-        'id'  : 'ok-circle',
+        'id': 'ok-circle',
         'name': 'Ok-circle'
       },
       {
-        'id'  : 'ban-circle',
+        'id': 'ban-circle',
         'name': 'Ban-circle'
       },
       {
-        'id'  : 'arrow-left',
+        'id': 'arrow-left',
         'name': 'Arrow-left'
       },
       {
-        'id'  : 'arrow-right',
+        'id': 'arrow-right',
         'name': 'Arrow-right'
       },
       {
-        'id'  : 'arrow-up',
+        'id': 'arrow-up',
         'name': 'Arrow-up'
       },
       {
-        'id'  : 'arrow-down',
+        'id': 'arrow-down',
         'name': 'Arrow-down'
       },
       {
-        'id'  : 'share-alt',
+        'id': 'share-alt',
         'name': 'Share-alt'
       },
       {
-        'id'  : 'resize-full',
+        'id': 'resize-full',
         'name': 'Resize-full'
       },
       {
-        'id'  : 'resize-small',
+        'id': 'resize-small',
         'name': 'Resize-small'
       },
       {
-        'id'  : 'exclamation-sign',
+        'id': 'exclamation-sign',
         'name': 'Exclamation-sign'
       },
       {
-        'id'  : 'gift',
+        'id': 'gift',
         'name': 'Gift'
       },
       {
-        'id'  : 'leaf',
+        'id': 'leaf',
         'name': 'Leaf'
       },
       {
-        'id'  : 'fire',
+        'id': 'fire',
         'name': 'Fire'
       },
       {
-        'id'  : 'eye-open',
+        'id': 'eye-open',
         'name': 'Eye-open'
       },
       {
-        'id'  : 'eye-close',
+        'id': 'eye-close',
         'name': 'Eye-close'
       },
       {
-        'id'  : 'warning-sign',
+        'id': 'warning-sign',
         'name': 'Warning-sign'
       },
       {
-        'id'  : 'plane',
+        'id': 'plane',
         'name': 'Plane'
       },
       {
-        'id'  : 'calendar',
+        'id': 'calendar',
         'name': 'Calendar'
       },
       {
-        'id'  : 'random',
+        'id': 'random',
         'name': 'Random'
       },
       {
-        'id'  : 'comment',
+        'id': 'comment',
         'name': 'Comment'
       },
       {
-        'id'  : 'magnet',
+        'id': 'magnet',
         'name': 'Magnet'
       },
       {
-        'id'  : 'chevron-up',
+        'id': 'chevron-up',
         'name': 'Chevron-up'
       },
       {
-        'id'  : 'chevron-down',
+        'id': 'chevron-down',
         'name': 'Chevron-down'
       },
       {
-        'id'  : 'retweet',
+        'id': 'retweet',
         'name': 'Retweet'
       },
       {
-        'id'  : 'shopping-cart',
+        'id': 'shopping-cart',
         'name': 'Shopping-cart'
       },
       {
-        'id'  : 'folder-close',
+        'id': 'folder-close',
         'name': 'Folder-close'
       },
       {
-        'id'  : 'folder-open',
+        'id': 'folder-open',
         'name': 'Folder-open'
       },
       {
-        'id'  : 'resize-vertical',
+        'id': 'resize-vertical',
         'name': 'Resize-vertical'
       },
       {
-        'id'  : 'resize-horizontal',
+        'id': 'resize-horizontal',
         'name': 'Resize-horizontal'
       },
       {
-        'id'  : 'hdd',
+        'id': 'hdd',
         'name': 'Hdd'
       },
       {
-        'id'  : 'bullhorn',
+        'id': 'bullhorn',
         'name': 'Bullhorn'
       },
       {
-        'id'  : 'bell',
+        'id': 'bell',
         'name': 'Bell'
       },
       {
-        'id'  : 'certificate',
+        'id': 'certificate',
         'name': 'Certificate'
       },
       {
-        'id'  : 'thumbs-up',
+        'id': 'thumbs-up',
         'name': 'Thumbs-up'
       },
       {
-        'id'  : 'thumbs-down',
+        'id': 'thumbs-down',
         'name': 'Thumbs-down'
       },
       {
-        'id'  : 'hand-right',
+        'id': 'hand-right',
         'name': 'Hand-right'
       },
       {
-        'id'  : 'hand-left',
+        'id': 'hand-left',
         'name': 'Hand-left'
       },
       {
-        'id'  : 'hand-up',
+        'id': 'hand-up',
         'name': 'Hand-up'
       },
       {
-        'id'  : 'hand-down',
+        'id': 'hand-down',
         'name': 'Hand-down'
       },
       {
-        'id'  : 'circle-arrow-right',
+        'id': 'circle-arrow-right',
         'name': 'Circle-arrow-right'
       },
       {
-        'id'  : 'circle-arrow-left',
+        'id': 'circle-arrow-left',
         'name': 'Circle-arrow-left'
       },
       {
-        'id'  : 'circle-arrow-up',
+        'id': 'circle-arrow-up',
         'name': 'Circle-arrow-up'
       },
       {
-        'id'  : 'circle-arrow-down',
+        'id': 'circle-arrow-down',
         'name': 'Circle-arrow-down'
       },
       {
-        'id'  : 'globe',
+        'id': 'globe',
         'name': 'Globe'
       },
       {
-        'id'  : 'wrench',
+        'id': 'wrench',
         'name': 'Wrench'
       },
       {
-        'id'  : 'tasks',
+        'id': 'tasks',
         'name': 'Tasks'
       },
       {
-        'id'  : 'filter',
+        'id': 'filter',
         'name': 'Filter'
       },
       {
-        'id'  : 'briefcase',
+        'id': 'briefcase',
         'name': 'Briefcase'
       },
       {
-        'id'  : 'fullscreen',
+        'id': 'fullscreen',
         'name': 'Fullscreen'
       },
       {
-        'id'  : 'dashboard',
+        'id': 'dashboard',
         'name': 'Dashboard'
       },
       {
-        'id'  : 'paperclip',
+        'id': 'paperclip',
         'name': 'Paperclip'
       },
       {
-        'id'  : 'heart-empty',
+        'id': 'heart-empty',
         'name': 'Heart-empty'
       },
       {
-        'id'  : 'link',
+        'id': 'link',
         'name': 'Link'
       },
       {
-        'id'  : 'phone',
+        'id': 'phone',
         'name': 'Phone'
       },
       {
-        'id'  : 'pushpin',
+        'id': 'pushpin',
         'name': 'Pushpin'
       },
       {
-        'id'  : 'usd',
+        'id': 'usd',
         'name': 'Usd'
       },
       {
-        'id'  : 'gbp',
+        'id': 'gbp',
         'name': 'Gbp'
       },
       {
-        'id'  : 'sort',
+        'id': 'sort',
         'name': 'Sort'
       },
       {
-        'id'  : 'sort-by-alphabet',
+        'id': 'sort-by-alphabet',
         'name': 'Sort-by-alphabet'
       },
       {
-        'id'  : 'sort-by-alphabet-alt',
+        'id': 'sort-by-alphabet-alt',
         'name': 'Sort-by-alphabet-alt'
       },
       {
-        'id'  : 'sort-by-order',
+        'id': 'sort-by-order',
         'name': 'Sort-by-order'
       },
       {
-        'id'  : 'sort-by-order-alt',
+        'id': 'sort-by-order-alt',
         'name': 'Sort-by-order-alt'
       },
       {
-        'id'  : 'sort-by-attributes',
+        'id': 'sort-by-attributes',
         'name': 'Sort-by-attributes'
       },
       {
-        'id'  : 'sort-by-attributes-alt',
+        'id': 'sort-by-attributes-alt',
         'name': 'Sort-by-attributes-alt'
       },
       {
-        'id'  : 'unchecked',
+        'id': 'unchecked',
         'name': 'Unchecked'
       },
       {
-        'id'  : 'expand',
+        'id': 'expand',
         'name': 'Expand'
       },
       {
-        'id'  : 'collapse-down',
+        'id': 'collapse-down',
         'name': 'Collapse-down'
       },
       {
-        'id'  : 'collapse-up',
+        'id': 'collapse-up',
         'name': 'Collapse-up'
       },
       {
-        'id'  : 'log-in',
+        'id': 'log-in',
         'name': 'Log-in'
       },
       {
-        'id'  : 'flash',
+        'id': 'flash',
         'name': 'Flash'
       },
       {
-        'id'  : 'log-out',
+        'id': 'log-out',
         'name': 'Log-out'
       },
       {
-        'id'  : 'new-window',
+        'id': 'new-window',
         'name': 'New-window'
       },
       {
-        'id'  : 'record',
+        'id': 'record',
         'name': 'Record'
       },
       {
-        'id'  : 'save',
+        'id': 'save',
         'name': 'Save'
       },
       {
-        'id'  : 'open',
+        'id': 'open',
         'name': 'Open'
       },
       {
-        'id'  : 'saved',
+        'id': 'saved',
         'name': 'Saved'
       },
       {
-        'id'  : 'import',
+        'id': 'import',
         'name': 'Import'
       },
       {
-        'id'  : 'export',
+        'id': 'export',
         'name': 'Export'
       },
       {
-        'id'  : 'send',
+        'id': 'send',
         'name': 'Send'
       },
       {
-        'id'  : 'floppy-disk',
+        'id': 'floppy-disk',
         'name': 'Floppy-disk'
       },
       {
-        'id'  : 'floppy-saved',
+        'id': 'floppy-saved',
         'name': 'Floppy-saved'
       },
       {
-        'id'  : 'floppy-remove',
+        'id': 'floppy-remove',
         'name': 'Floppy-remove'
       },
       {
-        'id'  : 'floppy-save',
+        'id': 'floppy-save',
         'name': 'Floppy-save'
       },
       {
-        'id'  : 'floppy-open',
+        'id': 'floppy-open',
         'name': 'Floppy-open'
       },
       {
-        'id'  : 'credit-card',
+        'id': 'credit-card',
         'name': 'Credit-card'
       },
       {
-        'id'  : 'transfer',
+        'id': 'transfer',
         'name': 'Transfer'
       },
       {
-        'id'  : 'cutlery',
+        'id': 'cutlery',
         'name': 'Cutlery'
       },
       {
-        'id'  : 'header',
+        'id': 'header',
         'name': 'Header'
       },
       {
-        'id'  : 'compressed',
+        'id': 'compressed',
         'name': 'Compressed'
       },
       {
-        'id'  : 'earphone',
+        'id': 'earphone',
         'name': 'Earphone'
       },
       {
-        'id'  : 'phone-alt',
+        'id': 'phone-alt',
         'name': 'Phone-alt'
       },
       {
-        'id'  : 'tower',
+        'id': 'tower',
         'name': 'Tower'
       },
       {
-        'id'  : 'stats',
+        'id': 'stats',
         'name': 'Stats'
       },
       {
-        'id'  : 'sd-video',
+        'id': 'sd-video',
         'name': 'Sd-video'
       },
       {
-        'id'  : 'hd-video',
+        'id': 'hd-video',
         'name': 'Hd-video'
       },
       {
-        'id'  : 'subtitles',
+        'id': 'subtitles',
         'name': 'Subtitles'
       },
       {
-        'id'  : 'sound-stereo',
+        'id': 'sound-stereo',
         'name': 'Sound-stereo'
       },
       {
-        'id'  : 'sound-dolby',
+        'id': 'sound-dolby',
         'name': 'Sound-dolby'
       },
       {
-        'id'  : 'sound-5-1',
+        'id': 'sound-5-1',
         'name': 'Sound-5-1'
       },
       {
-        'id'  : 'sound-6-1',
+        'id': 'sound-6-1',
         'name': 'Sound-6-1'
       },
       {
-        'id'  : 'sound-7-1',
+        'id': 'sound-7-1',
         'name': 'Sound-7-1'
       },
       {
-        'id'  : 'copyright-mark',
+        'id': 'copyright-mark',
         'name': 'Copyright-mark'
       },
       {
-        'id'  : 'registration-mark',
+        'id': 'registration-mark',
         'name': 'Registration-mark'
       },
       {
-        'id'  : 'cloud-download',
+        'id': 'cloud-download',
         'name': 'Cloud-download'
       },
       {
-        'id'  : 'cloud-upload',
+        'id': 'cloud-upload',
         'name': 'Cloud-upload'
       },
       {
-        'id'  : 'tree-conifer',
+        'id': 'tree-conifer',
         'name': 'Tree-conifer'
       },
       {
-        'id'  : 'tree-deciduous',
+        'id': 'tree-deciduous',
         'name': 'Tree-deciduous'
       }
     ];
