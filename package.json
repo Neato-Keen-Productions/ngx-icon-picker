@@ -1,5 +1,5 @@
 {
-  "name": "ngx-icon-picker",
+  "name": "ngx-icon-picker-v2",
   "description": "Icon picker widget for Angular (version 2 and newer)",
   "bugs": "https://github.com/tech-advantage/ngx-icon-picker/issues",
   "license": "MIT",
@@ -60,7 +60,7 @@
     "tslint": "~4.5.0",
     "typescript": "2.2.2",
     "watch": "~1.0.0",
-    "webpack": "~2.6.0",
+    "webpack": "^2.6.1",
     "zone.js": "~0.8.0"
   },
   "peerDependencies": {
