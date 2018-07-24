@@ -165,6 +165,7 @@ var IconPickerComponent = (function () {
 }());
 IconPickerComponent.decorators = [
     { type: core_1.Component, args: [{
+                moduleId: module.id,
                 selector: 'icon-picker',
                 templateUrl: './icon-picker.component.html',
                 styleUrls: ['./icon-picker.component.css']

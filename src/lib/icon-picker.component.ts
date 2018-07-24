@@ -4,6 +4,7 @@ import { IconPickerService } from './icon-picker.service';
 import { Icon, IconType } from './icon';
 
 @Component({
+  moduleId: module.id,
   selector   : 'icon-picker',
   templateUrl: './icon-picker.component.html',
   styleUrls  : ['./icon-picker.component.css']
