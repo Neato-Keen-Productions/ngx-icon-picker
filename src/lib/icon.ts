@@ -4,6 +4,7 @@ export class Icon {
   filter?: string[];
   aliases?: string[];
   type?: IconType;
+  prefix?: string;
 }
 
 export enum IconType {

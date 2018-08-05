@@ -14,11 +14,15 @@ export class IconPickerDirective implements OnInit, OnChanges {
   @Input('iconPicker') iconPicker: string;
   @Input('ipPlaceHolder') ipPlaceHolder = 'Search icon...';
   @Input('ipPosition') ipPosition = 'right';
-  @Input('ipFallbackIcon') ipFallbackIcon = 'fa fa-user-plus';
+  @Input('ipFallbackIcon') ipFallbackIcon = 'fas fa-user-plus';
   @Input('ipHeight') ipHeight = 'auto';
   @Input('ipMaxHeight') ipMaxHeight = '200px';
   @Input('ipWidth') ipWidth = '230px';
   @Input('ipIconPack') ipIconPack = 'all';
+  @Input('ipButtonSize') ipButtonSize = '33px';
+  @Input('ipButtonPadding') ipButtonPadding = "6px 10px";
+  @Input('ipIconSize') ipIconSize = '11px';
+
 
   @Output('iconPickerSelect') iconPickerSelect = new EventEmitter<string>(true);
 
@@ -40,7 +44,7 @@ export class IconPickerDirective implements OnInit, OnChanges {
   }
 
   ngOnInit() {
-    this.iconPicker = this.iconPicker || this.ipFallbackIcon || 'fa fa-user-plus';
+    this.iconPicker = this.iconPicker || this.ipFallbackIcon || 'fas fa-user-plus';
     this.iconPickerSelect.emit(this.iconPicker);
   }
 
@@ -56,7 +60,7 @@ export class IconPickerDirective implements OnInit, OnChanges {
       const injector = ReflectiveInjector.fromResolvedProviders([], vcRef.parentInjector);
       const cmpRef = vcRef.createComponent(compFactory, 0, injector, []);
       cmpRef.instance.setDialog(this, this.el, this.iconPicker, this.ipPosition, this.ipHeight, this.ipMaxHeight,
-        this.ipWidth, this.ipPlaceHolder, this.ipFallbackIcon, this.ipIconPack);
+        this.ipWidth, this.ipPlaceHolder, this.ipFallbackIcon, this.ipIconPack, this.ipButtonSize, this.ipButtonPadding, this.ipIconSize);
       this.dialog = cmpRef.instance;
 
       if (this.vcRef !== vcRef) {

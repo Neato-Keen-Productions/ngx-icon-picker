@@ -5,9 +5,9 @@ import { Icon, IconType } from './icon';
 
 @Component({
   moduleId: module.id,
-  selector   : 'icon-picker',
+  selector: 'icon-picker',
   templateUrl: './icon-picker.component.html',
-  styleUrls  : ['./icon-picker.component.css']
+  styleUrls: ['./icon-picker.component.css']
 })
 
 export class IconPickerComponent implements OnInit {
@@ -18,6 +18,9 @@ export class IconPickerComponent implements OnInit {
   public ipPlaceHolder: string;
   public ipFallbackIcon: string;
   public ipIconPack: string;
+  public ipButtonSize: string;
+  public ipButtonPadding: string;
+  public ipIconSize: string;
 
   public show: boolean;
   public hidden: boolean;
@@ -49,7 +52,7 @@ export class IconPickerComponent implements OnInit {
   }
 
   setDialog(instance: any, elementRef: ElementRef, icon: string, ipPosition: string, ipHeight: string, ipMaxHeight: string,
-            ipWidth: string, ipPlaceHolder: string, ipFallbackIcon: string, ipIconPack: string) {
+    ipWidth: string, ipPlaceHolder: string, ipFallbackIcon: string, ipIconPack: string, ipButtonSize: string, ipButtonPadding: string, ipIconSize: string) {
     this.directiveInstance = instance;
     this.setInitialIcon(icon);
     this.directiveElementRef = elementRef;
@@ -63,6 +66,9 @@ export class IconPickerComponent implements OnInit {
     this.ipPlaceHolder = ipPlaceHolder;
     this.ipFallbackIcon = ipFallbackIcon;
     this.ipIconPack = ipIconPack;
+    this.ipButtonSize = ipButtonSize
+    this.ipButtonPadding = ipButtonPadding
+    this.ipIconSize = ipIconSize
   }
 
   ngOnInit() {
@@ -74,12 +80,13 @@ export class IconPickerComponent implements OnInit {
 
   setInitialIcon(icon: string) {
     this.initialIcon = icon;
-    this.selectedIcon = this.icons.find(el => el ? `fa fa-${el.id}` === icon || `glyphicon glyphicon-${el.id}` === icon : false);
-    if (this.selectedIcon && icon !== this.ipFallbackIcon) {
-      this.search = this.selectedIcon.id;
-    } else {
-      this.search = '';
-    }
+    this.selectedIcon = this.icons.find(el => el ? `${el.prefix} fa-${el.id}` === icon || `glyphicon glyphicon-${el.id}` === icon : false);
+    // Maybe scroll to selected icon?
+    // if (this.selectedIcon && icon !== this.ipFallbackIcon) {
+    //   this.search = this.selectedIcon.id;
+    // } else {
+    //   this.search = '';
+    // }
   }
 
   openDialog(icon: string) {
@@ -93,7 +100,7 @@ export class IconPickerComponent implements OnInit {
 
   selectIcon(icon: Icon): void {
     if (icon.type === IconType.FONT_AWESEOME) {
-      this.directiveInstance.iconSelected(`fa fa-${icon.id}`);
+      this.directiveInstance.iconSelected(`${icon.prefix} fa-${icon.id}`);
     } else if (icon.type === IconType.BOOTSTRAP) {
       this.directiveInstance.iconSelected(`glyphicon glyphicon-${icon.id}`);
     }
@@ -195,9 +202,9 @@ export class IconPickerComponent implements OnInit {
 
   createBox(element: any, offset: boolean): any {
     return {
-      top   : element.getBoundingClientRect().top + (offset ? window.pageYOffset : 0),
-      left  : element.getBoundingClientRect().left + (offset ? window.pageXOffset : 0),
-      width : element.offsetWidth,
+      top: element.getBoundingClientRect().top + (offset ? window.pageYOffset : 0),
+      left: element.getBoundingClientRect().left + (offset ? window.pageXOffset : 0),
+      width: element.offsetWidth,
       height: element.offsetHeight
     };
   }

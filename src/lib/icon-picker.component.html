@@ -16,8 +16,10 @@
     <div *ngFor="let icon of icons | searchIcon:search">
       <button *ngIf="icon" class="btn btn-default" type="button" title="{{ icon.name }}"
               [ngClass]="{active : icon === selectedIcon}"
+              [style.padding] = "ipButtonPadding"
+              [style.width] = "ipButtonSize"
               (click)="selectIcon(icon)" >
-        <span *ngIf="icon.type === iconType.FONT_AWESEOME" class="fa fa-{{icon.id}}"></span>
+        <span *ngIf="icon.type === iconType.FONT_AWESEOME" class="{{icon.prefix}} fa-{{icon.id}}"  [ngStyle]="{'font-size': ipIconSize}"></span>
         <span *ngIf="icon.type === iconType.BOOTSTRAP" class="glyphicon glyphicon-{{icon.id}}"></span>
       </button>
     </div>
